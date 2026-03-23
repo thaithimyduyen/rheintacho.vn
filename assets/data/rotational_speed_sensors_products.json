@@ -1,0 +1,1128 @@
+{
+  "crank-shaft-sensor": {
+    "name": {
+      "en": "1-Channel GMR / Crank shaft sensor",
+      "vi": "Cảm biến trục khuỷu / GMR 1 kênh"
+    },
+    "applications": [
+      "Detection of rotational speed in crankshaft applications and gear wheels",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives"
+    ],
+    "features": [
+      "KBA-approval / ECE type-approval",
+      "Insertion depth: 30 mm, further ones on request",
+      "Cable outlet 90° on request",
+      "Different cable lengths / connectors available on request",
+      "Wide frequency range",
+      "Alignment required",
+      "Wide temperature range",
+      "Small jitter"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "4.5 VDC ... 24 VDC",
+        "Frequency range": "0 Hz ... 10 kHz",
+        "Operating temperature": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Degree of protection": "IP67 / IP69K",
+        "Approvals": "ECE/KBA: E1*10R06/03*10376*00",
+        "Type": "SMN6.FQ24.E1JR"
+      },
+      "vi": {
+        "Nguồn cấp": "4.5 VDC ... 24 VDC",
+        "Dải tần số": "0 Hz ... 10 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Cấp độ bảo vệ": "IP67 / IP69K",
+        "Phê duyệt": "ECE/KBA: E1*10R06/03*10376*00",
+        "Loại": "SMN6.FQ24.E1JR"
+      }
+    },
+    "images": [
+      "csm_Sensor_2-Kanal-Hall_Differenz_FQ_GMR_E1_572x386px_4a5173e965.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_GMR_Crankshaft.pdf"
+    ],
+    "category": {
+      "en": "1-Channel GMR",
+      "vi": "GMR 1 Kênh"
+    }
+  },
+  "m8-temp": {
+    "name": {
+      "en": "1-Channel Hall M8 Speed Sensor with temperature detection",
+      "vi": "Cảm biến tốc độ 1 kênh Hall M8 có chức năng phát hiện nhiệt độ"
+    },
+    "applications": [
+      "Speed detection of gearwheels",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives"
+    ],
+    "features": [
+      "Temperature detection",
+      "Standstill detection (0 Hz)",
+      "Small size",
+      "No alignment required",
+      "Installation dimension DIN M8",
+      "Wide temperature range",
+      "Wide frequency range",
+      "Output signal push-pull"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "8 VDC ... 30 VDC",
+        "Frequency range": "0 Hz ... 15 kHz",
+        "Operation temperature": "-25 °C ... +125 °C / -13 °F ... +257 °F",
+        "Degree of protection": "IP67 (at connected plug)",
+        "Type": "SHG31.GE00.SB"
+      },
+      "vi": {
+        "Nguồn cấp": "8 VDC ... 30 VDC",
+        "Dải tần số": "0 Hz ... 15 kHz",
+        "Nhiệt độ vận hành": "-25 °C ... +125 °C / -13 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67 (tại đầu nối được kết nối)",
+        "Loại": "SHG31.GE00.SB"
+      }
+    },
+    "images": [
+      "csm_csm_Sensor_1-Kanal-Hall_M8_Steckeransicht_572x386px_a2acb919bc_83aa47da40.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Hall_M8.pdf",
+      "Flyer_Sensors_with_integrated_temperature_sensor_en.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Hall",
+      "vi": "Cảm biến Hall 1 kênh"
+    }
+  },
+  "m14-heavy-duty": {
+    "name": {
+      "en": "1-Channel Hall M14 Heavy Duty Speed Sensors",
+      "vi": "Cảm biến tốc độ Hall 1 kênh M14 công nghiệp nặng"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines and in hydraulic drives"
+    ],
+    "features": [
+      "Detection from 0 Hz",
+      "No alignment required",
+      "Installation Dimension DIN M14",
+      "Several connecting possibilities"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "8 VDC ... 36 VDC",
+        "Frequency range": "0 Hz ... 15 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67, IP69K",
+        "Types": "SHN11.GK11.E4* / SHN11.GK12.E4* / SHN11.GK13.SC*"
+      },
+      "vi": {
+        "Nguồn cấp": "8 VDC ... 36 VDC",
+        "Dải tần số": "0 Hz ... 15 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67, IP69K",
+        "Loại": "SHN11.GK11.E4* / SHN11.GK12.E4* / SHN11.GK13.SC*"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_M14_Heavy_Duty_discontinued_572x386px_3717b54f01.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Hall_M14_Heavy-Duty.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Hall",
+      "vi": "Cảm biến Hall 1 kênh"
+    }
+  },
+  "m16": {
+    "name": {
+      "en": "1-Channel Hall M16 Speed Sensors",
+      "vi": "Cảm biến tốc độ Hall 1 kênh M16"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines and in hydraulic drives"
+    ],
+    "features": [
+      "Detection from 0 Hz",
+      "No alignment required",
+      "Installation dimension DIN M16",
+      "Stainless steel",
+      "Several connecting possibilities"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "8 VDC ... 36 VDC",
+        "Frequency range": "0 Hz ... 15 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67, IP69K",
+        "Types": "SHP10.GN03.E05J / SHN10.GN03.E05B / SHP10.GN03.E05B / SHP7.GN01.SC"
+      },
+      "vi": {
+        "Nguồn cấp": "8 VDC ... 36 VDC",
+        "Dải tần số": "0 Hz ... 15 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67, IP69K",
+        "Loại": "SHP10.GN03.E05J / SHN10.GN03.E05B / SHP10.GN03.E05B / SHP7.GN01.SC"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_M16_572x386px_c811dca36b.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Hall_M16.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Hall",
+      "vi": "Cảm biến Hall 1 kênh"
+    }
+  },
+  "m18-stainless-steel": {
+    "name": {
+      "en": "1-Channel Hall M18 Stainless Steel Speed Sensors",
+      "vi": "Cảm biến tốc độ Hall 1 kênh M18 bằng thép không gỉ"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines and in hydraulic drives"
+    ],
+    "features": [
+      "Detection from 0 Hz",
+      "No alignment required",
+      "Installation dimension DIN M18",
+      "Stainless steel",
+      "Several connecting possibilities"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "8 VDC ... 36 VDC",
+        "Frequency range": "0 Hz ... 15 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F … +257°F",
+        "Degree of protection": "IP67, IP69K",
+        "Types": "SHN10.GR17.E1 / SHP10.GR17.E1 / SHP10.GR17.08* / SHP10.GR17.E05SUR / SHP7.GR09.SC / SHP7.GR10.SC*"
+      },
+      "vi": {
+        "Nguồn cấp": "8 VDC ... 36 VDC",
+        "Dải tần số": "0 Hz ... 15 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F … +257 °F",
+        "Cấp độ bảo vệ": "IP67, IP69K",
+        "Loại": "SHN10.GR17.E1 / SHP10.GR17.E1 / SHP10.GR17.08* / SHP10.GR17.E05SUR / SHP7.GR09.SC / SHP7.GR10.SC*"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_M18_572x386px_1ee2c5b526.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Hall_M18_Stainless-Steel.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Hall",
+      "vi": "Cảm biến Hall 1 kênh"
+    }
+  },
+  "m18-brass": {
+    "name": {
+      "en": "1-Channel Hall M18 Brass Speed Sensors",
+      "vi": "Cảm biến tốc độ Hall 1 kênh M18 bằng đồng"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines and in hydraulic drives"
+    ],
+    "features": [
+      "Detection from 0 Hz",
+      "No alignment required",
+      "Installation dimension DIN M18",
+      "Brass",
+      "Several connecting possibilities"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "8 VDC ... 36 VDC",
+        "Frequency range": "0 Hz ... 15 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67",
+        "Types": "SHP7.GP05.SB / SHN7.GP00.SC* / SHP7.GP00.SC* / SHP7.GR02.SC*"
+      },
+      "vi": {
+        "Nguồn cấp": "8 VDC ... 36 VDC",
+        "Dải tần số": "0 Hz ... 15 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67",
+        "Loại": "SHP7.GP05.SB / SHN7.GP00.SC* / SHP7.GP00.SC* / SHP7.GR02.SC*"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_M18_Messing_572x386px_cbe81d8720.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Hall_M18_Brass.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Hall",
+      "vi": "Cảm biến Hall 1 kênh"
+    }
+  },
+  "inch": {
+    "name": {
+      "en": "1-Channel Hall Inch Speed Sensors",
+      "vi": "Cảm biến tốc độ Hall 1 kênh kích thước inch"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines and in hydraulic drives"
+    ],
+    "features": [
+      "Detection from 0 Hz",
+      "No alignment required",
+      "Installation dimension 5/8 and 3/4 inch",
+      "Stainless steel"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "8 VDC ... 36 VDC",
+        "Frequency range": "0 Hz ... 15 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F … +257°F",
+        "Degree of protection": "IP67, IP69K",
+        "Types": "SHP10.ZN02.E1* / SHP10.ZR03.E1*"
+      },
+      "vi": {
+        "Nguồn cấp": "8 VDC ... 36 VDC",
+        "Dải tần số": "0 Hz ... 15 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F … +257 °F",
+        "Cấp độ bảo vệ": "IP67, IP69K",
+        "Loại": "SHP10.ZN02.E1* / SHP10.ZR03.E1*"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_Zoll_572x386px_discontinued_2757d5a92b.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Hall_Inch.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Hall",
+      "vi": "Cảm biến Hall 1 kênh"
+    }
+  },
+  "fe": {
+    "name": {
+      "en": "1-Channel Differential-Hall FE Speed Sensors",
+      "vi": "Cảm biến tốc độ loại Hall vi sai 1 kênh"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives"
+    ],
+    "features": [
+      "Choice of different output signal",
+      "Small size",
+      "Alignment required",
+      "Wide temperature range",
+      "Wide frequency range",
+      "Several connecting possibilities"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply SDN11": "4.5 VDC ... 24 VDC",
+        "Power supply SDN12": "12.5 VDC ... 32 VDC",
+        "Frequency range": "0.1 Hz ... 20 kHz",
+        "Operation temperature, typical": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Operation temperature, max.": "-40 °C ... +150 °C / -40 °F ... +302 °F",
+        "Degree of protection": "IP67, IP6K9K",
+        "Types": "SDN11.FE00.E1R / SDN12.FE00.E1R / SDN12.FE00.E1JR"
+      },
+      "vi": {
+        "Nguồn điện SDN11": "4.5 VDC ... 24 VDC",
+        "Nguồn điện SDN12": "12,5 VDC ... 32 VDC",
+        "Dải tần số": "0,1 Hz ... 20 kHz",
+        "Nhiệt độ vận hành, điển hình": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Nhiệt độ hoạt động, tối đa.": "-40 °C ... +150 °C / -40 °F ... +302 °F",
+        "Cấp độ bảo vệ": "IP67, IP6K9K",
+        "Loại": "SDN11.FE00.E1R / SDN12.FE00.E1R / SDN12.FE00.E1JR"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_Differenz_FE_572x386px_c470541bbb.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Differential-Hall_FE.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Differential Hall",
+      "vi": "Cảm biến Hall vi sai 1 kênh"
+    }
+  },
+  "fe-high-pressure": {
+    "name": {
+      "en": "1-Channel Differential-Hall FE High-pressure Speed Sensors",
+      "vi": "Cảm biến tốc độ áp suất cao 1 kênh sử dụng công nghệ Hall vi sai FE"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives with high pressure"
+    ],
+    "features": [
+      "High pressure resistance",
+      "Small size",
+      "Alignment required",
+      "Wide temperature range",
+      "Wide frequency range"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply SDN11": "4.5 VDC ... 24 VDC",
+        "Power supply SDN12": "12.5 VDC ... 32 VDC",
+        "Frequency range": "0.1 Hz ... 20 kHz",
+        "Operating temperature, max.": "-30 °C ... +125 °C / -22 °F ... +257 °F",
+        "Degree of protection": "IP67, IP6K9K",
+        "Types": "SDN11.FE11.E1R / SDN12.FE11.E1R"
+      },
+      "vi": {
+        "Nguồn điện SDN11": "4.5 VDC ... 24 VDC",
+        "Nguồn điện SDN12": "12,5 VDC ... 32 VDC",
+        "Dải tần số": "0,1 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động tối đa.": "-30 °C ... +125 °C / -22 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67, IP6K9K",
+        "Loại": "SDN11.FE11.E1R / SDN12.FE11.E1R"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_Differenz_FEhp_572x386px_c705b400d9.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Differential-Hall_FEhp.pdf",
+      "Flyer_Sensor_FE_High-pressure_Sensors_en.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Differential Hall",
+      "vi": "Cảm biến Hall vi sai 1 kênh"
+    }
+  },
+  "m12-plug-standard": {
+    "name": {
+      "en": "1-Channel Differential-Hall M12-plug Standard Speed Sensors",
+      "vi": "Cảm biến tốc độ chuẩn kênh đơn Hall hiệu chuẩn khác biệt đầu cắm M12"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines and hydraulic drives"
+    ],
+    "features": [
+      "Detection up to 20 kHz",
+      "Huge air gap",
+      "Alignment required",
+      "Stainless steel",
+      "Installation dimension DIN M12"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "10 VDC ... 36 VDC",
+        "Frequency range": "0.5 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67",
+        "Types": "SDN2.GI02.SB / SDP2.GI02.SB"
+      },
+      "vi": {
+        "Nguồn cấp": "10 VDC ... 36 VDC",
+        "Dải tần số": "0,5 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67",
+        "Loại": "SDN2.GI02.SB / SDP2.GI02.SB"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_Differenz_M12_572x386px_8540b4d5b1.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Differential-Hall_M12-plug.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Differential Hall",
+      "vi": "Cảm biến Hall vi sai 1 kênh"
+    }
+  },
+  "m12-cable-standard": {
+    "name": {
+      "en": "1-Channel Differential-Hall M12-cable Standard Speed Sensors",
+      "vi": "Cảm biến tốc độ tiêu chuẩn 1 kênh Hall vi sai với cáp M12"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines and hydraulic drives"
+    ],
+    "features": [
+      "Detection up to 20 kHz",
+      "Huge air gap",
+      "Alignment required",
+      "Stainless steel",
+      "Installation dimension DIN M12"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "10 VDC ... 30 VDC (36 VDC max., 1 min)",
+        "Frequency range": "0.5 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67, IP69K",
+        "Types": "SDN15.GI06.E2 / SDP15.GI06.E2"
+      },
+      "vi": {
+        "Nguồn cấp": "10 VDC ... 30 VDC (tối đa 36 VDC, 1 phút)",
+        "Dải tần số": "0,5 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67, IP69K",
+        "Loại": "SDN15.GI06.E2 / SDP15.GI06.E2"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_Differenz_M12-Kanal_572x386px_06775dd994.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Differential-Hall_M12_cable.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Differential Hall",
+      "vi": "Cảm biến Hall vi sai 1 kênh"
+    }
+  },
+  "m12-high-pressure": {
+    "name": {
+      "en": "1-Channel Differential-Hall M12 High-pressure Speed Sensors",
+      "vi": "Cảm biến tốc độ áp suất cao kênh đơn Differential-Hall M12"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines and hydraulic drives"
+    ],
+    "features": [
+      "Detection up to 20 kHz",
+      "Huge air gap",
+      "Alignment required",
+      "Stainless steel",
+      "Installation dimension DIN M12x1",
+      "Several connecting possibilities"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "11 VDC ... 30 VDC",
+        "Frequency range": "0.5 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +125 °C",
+        "Degree of protection": "IP67, IP69K",
+        "Types": "SDP15.GI05.E2R / SDP15.GI05.E55R / SDN2.GI03.SBR / SDP2.GI03.SBR"
+      },
+      "vi": {
+        "Nguồn cấp": "11 V DC ... 30 V DC",
+        "Dải tần số": "0,5 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C",
+        "Cấp độ bảo vệ": "IP67, IP69K",
+        "Loại": "SDP15.GI05.E2R / SDP15.GI05.E55R / SDN2.GI03.SBR / SDP2.GI03.SBR"
+      }
+    },
+    "images": [
+      "csm_Sensor_1-Kanal-Hall_Differenz_M12_Hochdruck_572x386px_0888904329.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_1-Channel_Differential-Hall_M12hp.pdf"
+    ],
+    "category": {
+      "en": "1-Channel Differential Hall",
+      "vi": "Cảm biến Hall vi sai 1 kênh"
+    }
+  },
+  "fe-speed": {
+    "name": {
+      "en": "2-Channel Hall PWM FE Speed Sensors",
+      "vi": "Cảm biến tốc độ FE PWM Hall 2 kênh"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives"
+    ],
+    "features": [
+      "Choice of different output signals",
+      "Insertion depth 18.4 mm and 32.0 mm",
+      "Alignment required",
+      "Wide temperature range",
+      "Wide frequency range"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "4.5 VDC ... 20 VDC",
+        "Frequency range": "1 Hz ... 5 kHz",
+        "Operating temperature, typ.": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Operating temperature, max.": "-40 °C ... +150 °C / -40 °F ... +302 °F",
+        "Degree of protection": "IP67, IP6K9K",
+        "Types": "SHZ1.FE00.E1R / SHZ1.FE12.E1DR (on request) / SHZ1.FE08.E1MR / SHZ1.FE02.E1R (on request)"
+      },
+      "vi": {
+        "Nguồn cấp": "4,5 VDC ... 20 VDC",
+        "Dải tần số": "1 Hz ... 5 kHz",
+        "Nhiệt độ hoạt động, điển hình.": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Nhiệt độ hoạt động tối đa.": "-40 °C ... +150 °C / -40 °F ... +302 °F",
+        "Cấp độ bảo vệ": "IP67, IP6K9K",
+        "Loại": "SHZ1.FE00.E1R / SHZ1.FE12.E1DR (theo yêu cầu) / SHZ1.FE08.E1MR / SHZ1.FE02.E1R (theo yêu cầu)"
+      }
+    },
+    "images": [
+      "csm_Sensor_2-Kanal_PWM_FE_572x386px_3bfa498e3c.jpg",
+      "csm_Teaser_Anwendungen_Mobilhydraulik_Bagger_270x160px_ba79cd5e53.jpg"
+    ],
+    "docs": [
+      "Flyer_Sensors_with_integrated_temperature_sensor_en.pdf",
+      "Datasheet_Sensor_2-Channel_Hall_PWM_FE.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Hall PWM",
+      "vi": "Điều khiển PWM Hall 2 Kênh"
+    }
+  },
+  "fk": {
+    "name": {
+      "en": "2-Channel Differential-Hall FK Speed Sensors",
+      "vi": "Cảm biến tốc độ Hall vi sai 2 kênh FK"
+    },
+    "applications": [
+      "2-channel speed detection of gearwheels with small module and high resolution",
+      "Applications mobile operating machines and electric drives",
+      "90° phase shift"
+    ],
+    "features": [
+      "Wide frequency range",
+      "35 mm and 45 mm insertion depth",
+      "Different cable length / connectors available",
+      "Alignment required",
+      "Wide temperature range",
+      "Several connecting possibilities"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "4.5 VDC ... 24 VDC",
+        "Frequency range": "0.1 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Degree of protection": "IP65",
+        "Types": "SDN6.FK10.E05R / SDN6.FK10.E05RV / SDN6.FK10.E08R / SDN6.FK10.E05SR / SDN6.FK10.E05SRV / SDN6.FK10.E04S / SDN6.FK10.E05DR / SDN6.FK10.E02KD / SDN6.FK11.E05R / SDN6.FK11.E01S / SDN6.FK11.E02S"
+      },
+      "vi": {
+        "Nguồn cấp": "4.5 VDC ... 24 VDC",
+        "Dải tần số": "0,1 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Cấp độ bảo vệ": "IP65",
+        "Loại": "SDN6.FK10.E05R / SDN6.FK10.E05RV / SDN6.FK10.E08R / SDN6.FK10.E05SR / SDN6.FK10.E05SRV / SDN6.FK10.E04S / SDN6.FK10.E05DR / SDN6.FK10.E02KD / SDN6.FK11.E05R / SDN6.FK11.E01S / SDN6.FK11.E02S"
+      }
+    },
+    "images": [
+      "csm_Sensor_2-Kanal-Hall_Differenz_FK_572x386px_0db7e593f3.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_FK.pdf",
+      "Flyer_Sensors_with_integrated_temperature_sensor_en.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "fa": {
+    "name": {
+      "en": "2-Channel Differential-Hall FA Speed Sensors",
+      "vi": "Cảm biến tốc độ FA Hall vi sai 2 kênh"
+    },
+    "applications": [
+      "Detecting speed and direction of rotation of gears",
+      "For use in extreme environments",
+      "Used in hydraulic engines"
+    ],
+    "features": [
+      "Each conductor individually sealed",
+      "Excellent EMC properties",
+      "Huge air gap",
+      "Option of two frequency outputs, or one frequency and one digital direction Output",
+      "Several connecting possibilities"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "8 VDC ... 32 VDC",
+        "Frequency range": "0.1 Hz ... 20 kHz",
+        "Operating temperature, max.": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67, IP69K",
+        "Types": "SDN0.FA04.E05R / SDN0.FA05.E05R / SDP0.FA04.E05R / SDN1.FA05.E05R / SDN1.FA04.ESDR / SDP1.FA04.E05R / SDP1.FA04.E15R / SDP1.FA05.E65R"
+      },
+      "vi": {
+        "Nguồn cấp": "8 VDC ... 32 VDC",
+        "Dải tần số": "0,1 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động tối đa.": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67, IP69K",
+        "Loại": "SDN0.FA04.E05R / SDN0.FA05.E05R / SDP0.FA04.E05R / SDN1.FA05.E05R / SDN1.FA04.ESDR / SDP1.FA04.E05R / SDP1.FA04.E15R / SDP1.FA05.E65R"
+      }
+    },
+    "images": [
+      "csm_Teaser_Anwendungen_Mobilhydraulik_Bagger_270x160px_ba79cd5e53.jpg",
+      "csm_Sensor_2-Kanal-Hall_Differenz_FA_572x386px_8668f1399b.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_FA.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "fe-push-pull": {
+    "name": {
+      "en": "2-Channel Differential-Hall FE Push-Pull Speed Sensors",
+      "vi": "Cảm biến tốc độ 2 kênh với mạch đẩy-kéo Hall hiệu ứng vi sai"
+    },
+    "applications": [
+      "Speed an direction detection of gearwheels with module 2",
+      "Applications in vehicles, mobile operating machines and hydraulic drives (axial piston pump and -motor)"
+    ],
+    "features": [
+      "Insertion depth: 18.4 mm and 32 mm",
+      "Small size",
+      "Alignment required",
+      "Wide temperature range",
+      "Wide frequency range",
+      "Two frequency outputs or one frequency and one digital direction output on choice",
+      "Output signal push-pull"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "8 VDC ... 32 VDC",
+        "Frequency range": "0 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67, IP6K9K",
+        "Types": "SDG2.FE03.E02DR / SDG2.FE03.E15DR / SDG2.FE02.E15DR / SDG3.FE03.E15DR / SDG3.FE02.E15DR"
+      },
+      "vi": {
+        "Nguồn cấp": "8 VDC ... 32 VDC",
+        "Dải tần số": "0 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67, IP6K9K",
+        "Loại": "SDG2.FE03.E02DR / SDG2.FE03.E15DR / SDG2.FE02.E15DR / SDG3.FE03.E15DR / SDG3.FE02.E15DR"
+      }
+    },
+    "images": [
+      "csm_Teaser_Anwendungen_Mobilhydraulik_Bagger_270x160px_ba79cd5e53.jpg",
+      "csm_Sensor_2-Kanal-Hall-Differenz_FEpp_572x386px_b35de5005c.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_FEpp.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "fc": {
+    "name": {
+      "en": "2-Channel Differential-Hall FC Speed Sensors",
+      "vi": "Cảm biến tốc độ FC Hall vi sai 2 kênh"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives",
+      "Precise phase shift and small jitter"
+    ],
+    "features": [
+      "Wide frequency range",
+      "Alignment required",
+      "Several connecting possibilities",
+      "Available with ECE type-approval (depending on model)"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "7 VDC ... 30 VDC",
+        "Frequency range": "0.1 Hz ... 20 kHz",
+        "Operating temperature, typ.": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Operating temperature, max.": "-40 °C ... +160 °C / -40 °F ... +320 °F",
+        "Degree of protection": "IP67, IP69K",
+        "Approvals": "ECE/KBA: E1*10R05/01*9016*01 (depending on model)",
+        "Types": "SDN3.FC07.E05J / SDN3.FC07.E1 / SDN3.FC07.E03B / SDN4.FC08.E05J / SDN4.FC08.E1 / SDN4.FC08.E2R / SDN8.FC10.E1R / SDN8.FC10.E2R"
+      },
+      "vi": {
+        "Nguồn cấp": "7 VDC ... 30 VDC",
+        "Dải tần số": "0,1 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động, điển hình.": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Nhiệt độ hoạt động tối đa.": "-40 °C ... +160 °C / -40 °F ... +320 °F",
+        "Cấp độ bảo vệ": "IP67, IP69K",
+        "Phê duyệt": "ECE/KBA: E1*10R05/01*9016*01 (tùy thuộc vào mẫu)",
+        "Loại": "SDN3.FC07.E05J / SDN3.FC07.E1 / SDN3.FC07.E03B / SDN4.FC08.E05J / SDN4.FC08.E1 / SDN4.FC08.E2R / SDN8.FC10.E1R / SDN8.FC10.E2R"
+      }
+    },
+    "images": [
+      "csm_Teaser_Accessories_Gegenstecker_N0000.149A_270x160px_426be76214.jpg",
+      "csm_Teaser_Anwendungen_Flurfoerderzeuge_270x160px_b70f508d66.jpg",
+      "csm_Sensor_2-Kanal-Hall_Differenz_FC_E1_572x386px_90fc622013.jpg",
+      "csm_Teaser_Anwendungen_Mobilhydraulik_Bagger_270x160px_ba79cd5e53.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_FC.pdf",
+      "Mounting_instructions_2-Channel_Differential-Hall_FC.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "fp": {
+    "name": {
+      "en": "2-Channel Differential-Hall FP Speed Sensors",
+      "vi": "Cảm biến tốc độ FP Hall vi sai 2 kênh"
+    },
+    "applications": [
+      "Detection of rotational speed of gearwheels with small module and high resolution",
+      "Applications in mobile operating machines and electric drives",
+      "90° phase shift"
+    ],
+    "features": [
+      "Degree of protection: IP65",
+      "Insertion depths: 15 mm, 35 mm, 45 mm, further ones on request",
+      "Different cable lengths / connectors available",
+      "Standstill detection (0 Hz)",
+      "Alignment required",
+      "Wide temperature range"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "4.5 VDC ... 24 VDC",
+        "Frequency range": "0 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Degree of protection": "IP65",
+        "Types": "SDN19.FP13.E05R / SDN19.FP33.E05R / SDN19.FP33.E1R / SDN19.FP33.E02S / SDN19.FP33.E05DR / SDN19.FP51.E05R / SDN19.FP51.E1R"
+      },
+      "vi": {
+        "Nguồn cấp": "4.5 VDC ... 24 VDC",
+        "Dải tần số": "0 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Cấp độ bảo vệ": "IP65",
+        "Loại": "SDN19.FP13.E05R / SDN19.FP33.E05R / SDN19.FP33.E1R / SDN19.FP33.E02S / SDN19.FP33.E05DR / SDN19.FP51.E05R / SDN19.FP51.E1R"
+      }
+    },
+    "images": [
+      "csm_Sensor_2-Kanal-Hall_Differenz_FP_572x386px_99dede5648.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_FP.pdf",
+      "Flyer_Sensor_FP_15mm_en.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "fm": {
+    "name": {
+      "en": "2-Channel Differential-Hall FM Speed Sensors",
+      "vi": "Cảm biến tốc độ FM Hall khác biệt 2 kênh"
+    },
+    "applications": [
+      "2-channel speed detection of gearwheels with small module and high resolution",
+      "Applications mobile operating machines and electric drives",
+      "90° phase shift"
+    ],
+    "features": [
+      "Wide frequency range",
+      "Alignment required",
+      "Wide temperature range"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "4.5 VDC ... 24 VDC",
+        "Frequency range": "0.1 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Degree of protection": "IP67",
+        "Types": "SDN13.FM00.SS / SDN13.FM01.SS / SDN13.FM02.SS / SDN13.FM10.SS / SDN13.FM11.SS / SDN13.FM12.SS"
+      },
+      "vi": {
+        "Nguồn cấp": "4.5 VDC ... 24 VDC",
+        "Dải tần số": "0,1 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Cấp độ bảo vệ": "IP67",
+        "Loại": "SDN13.FM00.SS / SDN13.FM01.SS / SDN13.FM02.SS / SDN13.FM10.SS / SDN13.FM11.SS / SDN13.FM12.SS"
+      }
+    },
+    "images": [
+      "csm_Sensor_2-Kanal-Hall_Differenz_FM_572x386px_ae43f6bb28.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_FM.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "fq-next-generation": {
+    "name": {
+      "en": "2-Channel Differential-Hall FQ next generation Speed Sensor",
+      "vi": "Cảm biến tốc độ thế hệ tiếp theo 2 kênh Hall vi sai FQ"
+    },
+    "applications": [
+      "Detection of rotational speed and direction of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives",
+      "Precise phase shift and small jitter"
+    ],
+    "features": [
+      "Wide frequency range: 0 Hz ... 40 kHz",
+      "Degree of protection: IP67 / IP69K",
+      "Insertion depths: 30 mm, 35 mm, 45 mm, further ones on request",
+      "Different cable lengths / connectors available",
+      "Wide frequency range",
+      "Alignment required",
+      "Wide temperature range"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply SDN47": "4,5 VDC ... 24 VDC",
+        "Power supply SDN48/SDN49": "7 VDC ... 32 VDC",
+        "Frequency range": "0 Hz ... 40 kHz",
+        "Operating temperature": "-40 °C ... +140 °C / -40 °F ...+284 °F",
+        "Degree of protection": "IP67, IP69K",
+        "Types": "SDN47.FQ24.E05R / SDN48.FQ26.E05R / SDN49.FQ30.E05R"
+      },
+      "vi": {
+        "Nguồn điện SDN47": "4,5 VDC ... 24 VDC",
+        "Nguồn điện SDN48/SDN49": "7 VDC ... 32 VDC",
+        "Dải tần số": "0 Hz ... 40 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +140 °C / -40 °F ... +284 °F",
+        "Cấp độ bảo vệ": "IP67, IP69K",
+        "Loại": "SDN47.FQ24.E05R / SDN48.FQ26.E05R / SDN49.FQ30.E05R"
+      }
+    },
+    "images": [
+      "csm_Sensor_2-Kanal-Hall_Differenz_FQ_NEW-icon_572x386px_a8227610e9.jpg"
+    ],
+    "docs": [
+      "240902_Flyer_Sensor_FQ_next-generation_en.pdf",
+      "Datasheet_Sensor_2-Channel_Differential-Hall_FQ-next-gen.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "m12": {
+    "name": {
+      "en": "2-Channel Differential-Hall M12 Speed Sensors",
+      "vi": "Cảm biến tốc độ Hall vi sai 2 kênh M12"
+    },
+    "applications": [
+      "Speed detection of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives",
+      "Small phase shift and precise jitter"
+    ],
+    "features": [
+      "Wide frequency range",
+      "Alignment required",
+      "Two frequency outputs or one frequency and one digital direction output on choice",
+      "Output signal NPN or push-pull on choice"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply SDN14.GI04.SB*": "7 VDC ... 30 VDC",
+        "Power supply SDGx.GI04.SB": "8 VDC ... 30 VDC",
+        "Frequency range": "0.1 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67",
+        "* Type discontinued": "",
+        "Types": "SDN14.GI04.SB* / SDG0.GI04.SB / SDG1.GI04.SB"
+      },
+      "vi": {
+        "Nguồn điện SDN14.GI04.SB*": "7 VDC ... 30 VDC",
+        "Nguồn điện SDGx.GI04.SB": "8 VDC ... 30 VDC",
+        "Dải tần số": "0,1 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67",
+        "* Loại đã ngừng sản xuất": "",
+        "Loại": "SDN14.GI04.SB* / SDG0.GI04.SB / SDG1.GI04.SB"
+      }
+    },
+    "images": [
+      "csm_Teaser_Accessories_Gegenstecker_N0000.149A_270x160px_426be76214.jpg",
+      "csm_Sensor_2-Kanal-Hall_Differenz_M12_572x386px_fa52122f9b.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_M12.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "m12-temp": {
+    "name": {
+      "en": "2-Channel Differential-Hall M12 Speed Sensor with temperature detection",
+      "vi": "Cảm biến tốc độ Hall vi sai 2 kênh M12 với phát hiện nhiệt độ"
+    },
+    "applications": [
+      "Detection of rotational speed and direction of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives",
+      "Small phase shift and precise jitter"
+    ],
+    "features": [
+      "Temperature detection",
+      "Wide frequency range",
+      "Alignment required",
+      "Output signal push-pull"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "7 VDC ... 32 VDC",
+        "Frequency range": "0 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67",
+        "Types": "SDG4.GI04.SB"
+      },
+      "vi": {
+        "Nguồn cấp": "7 VDC ... 32 VDC",
+        "Dải tần số": "0 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67",
+        "Loại": "SDG4.GI04.SB"
+      }
+    },
+    "images": [
+      "csm_Sensor_2-Kanal-Hall_Differenz_M12_temp_572x386px_70198dab7d.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_M12_temp.pdf",
+      "Flyer_Sensors_with_integrated_temperature_sensor_en.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "m14-push-pull": {
+    "name": {
+      "en": "2-Channel Differential-Hall M14 Push-Pull Speed Sensors",
+      "vi": "Cảm biến tốc độ 2 kênh Đường kính Hall M14 đẩy-kéo"
+    },
+    "applications": [
+      "Detection of rotational speed and direction of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives",
+      "Small phase shift and precise jitter"
+    ],
+    "features": [
+      "Wide frequency range",
+      "Alignment required",
+      "Output signal push-pull"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "7 VDC ... 32 VDC",
+        "Frequency range": "0 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67",
+        "Types": "SDG4.GK09.SB"
+      },
+      "vi": {
+        "Nguồn cấp": "7 VDC ... 32 VDC",
+        "Dải tần số": "0 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67",
+        "Loại": "SDG4.GK09.SB"
+      }
+    },
+    "images": [
+      "csm_Teaser_Accessories_Gegenstecker_N0000.149A_270x160px_426be76214.jpg",
+      "csm_Sensor_2-Kanal_Hall-Differenz_M14pp_572x386px_39e2e56238.jpg"
+    ],
+    "docs": [
+      "Mounting_instructions_2-Channel_Differential-Hall_M14pp_Jan24.pdf",
+      "Datasheet_Sensor_2-Channel_Differential-Hall_M14pp_01.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "m18-push-pull": {
+    "name": {
+      "en": "2-Channel Differential-Hall M18 Push-Pull Speed Sensors",
+      "vi": "Cảm biến tốc độ kiểu M18 2 kênh Hall vi sai đẩy-kéo"
+    },
+    "applications": [
+      "Detection of rotational speed and direction of gearwheels with small module and high resolution",
+      "Applications in vehicles, mobile operating machines, electric and hydraulic drives",
+      "Small phase shift and precise jitter"
+    ],
+    "features": [
+      "Wide frequency range",
+      "Alignment required",
+      "Output signal push-pull"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "7 VDC ... 32 VDC",
+        "Frequency range": "0 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Degree of protection": "IP67"
+      },
+      "vi": {
+        "Nguồn cấp": "7 VDC ... 32 VDC",
+        "Dải tần số": "0 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +125 °C / -40 °F ... +257 °F",
+        "Cấp độ bảo vệ": "IP67"
+      }
+    },
+    "images": [
+      "csm_Sensor_2-Kanal-Hall_Differenz_M18pp_572x386px_f1ab6b3206.jpg",
+      "csm_Teaser_Accessories_Gegenstecker_N0000.149A_270x160px_426be76214.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_M18pp_01.pdf",
+      "Mounting_instructions_2-Channel_Differential-Hall_M18pp_Jan24.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  },
+  "speed-sensor-2-Channel Differential Hall-fu": {
+    "name": {
+      "en": "2-Channel Differential-Hall FU Speed Sensors",
+      "vi": "Cảm biến tốc độ FU Hall vi sai 2 kênh"
+    },
+    "applications": [
+      "Speed and direction detection of gearwheels with module 2",
+      "Applications in vehicles, mobile operating machines and hydraulic drives (axial piston pump and -motor)"
+    ],
+    "features": [
+      "Insertion depth: 44 mm, 53 mm and 62 mm",
+      "Small size",
+      "Alignment required",
+      "Wide temperature range",
+      "Wide frequency range",
+      "Output signal push-pull"
+    ],
+    "technical_data": {
+      "en": {
+        "Power supply": "8 VDC ... 32 VDC",
+        "Frequency range": "0 Hz ... 20 kHz",
+        "Operating temperature": "-40 °C ... +105 °C / -40 °F ... +221 °F",
+        "Degree of protection": "IP67 / IP6K9K",
+        "Types": "SDG21.FU44.E03B / SDG21.FU53.E03B / SDG21.FU62.E03B"
+      },
+      "vi": {
+        "Nguồn cấp": "8 VDC ... 32 VDC",
+        "Dải tần số": "0 Hz ... 20 kHz",
+        "Nhiệt độ hoạt động": "-40 °C ... +105 °C / -40 °F ... +221 °F",
+        "Cấp độ bảo vệ": "IP67 / IP6K9K",
+        "Loại": "SDG21.FU44.E03B / SDG21.FU53.E03B / SDG21.FU62.E03B"
+      }
+    },
+    "images": [
+      "csm_Sensor_2-Kanal-Hall_Differenz_FU_NEW-icon_572x386px_8e42a2f605.jpg"
+    ],
+    "docs": [
+      "Datasheet_Sensor_2-Channel_Differential-Hall_FU.pdf"
+    ],
+    "category": {
+      "en": "2-Channel Differential Hall",
+      "vi": "2 Kênh Hall Vi sai"
+    }
+  }
+}

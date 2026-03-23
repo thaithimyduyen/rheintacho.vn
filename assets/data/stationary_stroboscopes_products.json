@@ -1,0 +1,321 @@
+{
+  "rt-strobe-qbleds": {
+    "name": {
+      "en": "Stationary stroboscope RT STROBE qbLEDs",
+      "vi": "Đèn nháy cố định RT STROBE qbLEDs"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>The extremely bright, stationary stroboscope RT STROBE qbLEDs is unrivalled in terms of brightness, operation and technology.</p>\n<p>This extremely robust and precise stroboscope is used to conduct measurements in difficult industrial environments and is specifically designed for maintenance work / commissioning and inspections.</p>\n<p>The large, homogeneous illumination surface delivers superb results even at difficult light conditions.</p>\n<p>All standard settings can be adjusted quickly and easily without any prior in-depth knowledge, so that you can begin your maintenance work immediately. If your requirements are more specialised and very specific measurements, for example, call for a time-delayed flash or a slow motion function, you can activate these settings in the pro mode, which is specially designated for these.</p>\n<p>The stationary stroboscope RT STROBE qbLEDs is also available as portable version: <a class=\"arrow-before\" href=\"/en/products/portable-stroboscopes/led/rt-strobe-qbled\" title=\"RT STROBE qbLED\"><u>RT STROBE qbLED</u></a></p>\n<p>A detailed description of how to use the RT STROBE qbLEDs stroboscopes can be found here:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=7Y0JCdTqCWs&amp;list=PL3uVYrzesWDIxd-45sr5mHujTheRdsNJI\">YouTube Tutorial</a>\n",
+      "vi": "<p>Đèn nhấp nháy tĩnh RT STROBE qbLEDs cực sáng, không có đối thủ về độ sáng, hoạt động và công nghệ.</p>\n<p>Đèn nhấp nháy này có độ bền cao và độ chính xác tuyệt đối, được sử dụng để thực hiện các phép đo trong môi trường công nghiệp khắc nghiệt và được thiết kế đặc biệt cho công việc bảo trì / vận hành và kiểm tra.</p>\n<p>Bề mặt chiếu sáng rộng và đồng nhất mang lại kết quả xuất sắc ngay cả trong điều kiện ánh sáng khó khăn.</p>\n<p>Tất cả các thiết lập chuẩn có thể được điều chỉnh nhanh và dễ dàng mà không cần kiến thức chuyên sâu trước đó, giúp bạn có thể bắt đầu công việc bảo trì ngay lập tức. Nếu yêu cầu của bạn chuyên biệt hơn và cần các phép đo rất cụ thể, chẳng hạn như đèn nhấp nháy trễ thời gian hoặc chức năng chuyển động chậm, bạn có thể kích hoạt các thiết lập này trong chế độ pro, được thiết kế riêng cho các mục đích này.</p>\n<p>Đèn nhấp nháy tĩnh RT STROBE qbLEDs cũng có phiên bản cầm tay: <a class=\"arrow-before\" href=\"/en/products/portable-stroboscopes/led/rt-strobe-qbled\" title=\"RT STROBE qbLED\"><u>RT STROBE qbLED</u></a></p>\n<p>Mô tả chi tiết cách sử dụng đèn nhấp nháy RT STROBE qbLEDs có thể được tìm thấy tại đây:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=7Y0JCdTqCWs&amp;list=PL3uVYrzesWDIxd-45sr5mHujTheRdsNJI\">Hướng dẫn YouTube</a>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A4-3505</p><ul><li>Stroboscope RT STROBE qbLEDs</li><li>Operating instructions</li><li>Calibration certificate</li><li>Charger with connector set</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul>\n",
+      "vi": "<p>A4-3505</p><ul><li>Đèn nhấp nháy RT STROBE qbLED</li><li>Hướng dẫn vận hành</li><li>Chứng nhận hiệu chuẩn</li><li>Bộ sạc kèm bộ nối</li><li>1 đầu cắm DIN 5 chân cho đầu vào kích hoạt và/hoặc nguồn</li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Number of LEDs": "40",
+        "Frequency range": "30 ... 300,000 FPM",
+        "Light intensity max.": "1,750 LUX @ 1° / 30 cm",
+        "Flash duration": "adjustable",
+        "Power supply": "via mains connection"
+      },
+      "vi": {
+        "Number of LEDs": "40",
+        "Frequency range": "30 ... 300,000 FPM",
+        "Light intensity max.": "1,750 LUX @ 1° / 30 cm",
+        "Flash duration": "adjustable",
+        "Power supply": "via mains connection"
+      }
+    },
+    "images": [
+      "csm_STROBE_qbLEDs_Anschluesse_572x386px_d413e1108a.jpg",
+      "csm_Textilbranche_270x160px_a3e6e30891.jpg",
+      "csm_STROBE_qbLEDs_572x386px_3c283d172d.jpg"
+    ],
+    "docs": [
+      "Quick-Start-Guide_RT_STROBE_qbLED.pdf",
+      "Brochure_RT_STROBE_qbLEDs.pdf",
+      "Manual_RT_STROBE_qbLED.pdf"
+    ],
+    "category": {
+      "en": "Stationary stroboscopes LED",
+      "vi": "Đèn nháy LED cố định"
+    }
+  },
+  "rt-strobe-3000-led": {
+    "name": {
+      "en": "Stationary stroboscope RT STROBE 3000 LED",
+      "vi": "Đèn nháy cố định RT STROBE 3000 LED"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>Due to the configuration with 80 high-performance LEDs, the RT STROBE 3000 LED offers a powerful light intensity.</p>\n<p>The large, homogeneous illumination surface delivers superb results even at difficult light conditions, making the RT STROBE 3000 LED suitable for a very wide range of measurement, observation and inspection functions. It is especially suitable for demanding applications, such as those in the printing industry.</p>\n",
+      "vi": "<p>Do cấu hình với 80 đèn LED hiệu suất cao, RT STROBE 3000 LED cung cấp cường độ ánh sáng mạnh mẽ.</p>\n<p>Bề mặt chiếu sáng rộng và đồng đều mang lại kết quả xuất sắc ngay cả trong điều kiện ánh sáng khó khăn, làm cho RT STROBE 3000 LED phù hợp với một phạm vi rộng các chức năng đo lường, quan sát và kiểm tra. Thiết bị đặc biệt phù hợp cho các ứng dụng đòi hỏi cao, chẳng hạn như trong ngành công nghiệp in ấn.</p>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A6-3200:</p><ul><li>Stroboscope RT STROBE 3000 LED</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul><p><br/>A6-3210:</p><ul><li>Stroboscope RT STROBE 3000 LED</li><li>Power supply unit</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul><p> </p>\n<p>A6-3255 (Starter-Set):</p><ul><li>Stroboscope RT STROBE 3000 LED</li><li>Power supply unit</li><li>RT STROBE eco control</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul>\n",
+      "vi": "<p>A6-3200:</p><ul><li>Đèn nháy RT STROBE 3000 LED</li><li>Hướng dẫn sử dụng</li><li>1 cổng cắm DIN 5 chân cho tín hiệu kích hoạt và/hoặc nguồn điện</li></ul><p><br/>A6-3210:</p><ul><li>Đèn nháy RT STROBE 3000 LED</li><li>Bộ nguồn</li><li>Hướng dẫn sử dụng</li><li>1 cổng cắm DIN 5 chân cho tín hiệu kích hoạt và/hoặc nguồn điện</li></ul><p> </p>\n<p>A6-3255 (Bộ khởi động):</p><ul><li>Đèn nháy RT STROBE 3000 LED</li><li>Bộ nguồn</li><li>Bộ điều khiển RT STROBE eco</li><li>Hướng dẫn sử dụng</li><li>1 cổng cắm DIN 5 chân cho tín hiệu kích hoạt và/hoặc nguồn điện</li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "0 ... 120,000 FPM",
+        "Light intensity max.": "6,000 LUX @ 300 mm",
+        "Illumination area": "200 x 300 mm",
+        "Dimensions": "150 x 130 x 112 mm"
+      },
+      "vi": {
+        "Dải tần số": "0 ... 120.000 FPM",
+        "Cường độ ánh sáng tối đa": "6.000 LUX @ 300 mm",
+        "Khu vực chiếu sáng": "200 x 300 mm",
+        "Kích thước": "150 x 130 x 112 mm"
+      }
+    },
+    "images": [
+      "csm_STROBE_3000_LED_Anschluesse_572x386px_cd42eb6321.jpg",
+      "csm_STROBE_3000_LED_572x386px_91e78aed26.jpg"
+    ],
+    "docs": [
+      "190221_RHEINTACHO_STROBE_Power-Supply-Selection.pdf",
+      "Manual_RT_STROBE_3000_LED.pdf",
+      "Brochure_RT_STROBE_3000_LED.pdf"
+    ],
+    "category": {
+      "en": "Stationary stroboscopes LED",
+      "vi": "Đèn nháy LED cố định"
+    }
+  },
+  "rt-strobe-5000-led": {
+    "name": {
+      "en": "Stationary stroboscope RT STROBE 5000 LED",
+      "vi": "Đèn nháy cố định RT STROBE 5000 LED"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>Due to the configuration with 120 high-performance LEDs, the RT STROBE 5000 LED offers a powerful light intensity.</p>\n<p>The large, homogeneous illumination surface delivers superb results even at difficult light conditions,making the RT STROBE 5000 LED suitable for a very wide range of measurement, observation and inspection functions. It is especially suitable for demanding applications, such as those in the printing industry.</p>\n",
+      "vi": "<p>Do cấu hình với 120 đèn LED hiệu suất cao, RT STROBE 5000 LED cung cấp cường độ ánh sáng mạnh mẽ.</p>\n<p>Bề mặt chiếu sáng rộng và đồng đều mang lại kết quả tuyệt vời ngay cả trong điều kiện ánh sáng khó khăn, khiến RT STROBE 5000 LED phù hợp với nhiều chức năng đo lường, quan sát và kiểm tra đa dạng. Thiết bị đặc biệt phù hợp cho các ứng dụng yêu cầu cao, chẳng hạn như trong ngành công nghiệp in ấn.</p>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A6-5200:</p><ul><li>Stroboscope RT STROBE 5000 LED</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul><p><br/>A6-5210:</p><ul><li>Stroboscope RT STROBE 5000 LED</li><li>Power supply unit</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul><p><br/>A6-5255 (Starter-Set):</p><ul><li>Stroboscope RT STROBE 5000 LED</li><li>Power supply unit</li><li>RT STROBE eco control</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul>\n",
+      "vi": "<p>A6-5200:</p><ul><li>Đèn Stroboscope RT STROBE 5000 LED</li><li>Hướng dẫn sử dụng</li><li>1 đầu cắm DIN 5 chân cho đầu vào kích hoạt và/hoặc nguồn điện</li></ul><p><br/>A6-5210:</p><ul><li>Đèn Stroboscope RT STROBE 5000 LED</li><li>Bộ nguồn</li><li>Hướng dẫn sử dụng</li><li>1 đầu cắm DIN 5 chân cho đầu vào kích hoạt và/hoặc nguồn điện</li></ul><p><br/>A6-5255 (Bộ khởi động):</p><ul><li>Đèn Stroboscope RT STROBE 5000 LED</li><li>Bộ nguồn</li><li>Thiết bị điều khiển RT STROBE eco</li><li>Hướng dẫn sử dụng</li><li>1 đầu cắm DIN 5 chân cho đầu vào kích hoạt và/hoặc nguồn điện</li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "0 ... 120,000 FPM",
+        "Light intensity max.": "7,500 LUX @ 300 mm",
+        "Illumination area": "300 x 500 mm",
+        "Dimensions": "224 x 130 x 112 mm"
+      },
+      "vi": {
+        "Dải tần số": "0 ... 120.000 FPM",
+        "Cường độ ánh sáng tối đa": "7.500 LUX @ 300 mm",
+        "Khu vực chiếu sáng": "300 x 500 mm",
+        "Kích thước": "224 x 130 x 112 mm"
+      }
+    },
+    "images": [
+      "csm_STROBE_5000_LED_572x386px_93e54f1ab1.jpg",
+      "csm_STROBE_5000_LED_Anschluesse_572x386px_8990a40784.jpg"
+    ],
+    "docs": [
+      "Brochure_RT_STROBE_5000_LED.pdf",
+      "190221_RHEINTACHO_STROBE_Power-Supply-Selection.pdf",
+      "Manual_RT_STROBE_5000_LED.pdf"
+    ],
+    "category": {
+      "en": "Stationary stroboscopes LED",
+      "vi": "Đèn nháy LED cố định"
+    }
+  },
+  "rt-strobe-7000-led": {
+    "name": {
+      "en": "Stationary stroboscope RT STROBE 7000 LED",
+      "vi": "Đèn nháy cố định RT STROBE 7000 LED"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>Due to the configuration with 200 high-performance LEDs, the RT STROBE 7000 LED offers a powerful light intensity.</p>\n<p>The large, homogeneous illumination surface delivers superb results even at difficult light conditions, making the RT STROBE 7000 LED suitable for a very wide range of measurement, observation and inspection functions. It is especially suitable for demanding applications, such as those in the printing industry.</p>\n",
+      "vi": "<p>Do cấu hình với 200 đèn LED hiệu suất cao, RT STROBE 7000 LED cung cấp cường độ ánh sáng mạnh mẽ.</p>\n<p>Bề mặt chiếu sáng lớn và đồng nhất mang lại kết quả xuất sắc ngay cả trong điều kiện ánh sáng khó khăn, khiến RT STROBE 7000 LED phù hợp với rất nhiều chức năng đo lường, quan sát và kiểm tra. Thiết bị đặc biệt thích hợp cho các ứng dụng đòi hỏi cao, chẳng hạn như trong ngành công nghiệp in ấn.</p>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A6-7200:</p><ul><li>Stroboscope RT STROBE 7000 LED</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul><p><br/>A6-7210:</p><ul><li>Stroboscope RT STROBE 7000 LED</li><li>Power supply unit</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul><p><br/>A6-7255 (Starter-Set):</p><ul><li>Stroboscope RT STROBE 7000 LED</li><li>Power supply unit</li><li>RT STROBE eco control</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul>\n",
+      "vi": "<p>A6-7200:</p>\n<ul>\n  <li>Đèn Stroboscope RT STROBE 7000 LED</li>\n  <li>Hướng dẫn sử dụng</li>\n  <li>1 đầu cắm DIN 5 chân cho đầu vào kích hoạt và/hoặc nguồn điện</li>\n</ul>\n<p><br/>A6-7210:</p>\n<ul>\n  <li>Đèn Stroboscope RT STROBE 7000 LED</li>\n  <li>Đơn vị cung cấp nguồn</li>\n  <li>Hướng dẫn sử dụng</li>\n  <li>1 đầu cắm DIN 5 chân cho đầu vào kích hoạt và/hoặc nguồn điện</li>\n</ul>\n<p><br/>A6-7255 (Bộ khởi động):</p>\n<ul>\n  <li>Đèn Stroboscope RT STROBE 7000 LED</li>\n  <li>Đơn vị cung cấp nguồn</li>\n  <li>Điều khiển RT STROBE eco</li>\n  <li>Hướng dẫn sử dụng</li>\n  <li>1 đầu cắm DIN 5 chân cho đầu vào kích hoạt và/hoặc nguồn điện</li>\n</ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "0 ... 120,000 FPM",
+        "Light intensity max.": "9,000 LUX @ 300 mm",
+        "Illumination area": "300 x >700 mm",
+        "Dimensions": "440 x 130 x 112 mm"
+      },
+      "vi": {
+        "Dải tần số": "0 ... 120.000 FPM",
+        "Cường độ ánh sáng tối đa": "9.000 LUX @ 300 mm",
+        "Khu vực chiếu sáng": "300 x >700 mm",
+        "Kích thước": "440 x 130 x 112 mm"
+      }
+    },
+    "images": [
+      "csm_STROBE_7000_LED_Anschluesse_572x386px_8caea3df56.jpg",
+      "csm_STROBE_7000_LED_572x386px_def7228181.jpg"
+    ],
+    "docs": [
+      "Manual_RT_STROBE_7000_LED.pdf",
+      "190221_RHEINTACHO_STROBE_Power-Supply-Selection.pdf",
+      "Brochure_RT_STROBE_7000_LED.pdf",
+      "Prospectus_RT_STROBE_7000_LED_dutch.pdf"
+    ],
+    "category": {
+      "en": "Stationary stroboscopes LED",
+      "vi": "Đèn nháy LED cố định"
+    }
+  },
+  "rt-strobe-12000-led": {
+    "name": {
+      "en": "Stationary stroboscope RT STROBE 12000 LED",
+      "vi": "Đèn nhấp nháy cố định RT STROBE 12000 LED"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>Due to the configuration with 480 high-performance LEDs, the RT STROBE 12000 LED offers a powerful light intensity.</p>\n<p>The large, homogeneous illumination surface delivers superb results even at difficult light conditions, making the RT STROBE 12000 LED suitable for a very wide range of measurement, observation and inspection functions. It is especially suitable for demanding applications, such as those in the printing industry.<br/><br/>Our specialists manufacture this product made-to-order for you.</p>\n",
+      "vi": "<p>Nhờ cấu hình với 480 đèn LED hiệu suất cao, RT STROBE 12000 LED cung cấp cường độ ánh sáng mạnh mẽ.</p>\n<p>Bề mặt chiếu sáng lớn và đồng nhất mang lại kết quả tuyệt vời ngay cả trong điều kiện ánh sáng khó khăn, giúp RT STROBE 12000 LED phù hợp với rất nhiều chức năng đo lường, quan sát và kiểm tra. Thiết bị đặc biệt thích hợp cho các ứng dụng yêu cầu cao, chẳng hạn như trong ngành công nghiệp in ấn.<br/><br/>Các chuyên gia của chúng tôi gia công sản phẩm này theo đơn đặt hàng dành cho bạn.</p>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A6-12255 (Starter-Set): </p><ul><li>Stroboscope RT STROBE 12000 LED</li><li>Power supply unit</li><li>RT STROBE eco control</li><li>Operating instructions</li><li>1 DIN plug 5-pin for trigger input and/or power</li></ul>\n",
+      "vi": "<p>A6-12255 (Bộ khởi động): </p><ul><li>Đèn nháy RT STROBE 12000 LED</li><li>Đơn vị cung cấp nguồn</li><li>Bộ điều khiển RT STROBE eco</li><li>Hướng dẫn vận hành</li><li>1 đầu nối DIN 5 chân cho tín hiệu kích hoạt và/hoặc cấp nguồn</li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "0 ... 120,000 FPM",
+        "Light intensity max.": "14,000 LUX @ 300 mm",
+        "Illumination area": "300 x 1200 mm",
+        "Dimensions": "948 x 130 x 112 mm"
+      },
+      "vi": {
+        "Dải tần số": "0 ... 120.000 FPM",
+        "Cường độ ánh sáng tối đa": "14.000 LUX @ 300 mm",
+        "Khu vực chiếu sáng": "300 x 1200 mm",
+        "Kích thước": "948 x 130 x 112 mm"
+      }
+    },
+    "images": [
+      "csm_STROBE_12000_LED_Anschluesse_572x386px_bb30713d11.jpg",
+      "csm_STROBE_12000_LED_572x386px_3fee0fee5f.jpg",
+      "csm_Textilbranche_270x160px_a3e6e30891.jpg"
+    ],
+    "docs": [
+      "190221_RHEINTACHO_STROBE_Power-Supply-Selection.pdf",
+      "Brochure_RT_STROBE_12000_LED.pdf",
+      "Manual_RT_STROBE_12000_LED.pdf"
+    ],
+    "category": {
+      "en": "Stationary stroboscopes LED",
+      "vi": "Đèn nháy LED cố định"
+    }
+  },
+  "rt-strobe-control": {
+    "name": {
+      "en": "RT STROBE control",
+      "vi": "Điều khiển RT STROBE"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>RT STROBE control is your easy-to-handle control centre for any stroboscope, whether it is from RHEINTACHO or another manufacturer. Use it to create a trigger signal or to influence a signal generated externally. The multiplicity of control parameters make it easy for you to carry out the inspection or measurement tasks required of you</p>\n",
+      "vi": "<p>Điều khiển RT STROBE là trung tâm điều khiển dễ sử dụng cho bất kỳ đèn nháy nào, dù là từ RHEINTACHO hay nhà sản xuất khác. Sử dụng nó để tạo tín hiệu kích hoạt hoặc để điều chỉnh tín hiệu được tạo ra từ bên ngoài. Nhiều tham số điều khiển giúp bạn dễ dàng thực hiện các nhiệm vụ kiểm tra hoặc đo lường được yêu cầu.</p>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A6-1000:</p><ul><li>Stroboscope control unit RT STROBE control</li><li>Operating instructions</li><li>Trigger cable 1.5 m</li><li>Certificate</li><li>Case</li></ul>\n",
+      "vi": "<p>A6-1000:</p><ul><li>Đơn vị điều khiển đèn nhấp nháy RT STROBE control</li><li>Hướng dẫn vận hành</li><li>Cáp kích hoạt dài 1,5 m</li><li>Chứng nhận</li><li>Hộp đựng</li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency": "0.5 ... 10,000 Hz",
+        "Phase shift": "0 ... 359° ±1°",
+        "Dimensions": "162 x 820 x 40 mm"
+      },
+      "vi": {
+        "Tần số": "0,5 ... 10.000 Hz",
+        "Độ lệch pha": "0 ... 359° ±1°",
+        "Kích thước": "162 x 820 x 40 mm"
+      }
+    },
+    "images": [],
+    "docs": [
+      "Manual_RT_STROBE_control.pdf",
+      "Brochure_RT_STROBE_control.pdf"
+    ],
+    "category": {
+      "en": "Control",
+      "vi": "Điều khiển"
+    }
+  },
+  "rt-strobe-eco-control": {
+    "name": {
+      "en": "RT STROBE eco control",
+      "vi": "RT STROBE điều khiển eco"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>The smart solution to adjust the flash frequency of your RHEINTACHO stroboscopes. With the RT STROBE eco control it is also possible, to control multiple, parallel connected RT STROBEs.<br/> </p>\n<p>Scope of delivery for Part-Number: <br/>A6-1050</p><ul><li>Stroboscope control unit RT STROBE eco control</li><li>Operating instructions</li></ul>\n",
+      "vi": "<p>Giải pháp thông minh để điều chỉnh tần số nhấp nháy của máy đo tốc độ RHEINTACHO của bạn. Với bộ điều khiển RT STROBE eco control, cũng có thể điều khiển nhiều thiết bị RT STROBE được kết nối song song.<br/> </p>\n<p>Phạm vi giao hàng cho Mã hàng: <br/>A6-1050</p><ul><li>Đơn vị điều khiển thiết bị đo tốc độ RT STROBE eco control</li><li>Hướng dẫn sử dụng</li></ul>"
+    },
+    "scope_of_delivery": {
+      "en": "",
+      "vi": ""
+    },
+    "technical_data": {
+      "en": {},
+      "vi": {}
+    },
+    "images": [
+      "csm_Accessories_Eco-Control_572x386px_4995228c5a.jpg"
+    ],
+    "docs": [],
+    "category": {
+      "en": "Control",
+      "vi": "Điều khiển"
+    }
+  },
+  "rt-strobe-remote-app": {
+    "name": {
+      "en": "RT STROBE remote App",
+      "vi": "Ứng dụng RT STROBE điều khiển từ xa"
+    },
+    "applications": [],
+    "features": [],
+    "scope_of_delivery": {
+      "en": "",
+      "vi": ""
+    },
+    "description": {
+      "en": "\n<p>With the RT STROBE Remote App from RHEINTACHO, you can easily use the many functions of RHEINTACHO measuring instruments via smartphone.</p>\n<p><strong>Compatible devices</strong><br/>Before using the app, please make sure that you own the following device:</p><ul><li>RT STROBE pocketLED LASER</li></ul><p><strong>Precise setting options</strong><br/>Intuitive operation allows you to configure your measuring device even faster and more precisely</p>\n<p><strong>Device manager</strong><br/>Search and connect compatible RHEINTACHO measuring devices</p>\n<p><strong>Wireless</strong><br/>Thanks to Blutooth Low Energy you can control your measuring device without having to be directly at the device</p>\n<p><strong>Profiles</strong><br/>Save and share profiles for your measuring device to quickly load appropriate settings</p>\n<a class=\"btn btn-third-arrow btn-cyan\" href=\"/fileadmin/Other_documents/RT_Privacy-notice_App-RTStrobeRemote-22-02.pdf\">Privacy notice</a>\n",
+      "vi": "<p>Với ứng dụng RT STROBE Remote từ RHEINTACHO, bạn có thể dễ dàng sử dụng nhiều chức năng của các thiết bị đo RHEINTACHO thông qua điện thoại thông minh.</p>\n<p><strong>Thiết bị tương thích</strong><br/>Trước khi sử dụng ứng dụng, vui lòng đảm bảo rằng bạn sở hữu thiết bị sau:</p>\n<ul>\n<li>RT STROBE pocketLED LASER</li>\n</ul>\n<p><strong>Tùy chọn cài đặt chính xác</strong><br/>Vận hành trực quan cho phép bạn cấu hình thiết bị đo của mình nhanh hơn và chính xác hơn</p>\n<p><strong>Trình quản lý thiết bị</strong><br/>Tìm kiếm và kết nối các thiết bị đo RHEINTACHO tương thích</p>\n<p><strong>Không dây</strong><br/>Nhờ công nghệ Bluetooth Low Energy, bạn có thể điều khiển thiết bị đo mà không cần phải trực tiếp ở gần thiết bị</p>\n<p><strong>Hồ sơ cấu hình</strong><br/>Lưu và chia sẻ hồ sơ cấu hình cho thiết bị đo của bạn để nhanh chóng tải các thiết lập phù hợp</p>\n<a class=\"btn btn-third-arrow btn-cyan\" href=\"/fileadmin/Other_documents/RT_Privacy-notice_App-RTStrobeRemote-22-02.pdf\">Chính sách bảo mật</a>"
+    },
+    "technical_data": {
+      "en": {},
+      "vi": {}
+    },
+    "images": [
+      "csm_RT-STROBE-remote-App_Device-Manager_572x386px_8e5bc7031f.jpg",
+      "csm_RT-STROBE-remote-App_Display-measured-values_572x386px_325191a458.jpg",
+      "csm_RT-STROBE-remote-App_Measuing-profile_572x386px_6ce4ce85a4.jpg",
+      "csm_RT-STROBE-remote-App_Settings_572x386px_1e70764358.jpg",
+      "csm_RT-STROBE-remote-App_Settings-brightness_572x386px_b689d634bf.jpg"
+    ],
+    "docs": [
+      "RT_Privacy-notice_App-RTStrobeRemote-22-02.pdf"
+    ],
+    "category": {
+      "en": "Control",
+      "vi": "Điều khiển"
+    }
+  }
+}

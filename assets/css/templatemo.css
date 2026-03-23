@@ -129,7 +129,7 @@ div {
 }
 
 #templatemo_main_nav a:hover {
-  color: #69bb7e;
+  color: #695aa0;
 }
 
 #templatemo_main_nav .navbar .nav-icon {
@@ -152,7 +152,7 @@ div {
 
 /* Shop */
 .shop-top-menu a:hover {
-  color: #69bb7e !important;
+  color: #695aa0 !important;
 }
 
 /* Product */
@@ -177,7 +177,7 @@ div {
 }
 
 .product-wap .product-color-dot.color-dot-green {
-  background: #0bff7e;
+  background: #695aa0;
 }
 
 .card.product-wap .card .product-overlay {
@@ -265,7 +265,7 @@ div {
 }
 
 #tempaltemo_footer a:hover {
-  color: #68bb7d;
+  color: #695aa0;
 }
 
 #tempaltemo_footer ul.footer-link-list li {

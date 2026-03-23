@@ -1,0 +1,355 @@
+{
+  "rt-strobe-pocketled": {
+    "name": {
+      "en": "Portable stroboscope RT STROBE pocketLED",
+      "vi": "Đèn nháy cầm tay RT STROBE pocketLED"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>With up to 300,000 flashes per minute, the RT STROBE <strong>pocketLED</strong> is one of the best-performing devices in its class. In terms of light intensity, this device is second to none among portable LED stroboscopes world-wide.</p>\n<p>The quartz accuracy of the control function ensures absolute flash precision. The objectives of \"maximum light yield\" and \"homogenous surface illumination\" were ideally implemented in the development of the optical assembly.</p>\n<p>Cutting-edge, ultra-high performance LEDs and intelligent control electronics play a key role in achieving this.<br/><br/><br/>A detailed description of how to use the RT STROBE <strong>pocketLED</strong> stroboscopes can be found here:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=6XKOCYR44jQ&amp;list=PLCA8883F27B598488\">YouTube Tutorial</a>\n",
+      "vi": "<p>Với tần số lên đến 300.000 nháy mỗi phút, RT STROBE <strong>pocketLED</strong> là một trong những thiết bị có hiệu suất hàng đầu trong phân khúc của nó. Về cường độ ánh sáng, thiết bị này đứng đầu trong số các đèn LED stroboscope cầm tay trên toàn thế giới.</p>\n<p>Độ chính xác quartz của chức năng điều khiển đảm bảo độ nháy hoàn hảo tuyệt đối. Mục tiêu \"đạt hiệu suất ánh sáng tối đa\" và \"chiếu sáng bề mặt đồng đều\" đã được thực hiện một cách tối ưu trong quá trình phát triển cụm quang học.</p>\n<p>LED tiên tiến với hiệu suất cực cao cùng với điện tử điều khiển thông minh đóng vai trò then chốt trong việc đạt được điều này.<br/><br/><br/>Mô tả chi tiết cách sử dụng thiết bị stroboscope RT STROBE <strong>pocketLED</strong> có thể được tìm thấy tại đây:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=6XKOCYR44jQ&amp;list=PLCA8883F27B598488\">Hướng dẫn trên YouTube</a>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A4-3000:</p><ul><li>Portable LED stroboscope RT STROBE pocketLED</li><li>Operating instructions</li><li>Calibration certificate</li><li>Batteries</li></ul><p> </p>\n",
+      "vi": "<p>A4-3000:</p><ul><li>Đèn nháy LED cầm tay RT STROBE pocketLED</li><li>Hướng dẫn vận hành</li><li>Chứng nhận hiệu chuẩn</li><li>Pin</li></ul><p> </p>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "30 ... 300,000 FPM",
+        "Light intensity max.": "4,800 LUX @ 6,000 FPM / 30 cm",
+        "Degree of protection": "IP65 / splash-water protected",
+        "Flash duration": "adjustable",
+        "Material": "Aluminium / ABS, heavy duty design",
+        "Dimensions": "191 x 82 x 60 mm"
+      },
+      "vi": {
+        "Dải tần số": "30 ... 300.000 FPM",
+        "Cường độ ánh sáng tối đa": "4.800 LUX @ 6.000 FPM / 30 cm",
+        "Cấp độ bảo vệ": "IP65 / chống nước bắn",
+        "Thời gian phát xung": "có thể điều chỉnh được",
+        "Vật liệu": "Nhôm / ABS, thiết kế chịu lực cao",
+        "Kích thước": "191 x 82 x 60 mm"
+      }
+    },
+    "images": [
+      "csm_STROBE_pocketLED_LED-Ansicht_572x386px_a67fccf483.jpg",
+      "csm_STROBE_pocketLED_top_572x386px_f67b8e0ab2.jpg",
+      "csm_STROBE_pocketLED_Unterseite_572x386px_c815a78485.jpg",
+      "csm_Textilbranche_270x160px_a3e6e30891.jpg",
+      "csm_STROBE_pocketLED_Seitenansicht_572x386px_0a596a92ca.jpg",
+      "csm_STROBE_pocketLED_572x386px_c458d690e2.jpg",
+      "csm_STROBE_pocketLED_Standard_Koffer_572x386px_e3f8dfd644.jpg"
+    ],
+    "docs": [
+      "Brochure_RT_STROBE_pocketLED.pdf",
+      "Prospectus_RT_STROBE_pocketLED_dutch.pdf",
+      "Folleto_RT_STROBE_pocketLED_es.pdf",
+      "Manual_RT_STROBE_pocketLED.pdf"
+    ],
+    "category": {
+      "en": "Portable stroboscopes LED",
+      "vi": "Đèn nháy LED cầm tay"
+    }
+  },
+  "rt-strobe-pocketled-t": {
+    "name": {
+      "en": "Portable stroboscope RT STROBE pocketLED with Trigger",
+      "vi": "Đèn nhấp nháy cầm tay RT STROBE pocketLED có chức năng kích hoạt"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>Connect your RT STROBE <strong>pocketLED T</strong> with the device or plant to be monitored via a trigger cable. Switching from internal to external triggering displays the units 1/min or Hz rather than FPM.</p>\n<p>A wide variety of options for influencing the input signal before the flash is activated enables you to ensure that the flash will be activated in exactly the right position.</p>\n<p>The trigger interface is designed as a combined input and output interface. The trigger output allows you to set a flash frequency in the stroboscope and transmit it as a trigger signal to an external device or machine.<br/><br/><br/>A detailed description of how to use the RT STROBE <strong>pocketLED T</strong> stroboscopes can be found here:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=6XKOCYR44jQ&amp;list=PLCA8883F27B598488\">YouTube Tutorial</a>\n",
+      "vi": "<p>Kết nối RT STROBE <strong>pocketLED T</strong> của bạn với thiết bị hoặc nhà máy cần giám sát thông qua cáp kích hoạt. Chuyển từ kích hoạt nội bộ sang kích hoạt bên ngoài sẽ hiển thị đơn vị 1/phút hoặc Hz thay vì FPM.</p>\n<p>Nhiều tùy chọn đa dạng để điều chỉnh tín hiệu đầu vào trước khi nháy sáng được kích hoạt giúp bạn đảm bảo rằng nháy sáng sẽ được kích hoạt chính xác tại vị trí mong muốn.</p>\n<p>Giao diện kích hoạt được thiết kế như một giao diện kết hợp đầu vào và đầu ra. Đầu ra kích hoạt cho phép bạn thiết lập tần số nháy sáng trong đèn nháy và truyền nó dưới dạng tín hiệu kích hoạt đến thiết bị hoặc máy móc bên ngoài.<br/><br/><br/>Mô tả chi tiết cách sử dụng đèn nháy RT STROBE <strong>pocketLED T</strong> có thể được tìm thấy tại đây:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=6XKOCYR44jQ&amp;list=PLCA8883F27B598488\">Hướng dẫn trên YouTube</a>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A4-3200:</p><ul><li>Portable LED stroboscope RT STROBE pocketLED T - with trigger interface</li><li>Cable with plug for trigger signal </li><li>Operating instructions</li><li>Calibration certificate</li><li>Batteries</li></ul><p> </p>\n",
+      "vi": "<p>A4-3200:</p><ul><li>Đèn hiệu Led di động RT STROBE pocketLED T - có giao diện kích hoạt</li><li>Cáp với phích cắm cho tín hiệu kích hoạt</li><li>Hướng dẫn sử dụng</li><li>Chứng nhận hiệu chuẩn</li><li>Pin</li></ul><p> </p>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "30 ... 300,000 FPM",
+        "Light intensity max.": "4,800 LUX @ 6,000 FPM / 30 cm",
+        "Degree of protection": "IP65 / splash-water protected",
+        "Flash duration": "adjustable",
+        "Material": "Aluminium / ABS, heavy duty design",
+        "Dimensions": "191 x 82 x 60 mm"
+      },
+      "vi": {
+        "Dải tần số": "30 ... 300.000 FPM",
+        "Cường độ ánh sáng tối đa": "4.800 LUX @ 6.000 FPM / 30 cm",
+        "Cấp độ bảo vệ": "IP65 / chống nước bắn",
+        "Thời gian phát xung": "có thể điều chỉnh được",
+        "Vật liệu": "Nhôm / ABS, thiết kế chịu lực cao",
+        "Kích thước": "191 x 82 x 60 mm"
+      }
+    },
+    "images": [
+      "csm_STROBE_pocketLED_LED-Ansicht_572x386px_a67fccf483.jpg",
+      "csm_STROBE_pocketLED_top_572x386px_f67b8e0ab2.jpg",
+      "csm_Textilbranche_270x160px_a3e6e30891.jpg",
+      "csm_STROBE_pocketLED_Trigger_572x386px_12712cb03b.jpg",
+      "csm_STROBE_pocketLED_Trigger_Unterseite_572x386px_28adb93cde.jpg",
+      "csm_STROBE_pocketLED_Koffer_572x386px_e98617bfd8.jpg"
+    ],
+    "docs": [
+      "Brochure_RT_STROBE_pocketLED.pdf",
+      "Folleto_RT_STROBE_pocketLED_es.pdf",
+      "Manual_RT_STROBE_pocketLED.pdf"
+    ],
+    "category": {
+      "en": "Portable stroboscopes LED",
+      "vi": "Đèn nháy LED cầm tay"
+    }
+  },
+  "rt-strobe-pocketled-laser": {
+    "name": {
+      "en": "Portable stroboscope RT STROBE pocketLED LASER",
+      "vi": "Đèn nháy di động RT STROBE pocketLED LASER"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<h3>TWO in ONE – LED Stroboscope and Laser-Tachometer...</h3>\n<p>Within the stroboscope mode, the portable multifunction device RT STROBE <strong>pocketLED LASER </strong>flashes with up to 999,999 flashes per minute and belongs to the best-performing devices of its class. The quartz accuracy ensures absolute flash precision. 6 extremely bright LEDs ensure an exceptional illumination area.<br/><br/>By means of a reflective laser beam, the RT STROBE <strong>pocketLED LASER </strong>offers the possibility to determine the flash rate almost automatically and thus let moving parts appear optically “frozen”. If you only want to measure the revolutions, you can also use the stroboscope as a laser tachometer with disabled flash function.</p>\n<p>A detailed description of how to use the RT STROBE <strong>pocketLED LASER </strong>stroboscopes can be found here:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=eRyreqsXdGE&amp;list=PL3uVYrzesWDLw9s_b5A9H5s4Oo1NLvC17\">YouTube Tutorial</a>\n",
+      "vi": "<h3>ĐỊNH VỊ HAI TRONG MỘT – Đèn LED Nhấp nháy và Máy đo tốc độ Laser...</h3>\n<p>Trong chế độ đèn nhấp nháy, thiết bị đa chức năng di động RT STROBE <strong>pocketLED LASER</strong> phát nháy với tần số lên tới 999.999 lần/phút, thuộc nhóm thiết bị có hiệu suất hàng đầu trong phân khúc. Độ chính xác thạch anh đảm bảo độ chính xác tuyệt đối của từng lần nháy. 6 đèn LED cực sáng đảm bảo phạm vi chiếu sáng tối ưu.<br/><br/>Nhờ tia laser phản xạ, RT STROBE <strong>pocketLED LASER</strong> cung cấp khả năng xác định tần số nhấp nháy gần như tự động, giúp các bộ phận chuyển động được nhìn thấy như đang bị “đóng băng” về mặt quang học. Nếu chỉ cần đo vòng quay, thiết bị cũng có thể được sử dụng như một máy đo tốc độ laser với chức năng nhấp nháy được tắt.</p>\n<p>Mô tả chi tiết cách sử dụng thiết bị RT STROBE <strong>pocketLED LASER</strong> có thể được tìm thấy tại đây:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=eRyreqsXdGE&amp;list=PL3uVYrzesWDLw9s_b5A9H5s4Oo1NLvC17\">Hướng dẫn trên YouTube</a>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A4-3005:</p><ul><li>Portable LED stroboscope RT STROBE pocketLED LASER</li><li>Operating instructions</li><li>Calibration certificate</li><li>Reflective tapes</li><li>Batteries</li><li>Case</li></ul>\n",
+      "vi": "<p>A4-3005:</p><ul><li>Đèn nhấp nháy LED di động RT STROBE pocketLED LASER</li><li>Hướng dẫn sử dụng</li><li>Chứng nhận hiệu chuẩn</li><li>Băng phản quang</li><li>Pin</li><li>Hộp đựng</li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "30 ... 999,999 FPM",
+        "Light intensity max.": "6,500 Lux @ 300 mm (12 inch) / 9,000 Lux @ 200 mm (8 inch)",
+        "Degree of protection": "IP65 / splash-water protected",
+        "Flash duration": "0.025° … 6.000° / 1 … 1,000 μs",
+        "Material": "Aluminium / ABS, heavy duty design",
+        "Dimensions device": "191 x 82 x 60 mm"
+      },
+      "vi": {
+        "Dải tần số": "30 ... 999.999 FPM",
+        "Cường độ ánh sáng tối đa": "6.500 Lux @ 300 mm (12 inch) / 9.000 Lux @ 200 mm (8 inch)",
+        "Cấp độ bảo vệ": "IP65 / chống nước bắn",
+        "Thời gian phát xung": "0,025° … 6,000° / 1 … 1.000 μs",
+        "Vật liệu": "Nhôm / ABS, thiết kế chịu lực cao",
+        "Kích thước thiết bị": "191 x 82 x 60 mm"
+      }
+    },
+    "images": [
+      "csm_STROBE_pocketLED_LASER_572x386px_82878b8f63.jpg",
+      "csm_STROBE_pocketLED_LASER_top_572x386px_27d4ff4d21.jpg",
+      "csm_STROBE_pocketLED_LASER_Unterseite_572x386px_94f69f58cc.jpg",
+      "csm_Textilbranche_270x160px_a3e6e30891.jpg",
+      "csm_STROBE_pocketLED_LASER_Vorderseite_572x386px_eb6569ba19.jpg",
+      "csm_STROBE_pocketLED_LASER_Seitenansicht_572x386px_1b87d1c4f4.jpg",
+      "csm_STROBE_pocketLED_LASER_Trigger_Lieferumfang_572x386px_36e899d5b3.jpg",
+      "csm_STROBE_pocketLED_LASER_LED-Ansicht_572x386px_3040a8fe55.jpg"
+    ],
+    "docs": [
+      "Brochure_RT_STROBE_pocketLED_LASER.pdf",
+      "Manual_RT_STROBE_pocketLED_LASER.pdf",
+      "Quick-Start-Guide_RT_STROBE_pocketLED_LASER.pdf"
+    ],
+    "category": {
+      "en": "Portable stroboscopes LED",
+      "vi": "Đèn nháy LED cầm tay"
+    }
+  },
+  "rt-strobe-pocketled-laser-t": {
+    "name": {
+      "en": "Portable stroboscope RT STROBE pocketLED LASER with Trigger",
+      "vi": "Đèn nháy cầm tay RT STROBE pocketLED LASER với bộ kích hoạt"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>With this version of the multi function device - LED stroboscope and laser-tachometer- you can connect your RT STROBE <strong>pocketLED LASER T</strong> with the device or plant to be monitored via a trigger cable. Switching from internal to external triggering displays the units 1/min or Hz rather than FPM.<br/><br/>A wide variety of options for influencing the input signal before the flash is activated enables you to ensure that the flash will be activated in exactly the right position.<br/><br/>The trigger interface is designed as a combined input and output interface. The trigger output allows you to set a flash frequency in the stroboscope and transmit it as a trigger signal to an external device or machine.</p>\n<p>A detailed description of how to use the RT STROBE <strong>pocketLED LASER T </strong>stroboscopes can be found here:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=eRyreqsXdGE&amp;list=PL3uVYrzesWDLw9s_b5A9H5s4Oo1NLvC17\">YouTube Tutorial</a>\n",
+      "vi": "<p>Với phiên bản thiết bị đa chức năng này - đèn nhấp nháy LED và đồng hồ đo tốc độ laser - bạn có thể kết nối RT STROBE <strong>pocketLED LASER T</strong> với thiết bị hoặc dây chuyền sản xuất cần giám sát thông qua cáp kích hoạt. Việc chuyển đổi từ kích hoạt nội bộ sang kích hoạt bên ngoài sẽ hiển thị các đơn vị 1/phút hoặc Hz thay vì FPM.<br/><br/>Đa dạng các tùy chọn để ảnh hưởng đến tín hiệu đầu vào trước khi đèn nhấp nháy được kích hoạt cho phép bạn đảm bảo đèn nhấp nháy sẽ được kích hoạt chính xác tại vị trí mong muốn.<br/><br/>Giao diện kích hoạt được thiết kế như một giao diện kết hợp giữa đầu vào và đầu ra. Đầu ra kích hoạt cho phép bạn đặt tần số nhấp nháy trên đèn nhấp nháy và truyền tín hiệu kích hoạt đó đến thiết bị hoặc máy móc bên ngoài.</p>\n<p>Mô tả chi tiết về cách sử dụng đèn nhấp nháy RT STROBE <strong>pocketLED LASER T</strong> có thể được tham khảo tại đây:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=eRyreqsXdGE&amp;list=PL3uVYrzesWDLw9s_b5A9H5s4Oo1NLvC17\">Hướng dẫn trên YouTube</a>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A4-3205:</p><ul><li>Portable LED stroboscope RT STROBE pocketLED LASER T - with trigger interface</li><li>Operating instructions</li><li>Cable with plug for trigger signal</li><li>Calibration certificate</li><li>Reflective tapes</li><li>Batteries</li><li>Case</li></ul>\n",
+      "vi": "<p>A4-3205:</p><ul><li>Đèn nháy LED di động RT STROBE pocketLED LASER T - với giao diện kích hoạt</li><li>Hướng dẫn sử dụng</li><li>Cáp có phích cắm cho tín hiệu kích hoạt</li><li>Giấy chứng nhận hiệu chuẩn</li><li>Băng phản quang</li><li>Pin</li><li>Vỏ đựng</li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "30 ... 999,999 FPM",
+        "Light intensity max.": "6,500 Lux @ 300 mm (12 inch) / 9,000 Lux @ 200 mm (8 inch)",
+        "Degree of protection": "IP65 / splash-water protected",
+        "Flash duration": "0.025° … 6.000° / 1 … 1,000 μs",
+        "Material": "Aluminium / ABS, heavy duty design",
+        "Dimensions device": "191 x 82 x 60 mm"
+      },
+      "vi": {
+        "Dải tần số": "30 ... 999.999 FPM",
+        "Cường độ ánh sáng tối đa": "6.500 Lux @ 300 mm (12 inch) / 9.000 Lux @ 200 mm (8 inch)",
+        "Cấp độ bảo vệ": "IP65 / chống nước bắn",
+        "Thời gian phát xung": "0,025° … 6,000° / 1 … 1.000 μs",
+        "Vật liệu": "Nhôm / ABS, thiết kế chịu lực cao",
+        "Kích thước thiết bị": "191 x 82 x 60 mm"
+      }
+    },
+    "images": [
+      "csm_STROBE_pocketLED_LASER_top_572x386px_27d4ff4d21.jpg",
+      "csm_STROBE_pocketLED_LASER_Trigger_572x386px_22c1fcbcbc.jpg",
+      "csm_Textilbranche_270x160px_a3e6e30891.jpg",
+      "csm_STROBE_pocketLED_LASER_Lieferumfang_572x386px_d3fea3b102.jpg",
+      "csm_STROBE_pocketLED_LASER_Trigger_Unterseite_572x386px_5e3fcfd3b0.jpg",
+      "csm_STROBE_pocketLED_LASER_LED-Ansicht_572x386px_3040a8fe55.jpg"
+    ],
+    "docs": [
+      "Brochure_RT_STROBE_pocketLED_LASER.pdf",
+      "Manual_RT_STROBE_pocketLED_LASER.pdf",
+      "Quick-Start-Guide_RT_STROBE_pocketLED_LASER.pdf"
+    ],
+    "category": {
+      "en": "Portable stroboscopes LED",
+      "vi": "Đèn nháy LED cầm tay"
+    }
+  },
+  "rt-strobe-qbled": {
+    "name": {
+      "en": "Portable stroboscope RT STROBE qbLED",
+      "vi": "Đèn nháy cầm tay RT STROBE qbLED"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>The extremely bright, hand-held stroboscopes comprising the RT STROBE <strong>qbLED</strong> range are unrivalled in terms of brightness, operation and technology.</p>\n<p>These extremely robust and precise hand-held stroboscopes are used to conduct measurements in difficult industrial environments and are specifically designed for maintenance work / commissioning and inspections.</p>\n<p>By using the knurled wheel, all standard settings, such as the flash sequence, can be adjusted quickly and easily without any prior in-depth knowledge, so that you can begin your maintenance work immediately. If your requirements are more specialised and very specific measurements, for example, call for a time-delayed flash or slow motion effects, you can activate these settings in the pro mode, which is specially designated for these. The phase-shift for position adjustments can also be easily set in this mode.</p>\n<p>The portable stroboscope RT STROBE qbLED is also available as stationary version: <a class=\"arrow-before\" href=\"/en/products/stationary-stroboscopes/led/rt-strobe-qbleds\" title=\"RT STROBE qbLEDs\"><u>RT STROBE qbLEDs</u></a>.</p>\n<p>A detailed description of how to use the RT STROBE <strong>qbLED</strong> stroboscopes can be found here:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=7Y0JCdTqCWs&amp;list=PL3uVYrzesWDIxd-45sr5mHujTheRdsNJI\">YouTube Tutorial</a>\n",
+      "vi": "<p>Đèn nháy cầm tay với độ sáng cực cao thuộc dòng RT STROBE <strong>qbLED</strong> không đối thủ về độ sáng, vận hành và công nghệ.</p>\n<p>Những đèn nháy cầm tay cực kỳ bền bỉ và chính xác này được sử dụng để thực hiện các phép đo trong môi trường công nghiệp khắc nghiệt và được thiết kế chuyên biệt cho công tác bảo trì / vận hành và kiểm tra.</p>\n<p>Bằng cách sử dụng bánh xe có gai, tất cả các thiết lập tiêu chuẩn, chẳng hạn như chuỗi đèn nháy, có thể được điều chỉnh nhanh chóng và dễ dàng mà không cần kiến thức chuyên sâu trước đó, giúp bạn có thể bắt đầu công việc bảo trì ngay lập tức. Nếu yêu cầu của bạn chuyên biệt hơn và đòi hỏi các phép đo rất cụ thể, ví dụ như cần hiệu ứng nháy trễ hoặc chuyển động chậm, bạn có thể kích hoạt các thiết lập này ở chế độ chuyên nghiệp (pro mode), được thiết kế đặc biệt cho các tình huống này. Độ lệch pha để điều chỉnh vị trí cũng có thể được thiết lập dễ dàng trong chế độ này.</p>\n<p>Đèn nháy cầm tay RT STROBE qbLED cũng có phiên bản cố định: <a class=\"arrow-before\" href=\"/en/products/stationary-stroboscopes/led/rt-strobe-qbleds\" title=\"RT STROBE qbLEDs\"><u>RT STROBE qbLEDs</u></a>.</p>\n<p>Mô tả chi tiết cách sử dụng đèn nháy RT STROBE <strong>qbLED</strong> có thể được tìm thấy tại đây:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=7Y0JCdTqCWs&amp;list=PL3uVYrzesWDIxd-45sr5mHujTheRdsNJI\">Hướng dẫn trên YouTube</a>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A4-3500:</p><ul><li>Stroboscope RT STROBE qbLED</li><li>Operating instructions</li><li>Calibration certificate</li><li>Charger with connector set</li><li>1 DIN plug 5-pin for trigger input and/or power</li><li>Handle</li><li>Case</li></ul><p> </p>\n",
+      "vi": "<p>A4-3500:</p><ul><li>Đèn nhấp nháy RT STROBE qbLED</li><li>Hướng dẫn sử dụng</li><li>Giấy chứng nhận hiệu chuẩn</li><li>Bộ sạc kèm bộ đầu nối</li><li>1 phích cắm DIN 5 chân cho đầu vào kích hoạt và/hoặc nguồn điện</li><li>Tay cầm</li><li>Hộp đựng</li></ul><p> </p>"
+    },
+    "technical_data": {
+      "en": {
+        "Number of LEDs": "40",
+        "Frequency range": "30 ... 300,000 FPM",
+        "Light intensity max.": "1,750 LUX @ 1° / 30 cm",
+        "Flash duration": "adjustable",
+        "Power supply": "Integrated Lithium-ion batteries for up to 7 hours continuous use"
+      },
+      "vi": {
+        "Số lượng LED": "40",
+        "Dải tần số": "30 ... 300.000 FPM",
+        "Cường độ ánh sáng tối đa": "1,750 LUX @ 1° / 30 cm",
+        "Thời gian phát xung": "có thể điều chỉnh được",
+        "Nguồn cấp": "Pin Lithium-ion tích hợp cho thời gian sử dụng liên tục lên đến 7 giờ"
+      }
+    },
+    "images": [
+      "csm_STROBE_qbLED_Lieferumfang_2016_572x386px_4f7fcc0a81.jpg",
+      "csm_STROBE_qbLED_Vorderseite_572x386px_3b8d0690e2.jpg",
+      "csm_Textilbranche_270x160px_a3e6e30891.jpg",
+      "csm_STROBE_qbLED_Anschluesse_572x386px_8fcff41a92.jpg",
+      "csm_STROBE_qbLED_572x386px_50157403e4.jpg"
+    ],
+    "docs": [
+      "Brochure_RT_STROBE_qbLED.pdf",
+      "Folleto_RT_STROBE_qbLED_es.pdf",
+      "Quick-Start-Guide_RT_STROBE_qbLED.pdf",
+      "Manual_RT_STROBE_qbLED.pdf"
+    ],
+    "category": {
+      "en": "Portable stroboscopes LED",
+      "vi": "Đèn nháy LED cầm tay"
+    }
+  },
+  "rt-strobe-super-qbled": {
+    "name": {
+      "en": "Portable stroboscope RT STROBE super qbLED",
+      "vi": "Đèn nháy cầm tay RT STROBE super qbLED"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>The RT STROBE <strong>super qbLED</strong> version with its very robust, impact-resistant plastic housing, constitutes a world-first. 118 long-life, high-performance LEDs ensure an exceptional illumination area. It is the first measuring device of its kind to be equipped with an auto-sync laser function. This allows for the synchronisation frequency to be determined very quickly, without manual adjustment or external sensor signals. Furthermore, the additionally generated value guarantees absolute measuring certainty.</p>\n<p>In order to make use of the laser function you first need to apply a reflective mark on the object to be measured. Point the stroboscope to the rotating object. The rotational speed is measured with the help of the laser beam’s reflection.</p>\n<p>The knobs allow the user to easily adjust the flash sequence, phase-shift, brightness or delay time between flash and trigger signal.<br/><br/><br/>A detailed description of how to use the RT STROBE <strong>super qbLED</strong> stroboscopes can be found here:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=cYtH08uCqfk&amp;list=PL3uVYrzesWDIwR8tOHMpbSrNLI9PI4u0j\">YouTube Tutorial</a>\n",
+      "vi": "<p>Phiên bản RT STROBE <strong>super qbLED</strong> với vỏ nhựa rất bền, chịu va đập cao, là sản phẩm tiên phong trên thế giới. 118 đèn LED hiệu suất cao và tuổi thọ dài đảm bảo vùng chiếu sáng vượt trội. Đây là thiết bị đo đầu tiên thuộc loại này được trang bị chức năng laser tự động đồng bộ. Điều này cho phép xác định tần số đồng bộ hóa một cách nhanh chóng, mà không cần điều chỉnh thủ công hoặc tín hiệu cảm biến bên ngoài. Hơn nữa, giá trị được tạo thêm đảm bảo độ chính xác đo lường tuyệt đối.</p>\n<p>Để sử dụng chức năng laser, trước tiên cần đặt một dấu phản xạ trên đối tượng cần đo. Hướng stroboscope về phía đối tượng quay. Tốc độ quay được đo bằng cách sử dụng phản xạ của chùm tia laser.</p>\n<p>Các núm điều khiển cho phép người dùng dễ dàng điều chỉnh chuỗi phát sáng, pha trễ, độ sáng hoặc thời gian trễ giữa tín hiệu phát sáng và tín hiệu kích hoạt.<br/><br/><br/>Hướng dẫn chi tiết cách sử dụng stroboscope RT STROBE <strong>super qbLED</strong> có thể được tìm thấy tại đây:</p>\n<a class=\"btn btn-third-arrow btn-orange\" href=\"https://www.youtube.com/watch?v=cYtH08uCqfk&amp;list=PL3uVYrzesWDIwR8tOHMpbSrNLI9PI4u0j\">YouTube Tutorial</a>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A4-3550:</p><ul><li>Stroboscope RT STROBE qbLED</li><li>Operating instructions</li><li>Calibration certificate</li><li>Charger with connector set </li><li>1 DIN plug 5-pin for trigger input and/or power</li><li>Reflective tapes</li><li>Handle</li><li>Case</li></ul><p> </p>\n",
+      "vi": "<p>A4-3550:</p><ul><li>Đèn nhấp nháy RT STROBE qbLED</li><li>Hướng dẫn vận hành</li><li>Chứng nhận hiệu chuẩn</li><li>Bộ sạc kèm bộ kết nối</li><li>Cắm DIN 5 chân cho đầu vào kích hoạt và/hoặc nguồn</li><li>Băng phản quang</li><li>Tay cầm</li><li>Hộp đựng</li></ul><p> </p>"
+    },
+    "technical_data": {
+      "en": {
+        "Number of LEDs": "118",
+        "Frequency range": "30 ... 300,000 FPM",
+        "Light intensity max.": "6,500 LUX @ 1° / 30 cm",
+        "Flash duration": "adjustable",
+        "Power supply": "Integrated lithium-ion batteries for up to 7 hours continuous use"
+      },
+      "vi": {
+        "Số lượng LED": "118",
+        "Dải tần số": "30 ... 300.000 FPM",
+        "Cường độ ánh sáng tối đa": "6.500 LUX @ 1° / 30 cm",
+        "Thời gian phát xung": "có thể điều chỉnh được",
+        "Nguồn cấp": "Pin lithium-ion tích hợp cho thời gian sử dụng liên tục lên đến 7 giờ"
+      }
+    },
+    "images": [
+      "csm_STROBE_qbLED_Lieferumfang_2016_572x386px_4f7fcc0a81.jpg",
+      "csm_STROBE_super_qbLED_Anschluesse_572x386px_645572ca17.jpg",
+      "csm_Textilbranche_270x160px_a3e6e30891.jpg",
+      "csm_STROBE_super_qbLED_Vorderseite_572x386px_43ff680d9e.jpg",
+      "csm_STROBE_super_qbLED_572x386px_e0bc071c11.jpg"
+    ],
+    "docs": [
+      "Brochure_RT_STROBE_qbLED.pdf",
+      "Folleto_RT_STROBE_qbLED_es.pdf",
+      "Quick-Start-Guide_RT_STROBE_qbLED.pdf",
+      "Manual_RT_STROBE_qbLED.pdf"
+    ],
+    "category": {
+      "en": "Portable stroboscopes LED",
+      "vi": "Đèn nháy LED cầm tay"
+    }
+  },
+  "rt-strobe-pocket-rolux": {
+    "name": {
+      "en": "Portable stroboscope RT STROBE pocket rolux",
+      "vi": "Đèn chớp cầm tay RT STROBE pocket rolux"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>The hand-held stroboscope <strong>rolux</strong> is ideal for proximity rotational speed measurement of plants and machinery, as well as for observing moving parts in operation.</p>\n<p>Adjust the flash sequence so that the object appears stationary to the human eye, and you can then read the speed or frequency of movement from the LCD on the rolux.</p>\n<p>The device registers speeds and oscillation frequencies during operation at poorly accessible or particularly sensitive points. It can also be used to observe fast, recurring sequences of movement. Example applications of the device include observations of fan blade deformation, the position of a toothed belt under load, mechanical movements on packaging and filling machines or the separation of substances in a centrifuge. These are just a few illustrations of its huge range of uses in this field.</p>\n<p>All settings on the very robust industrial stroboscope can be made quickly and easily using the large knurled wheel.</p>\n",
+      "vi": "<p>Thiết bị stroboscope cầm tay <strong>rolux</strong> lý tưởng cho việc đo tốc độ quay gần các nhà máy và máy móc, cũng như quan sát các bộ phận chuyển động khi vận hành.</p>\n<p>Điều chỉnh chuỗi nhấp nháy sao cho vật thể hiện ra đứng yên với mắt người, sau đó bạn có thể đọc tốc độ hoặc tần số chuyển động từ màn hình LCD trên rolux.</p>\n<p>Thiết bị ghi nhận tốc độ và tần số dao động trong quá trình vận hành tại các điểm khó tiếp cận hoặc đặc biệt nhạy cảm. Nó cũng có thể được sử dụng để quan sát các chuỗi chuyển động nhanh và lặp lại. Các ứng dụng ví dụ của thiết bị bao gồm quan sát biến dạng cánh quạt, vị trí của dây đai răng dưới tải, các chuyển động cơ học trên máy đóng gói và máy chiết rót hoặc quá trình tách chất trong máy ly tâm. Đây chỉ là một số ví dụ minh họa cho phạm vi sử dụng rộng lớn của nó trong lĩnh vực này.</p>\n<p>Tất cả các thiết lập trên stroboscope công nghiệp rất chắc chắn này có thể được thực hiện nhanh chóng và dễ dàng nhờ vào bánh xe cắt lớn.</p>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<p>A4-2000:</p><ul><li>Portable XENON stroboscope rolux</li><li>Operating instructions</li><li>Trigger plug</li><li>Test certificate</li><li>Battery charger with adapters for different countries</li></ul>\n",
+      "vi": "<p>A4-2000:</p><ul><li>Đèn nháy XENON di động rolux</li><li>Hướng dẫn vận hành</li><li>Phích cắm kích hoạt</li><li>Chứng nhận kiểm tra</li><li>Bộ sạc pin kèm đầu chuyển đổi cho các quốc gia khác nhau</li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "30 ... 12,500 FPM",
+        "Light intensity max.": "1,200 LUX @ 4,500 FPM / 20 cm",
+        "Blitzdauer": "< 9 µs",
+        "Power supply": "Lithium-ion battery pack",
+        "Material": "ABS"
+      },
+      "vi": {
+        "Dải tần số": "30 ... 12.500 FPM",
+        "Cường độ ánh sáng tối đa": "1.200 LUX @ 4.500 FPM / 20 cm",
+        "Thời gian đo bức xạ": "< 9 µs",
+        "Nguồn cấp": "Bộ pin lithium-ion",
+        "Vật liệu": "ABS"
+      }
+    },
+    "images": [
+      "csm_STROBE_ROLUX_572x386px_bbecfea316.jpg",
+      "csm_Textilbranche_270x160px_a3e6e30891.jpg",
+      "csm_STROBE_ROLUX_Koffer_572x386px_3822705f96.jpg",
+      "csm_STROBE_ROLUX_Lieferumfang_572x386px_aa449bcc8b.jpg"
+    ],
+    "docs": [
+      "Folleto_RT_STROBE_rolux_es.pdf",
+      "Brochure_RT_STROBE_rolux.pdf",
+      "Manual_RT_STROBE_rolux.pdf"
+    ],
+    "category": {
+      "en": "Portable stroboscopes XENON",
+      "vi": "Đèn nháy cầm tay XENON"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "brand": {
+    "name": "Rheintacho Việt Nam"
+  },
+  "view": "View details <i class='bi bi-arrow-right'></i>",
+  "home": "Home",
+  "categories": "Categories",
+  "applications": "Applications",
+  "information": "Information",
+  "contact": "Contact",
+  "contact_us": "Contact us",
+  "category": {
+    "rotational": {
+      "title": "Rotational speed sensors",
+      "desc": "Deliver precise and reliable speed measurement – built for demanding industrial environments."
+    },
+    "stationary": {
+      "title": "Stationary stroboscopes",
+      "desc": "Non-contact speed measurement for continuous operations – safe, accurate, and efficient."
+    },
+    "portable": {
+      "title": "Portable stroboscopes",
+      "desc": "Flexible handheld solution for fast inspection anytime, anywhere on-site."
+    },
+    "hand": {
+      "title": "Digital hand-tachometers",
+      "desc": "Quick, easy, and accurate speed measurement – ideal for field technicians."
+    },
+    "other": {
+      "title": "Other products",
+      "desc": "Comprehensive measurement solutions to meet a wide range of industrial needs."
+    },
+    "accessories": {
+      "title": "Accessories and spare parts",
+      "desc": "Genuine parts to maximize performance and ensure long-term reliability."
+    }
+  },
+  "application": {
+    "motor": "Motor Speed Measurement",
+    "turbine": "Turbine Speed Monitoring",
+    "pump": "Pump Speed Monitoring",
+    "conveyor": "Conveyor Speed Measurement",
+    "rotating": "Rotating Machinery Monitoring"
+  },
+  "info": {
+    "tachometer": "What is a Tachometer?",
+    "rpm": "What is RPM?",
+    "measure": "How to measure motor speed",
+    "stroboscope": "What is Stroboscope?",
+    "contact": "Contact vs Non Contact Tachometer"
+  },
+  "subscribe": {
+    "placeholder": "Enter email",
+    "button": "subscribe"
+  },
+  "copyright": "Copyright © 2026 Fast Group Engineering",
+  "zalo": "Get a quote quickly! Contact us",
+  "address": {
+    "hq_title": "Main headquarter",
+    "office_title": "Office HCM",
+    "hq": "Main headquarter: 150/41 Nguyen Cu Trinh, Cau Ong Lanh Ward, Ho Chi Minh City",
+    "office": "Office HCM: 51 Le Van Loc, Vung Tau Ward, Ho Chi Minh City"
+  },
+  "commitment": {
+    "title": "Our Commitment",
+    "features": {
+      "genuine": "100% Genuine Products",
+      "vat": "Full VAT Invoice Support",
+      "support": "Dedicated Technical Support",
+      "delivery": "Fast & Reliable Delivery"
+    },
+    "about": {
+      "p1": "Fast Group Engineering is a trusted supplier of industrial technical equipment for industries such as Oil & Gas, power generation, and manufacturing in Vietnam.",
+      "p2": "As the official representative of Rheintacho (Germany), we provide high-precision speed measurement devices, sensors, and machine monitoring solutions.",
+      "p3": "Beyond supplying products, we support our customers with expert consultation, system optimization, and reliable long-term partnership."
+    }
+  },
+  "carousel": {
+    "slide1": {
+      "title": "RHEINTACHO",
+      "subtitle": "German Precision Measurement Technology",
+      "desc": "Rheintacho is a leading German manufacturer specializing in rotational speed measurement and monitoring solutions. With decades of engineering experience, the company delivers high-precision instruments trusted by industries worldwide."
+    },
+    "slide2": {
+      "title": "Advanced Speed Measurement",
+      "subtitle": "Reliable Monitoring for Industrial Systems",
+      "desc": "Rheintacho develops advanced tachometers, speed sensors, and stroboscopes designed for accurate rotational speed measurement and machine diagnostics. These solutions help improve reliability, efficiency, and predictive maintenance in modern industrial environments."
+    },
+    "slide3": {
+      "title": "Industrial Applications",
+      "subtitle": "Trusted by Global Industries",
+      "desc": "Rheintacho solutions are widely used in industries such as power generation, oil & gas, manufacturing, transportation, and machine building. Their products provide accurate speed monitoring and condition diagnostics for rotating equipment."
+    }
+  },
+  "not_found": "No products found",
+  "technical_data": "Technical data",
+  "scope_of_delivery": "Scope of delivery",
+  "documents": "Documents",
+  "products": "Products"
+}

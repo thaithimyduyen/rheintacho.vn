@@ -1,0 +1,200 @@
+{
+  "dc": {
+    "name": {
+      "en": "Rotational speed monitor rotas with DC/DC converter",
+      "vi": "Bộ giám sát tốc độ quay Rotas với bộ chuyển đổi DC/DC"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>The rotational speed monitor <strong>rotas</strong> takes on an important role in complex systems. Working independently, it takes the load off the higher level control system. If problems occur, it triggers an alarm function via its relay outputs.</p>\n<p>In shipping applications, the rotas  acts as a secondary safety circuit to shut down the engines in emergencies.</p>\n<p><strong>Please note that there are no valid type approvals from classification societies for these devices.</strong></p>\n",
+      "vi": "<p>Bộ giám sát tốc độ quay <strong>rotas</strong> đóng vai trò quan trọng trong các hệ thống phức tạp. Hoạt động độc lập, nó giảm tải cho hệ thống điều khiển cấp cao hơn. Nếu xảy ra sự cố, nó sẽ kích hoạt chức năng báo động thông qua các ngõ ra rơle của mình.</p>\n<p>Trong các ứng dụng hàng hải, rotas hoạt động như một mạch an toàn phụ để tắt động cơ trong các trường hợp khẩn cấp.</p>\n<p><strong>Xin lưu ý rằng không có chứng nhận kiểu hợp lệ từ các hội phân cấp cho các thiết bị này.</strong></p>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<figure class=\"table\"><table class=\"contenttable\"><tbody><tr><td><strong>Part-No.</strong></td><td><strong>Type</strong></td><td><strong>Description</strong></td></tr><tr><td>5813.100    </td><td>CR     </td><td>Speed monitor with one relay, without analog output</td></tr><tr><td>5813.200</td><td>CRR    </td><td>Speed monitor with two relay, without analog output</td></tr><tr><td>5823.100</td><td>CRA</td><td>Speed monitor with one relay, with analog output</td></tr><tr><td>5823.200</td><td>CRRA</td><td>Speed monitor with two relay, with analog output</td></tr><tr><td> </td><td> </td><td> </td></tr></tbody></table></figure><p>Some of these products are discontinued and no longer available. </p>\n",
+      "vi": "<figure class=\"table\"><table class=\"contenttable\"><tbody><tr><td><strong>Mã số</strong></td><td><strong>Loại</strong></td><td><strong>Mô tả</strong></td></tr><tr><td>5813.100    </td><td>CR     </td><td>Bộ giám sát tốc độ với một rơle, không có đầu ra analog</td></tr><tr><td>5813.200</td><td>CRR    </td><td>Bộ giám sát tốc độ với hai rơle, không có đầu ra analog</td></tr><tr><td>5823.100</td><td>CRA</td><td>Bộ giám sát tốc độ với một rơle, có đầu ra analog</td></tr><tr><td>5823.200</td><td>CRRA</td><td>Bộ giám sát tốc độ với hai rơle, có đầu ra analog</td></tr><tr><td> </td><td> </td><td> </td></tr></tbody></table></figure><p>Một số sản phẩm trong danh sách này đã ngừng sản xuất và không còn sẵn có.</p>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "0.01 ... 20,000 Hz",
+        "Voltage / Current": "10 ... 36 VDC / <120 mA",
+        "Trigger level": "adjustable",
+        "Pulse duration min.": "20 µs",
+        "Safety-oriented analysis": "on request"
+      },
+      "vi": {
+        "Dải tần số": "0,01 ... 20.000 Hz",
+        "Điện áp / Dòng điện": "10 ... 36 VDC / <120 mA",
+        "Mức kích hoạt": "có thể điều chỉnh được",
+        "Thời gian xung tối thiểu.": "20 µs",
+        "Phân tích hướng đến an toàn": "theo yêu cầu"
+      }
+    },
+    "images": [
+      "csm_Teaser_Anwendungen_Windenergie_270x160px_359bc18acc.jpg",
+      "csm_Drehzahlwaechter_Rotas_neutral_572x386px_b3abbb9c1d.jpg",
+      "csm_Teaser_Anwendungen_Grossmotoren_270x160px_53fc9eeb4c.jpg"
+    ],
+    "docs": [
+      "Manual_Speed-Monitor_rotas.pdf",
+      "Brochure_RT_Rotas_Speed-Monitor_Sept.2024.pdf"
+    ],
+    "category": {
+      "en": "Rotas DC",
+      "vi": "Rotas DC"
+    }
+  },
+  "rotas": {
+    "name": {
+      "en": "Rotational speed monitor rotas",
+      "vi": "Bộ giám sát tốc độ quay rotas"
+    },
+    "applications": [],
+    "features": [
+      "Variable input for pulse and sine wave signals of 0.01 Hz to 20,000 Hz",
+      "15 different units of measurement",
+      "LC-display",
+      "Simple operation using 6 buttons",
+      "Two independent relays (change-over)",
+      "Freely programmable relay switching",
+      "Programmable switching hysteresis",
+      "Overspeed and underspeed monitoring",
+      "Start-up override and switch-back delay",
+      "Optional version with scalable analog output",
+      "Pre-programmed or delivered for free parameter setting"
+    ],
+    "description": {
+      "en": "\n<p>Features of the rotational speed monitor <strong>rotas</strong>:</p><ul><li>Variable input for pulse and sine wave signals of 0.01 Hz to 20,000 Hz</li><li>15 different units of measurement</li><li>LC-display</li><li>Simple operation using 6 buttons</li><li>Two independent relays (change-over)</li><li>Freely programmable relay switching</li><li>Programmable switching hysteresis</li><li>Overspeed and underspeed monitoring</li><li>Start-up override and switch-back delay</li><li>Optional version with scalable analog output</li><li>Pre-programmed or delivered for free parameter setting</li></ul>\n",
+      "vi": "<p>Tính năng của bộ giám sát tốc độ quay <strong>rotas</strong>:</p><ul><li>Đầu vào biến đổi cho tín hiệu xung và sóng sin từ 0,01 Hz đến 20.000 Hz</li><li>15 đơn vị đo lường khác nhau</li><li>Màn hình LC</li><li>Vận hành đơn giản với 6 nút bấm</li><li>Hai rơ-le độc lập (chuyển đổi tiếp điểm)</li><li>Rơ-le chuyển mạch lập trình tự do</li><li>Độ trễ chuyển mạch có thể lập trình</li><li>Giám sát tốc độ quá cao và tốc độ quá thấp</li><li>Bỏ qua khởi động và trì hoãn chuyển đổi trở lại</li><li>Phiên bản tùy chọn với đầu ra analog có thể điều chỉnh tỷ lệ</li><li>Được lập trình sẵn hoặc giao hàng để người dùng thiết lập tham số miễn phí</li></ul>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<figure class=\"table\"><table class=\"contenttable\"><tbody><tr><td><strong>Part-No.</strong></td><td><strong>Type</strong></td><td><strong>Description</strong></td></tr><tr><td>5810.100    </td><td>CR     </td><td>Speed monitor with one relay, without analog output</td></tr><tr><td>5810.200</td><td>CRR    </td><td>Speed monitor with tworelay, without analog output</td></tr><tr><td>5820.100</td><td>CRA</td><td>Speed monitor with one relay, with analog output</td></tr><tr><td>5820.200</td><td>CRRA</td><td>Speed monitor with two relay, with analog output</td></tr><tr><td> </td><td> </td><td> </td></tr></tbody></table></figure><p>Some of these products are discontinued and no longer available. </p>\n",
+      "vi": "<figure class=\"table\"><table class=\"contenttable\"><tbody><tr><td><strong>Mã Sản Phẩm</strong></td><td><strong>Loại</strong></td><td><strong>Mô Tả</strong></td></tr><tr><td>5810.100    </td><td>CR     </td><td>Bộ giám sát tốc độ với một rơ le, không có đầu ra analog</td></tr><tr><td>5810.200</td><td>CRR    </td><td>Bộ giám sát tốc độ với hai rơ le, không có đầu ra analog</td></tr><tr><td>5820.100</td><td>CRA</td><td>Bộ giám sát tốc độ với một rơ le, có đầu ra analog</td></tr><tr><td>5820.200</td><td>CRRA</td><td>Bộ giám sát tốc độ với hai rơ le, có đầu ra analog</td></tr><tr><td> </td><td> </td><td> </td></tr></tbody></table></figure><p>Một số sản phẩm này đã ngừng sản xuất và không còn cung cấp.</p>"
+    },
+    "technical_data": {
+      "en": {
+        "Frequency range": "0.01 ... 20,000 Hz",
+        "Voltage / Current": "18 ... 36 VDC / <160 mA",
+        "Trigger level": "adjustable",
+        "Pulse duration min.": "20 µs",
+        "Safety-oriented analysis": "on request"
+      },
+      "vi": {
+        "Dải tần số": "0,01 ... 20.000 Hz",
+        "Điện áp / Dòng điện": "18 ... 36 VDC / <160 mA",
+        "Mức kích hoạt": "có thể điều chỉnh được",
+        "Thời gian xung tối thiểu.": "20 µs",
+        "Phân tích hướng đến an toàn": "theo yêu cầu"
+      }
+    },
+    "images": [
+      "csm_Teaser_Anwendungen_Windenergie_270x160px_359bc18acc.jpg",
+      "csm_Drehzahlwaechter_Rotas_572x386px_d7f0550570.jpg",
+      "csm_Teaser_Anwendungen_Grossmotoren_270x160px_53fc9eeb4c.jpg"
+    ],
+    "docs": [
+      "Manual_Speed-Monitor_rotas.pdf",
+      "Brochure_RT_Rotas_Speed-Monitor_Sept.2024.pdf"
+    ],
+    "category": {
+      "en": "Rotas",
+      "vi": "Rotas"
+    }
+  },
+  "circle-housing": {
+    "name": {
+      "en": "LED indicators - Circle housing",
+      "vi": "Đèn báo LED - Vỏ hình tròn"
+    },
+    "applications": [
+      "Circle housing (Ø 100 mm)",
+      "Different signal inputs",
+      "Adjustable",
+      "Designed for high vibration resistance"
+    ],
+    "features": [
+      "Circle housing (Ø 100 mm)",
+      "Different signal inputs",
+      "Adjustable",
+      "Designed for high vibration resistance"
+    ],
+    "description": {
+      "en": "\n<p>Applications:</p>\n<p>The LED indicator controlled by a micro controller is specially designed for “quasi-analogue” displaying of measured data on machines and equipment with high requirements on vibration resistance.</p>\n<p><br/>Features:</p><ul><li>Circle housing (Ø 100 mm)</li><li>Different signal inputs</li><li>Adjustable</li><li>Designed for high vibration resistance</li></ul><p> </p>\n",
+      "vi": "<p>Ứng dụng:</p>\n<p>Đèn LED báo hiệu được điều khiển bởi bộ vi điều khiển được thiết kế đặc biệt cho việc hiển thị “bán tương tự” dữ liệu đo trên các máy móc và thiết bị với yêu cầu cao về khả năng chống rung.</p>\n<p><br/>Tính năng:</p>\n<ul>\n<li>Vỏ hình tròn (Ø 100 mm)</li>\n<li>Nhiều đầu vào tín hiệu khác nhau</li>\n<li>Có thể điều chỉnh</li>\n<li>Thiết kế cho khả năng chống rung cao</li>\n</ul>\n<p> </p>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<ul><li>LED indicator 584 (for exact type number, please refer to the datasheet)</li></ul>\n",
+      "vi": "<ul><li>Đèn LED báo hiệu 584 (để biết số loại chính xác, vui lòng tham khảo bảng dữ liệu)</li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Power supply": "10 VDC ... 35 VDC",
+        "Frequency input max.": "20 kHz",
+        "Frequency transmitter": "NPN, PNP, Sine",
+        "Voltage input": "0 VDC ... 10 VDC",
+        "Current input": "0 mA ... 20 mA / 4 mA ... 20 mA",
+        "Indication accuracy": "> 1.5 %"
+      },
+      "vi": {
+        "Nguồn cấp": "10 VDC ... 35 VDC",
+        "Tần số đầu vào tối đa.": "20 kHz",
+        "Máy phát tần số": "NPN, PNP, Sóng Sin",
+        "Điện áp đầu vào": "0 VDC ... 10 VDC",
+        "Đầu vào hiện tại": "0 mA ... 20 mA / 4 mA ... 20 mA",
+        "Độ chính xác chỉ định": "> 1,5 %"
+      }
+    },
+    "images": [
+      "csm_LED-Anzeiger_rund_572x386px_68cfabb56c.jpg"
+    ],
+    "docs": [
+      "Datasheet_LED-Band_Anzeiger_band_indicator_Rev.F.pdf"
+    ],
+    "category": {
+      "en": "Led Indicators",
+      "vi": "Đèn báo LED"
+    }
+  },
+  "ac-dc-power-pack": {
+    "name": {
+      "en": "AC-DC power pack",
+      "vi": "Bộ nguồn AC-DC"
+    },
+    "applications": [],
+    "features": [],
+    "description": {
+      "en": "\n<p>The RHEINTACHO power pack is characterized by its universal application and its compact design in a DIN rail housing. It has been developed for industrial use and provides the power supply for RHEINTACHO sensors.</p>\n<p>The AC-DC power pack provides a constant output voltage of 24 VDC at 30 W and up to 1250 mA. The input voltage range is 90 to 265 VAC.</p>\n<p>The output voltage can be adjusted up or down by 15 % using a potentiometer to suit the application.</p>\n<p> </p>\n",
+      "vi": "<p>Bộ nguồn RHEINTACHO được đặc trưng bởi tính ứng dụng đa năng và thiết kế nhỏ gọn trong vỏ DIN rail. Nó được phát triển cho sử dụng công nghiệp và cung cấp nguồn điện cho các cảm biến của RHEINTACHO.</p>\n<p>Bộ nguồn AC-DC cung cấp điện áp đầu ra ổn định 24 VDC tại công suất 30 W và dòng lên đến 1250 mA. Dải điện áp đầu vào từ 90 đến 265 VAC.</p>\n<p>Điện áp đầu ra có thể được điều chỉnh tăng hoặc giảm 15% bằng cách sử dụng một biến trở để phù hợp với ứng dụng.</p>\n<p> </p>"
+    },
+    "scope_of_delivery": {
+      "en": "\n<ul><li><p>AC-DC power pack (Part-Number: N0000.788)</p><p> </p></li></ul>\n",
+      "vi": "<ul><li><p>Bộ nguồn AC-DC (Mã phụ tùng: N0000.788)</p><p> </p></li></ul>"
+    },
+    "technical_data": {
+      "en": {
+        "Mains voltage": "90 VAC ... 265 VAC",
+        "Frequency": "47 Hz ... 63 Hz",
+        "High efficiency": "84 %",
+        "Short-circuit protection": "Yes",
+        "Certificates": "UL, CE"
+      },
+      "vi": {
+        "Điện áp lưới": "90 VAC ... 265 VAC",
+        "Tần số": "47 Hz ... 63 Hz",
+        "Hiệu suất cao": "84 %",
+        "Bảo vệ ngắn mạch": "Vâng",
+        "Chứng chỉ": "UL, CE"
+      }
+    },
+    "images": [
+      "csm_Netzteil_N0000.788_572x386px_83b5ca58e7.jpg"
+    ],
+    "docs": [
+      "Datasheet_AC-DC-Power_Pack.pdf"
+    ],
+    "category": {
+      "en": "Power Pack",
+      "vi": "Gói Năng Lượng"
+    }
+  }
+}
