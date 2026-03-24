@@ -177,6 +177,7 @@ span#fcta-zalo-tracking {
     }
 }
 
+
 .breadcrumb a {
     text-decoration: none;
     color: #695aa0;
@@ -186,9 +187,6 @@ span#fcta-zalo-tracking {
     text-decoration: underline;
 }
 
-.nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-}
 
 #spinner {
     opacity: 0;
@@ -204,7 +202,109 @@ span#fcta-zalo-tracking {
 }
 
 .lang-btn.active {
-    background-color: #695aa0;
+    background-color: #F58220;
     color: #fff;
-    border-color: #695aa0;
+    border-color: #F58220;
+}
+
+.dropdown-menu {
+    border-radius: 10px;
+    padding: 10px 0;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background: #f5f5f5;
+    color: #6f42c1;
+}
+
+/* hover mở menu */
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .dropdown-menu {
+        position: static !important;
+        border: none;
+        box-shadow: none;
+        padding-left: 15px;
+        display: none;
+    }
+
+    .dropdown-menu.show {
+        display: block;
+    }
+
+    .dropdown-item {
+        padding: 8px 0;
+        font-size: 14px;
+    }
+
+    .nav-link.dropdown-toggle::after {
+        float: right;
+        transform: rotate(-90deg);
+    }
+
+    .dropdown.show .nav-link.dropdown-toggle::after {
+        transform: rotate(0deg);
+    }
+}
+
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 13px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+/* Zalo style */
+.icon-circle.zalo {
+    background: #0068ff;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* WhatsApp */
+.icon-circle.whatsapp {
+    background: transparent;
+    color: #ccc;
+    font-size: 16px;
+}
+
+/* Hover */
+.icon-circle:hover {
+    opacity: 0.8;
+}
+
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-box img {
+    width: 100%;
+    max-width: 400px;
+    /* 👉 chỉnh size tối đa */
+    height: 200px;
+    /* 👉 cố định chiều cao */
+    object-fit: cover;
+    /* 👉 cắt ảnh cho đẹp */
+    border-radius: 8px;
 }

@@ -58,6 +58,13 @@
         }, 400);
     }
 
+    document.querySelectorAll('.nav-item.dropdown > .nav-link').forEach(link => {
+        link.addEventListener('click', function (e) {
+            if (window.innerWidth >= 992) {
+                window.location.href = this.href;
+            }
+        });
+    });
 
     function setActiveMenu() {
 
@@ -163,7 +170,7 @@ function renderCategoryTitle() {
     const decoded = decodeURIComponent(t(categoryMap[category]));
     if (el !== null) {
         el.innerHTML = `
-            <span class="text-success">${decoded}</span> ${t('products')}
+            <span class="text-success">${decoded}</span>
         `;
     }
 }
@@ -211,6 +218,7 @@ async function loadProducts() {
 function setupSearch() {
 
     const searchInput = document.getElementById("searchInput");
+    const lang = localStorage.getItem("lang") || "vi";
 
     let timeout; // 👈 đặt ở đây
 
@@ -229,8 +237,8 @@ function setupSearch() {
 
             const filtered = products.filter(([key, p]) => {
                 return (
-                    p.name.toLowerCase().includes(keyword) ||
-                    (p.category && p.category.toLowerCase().includes(keyword))
+                    (p.name && p.name?.[lang].toLowerCase().includes(keyword)) ||
+                    (p.category && p.category?.[lang].toLowerCase().includes(keyword))
                 );
             });
 

@@ -59,7 +59,8 @@
         "hq_title": "Trụ sở chính",
         "office_title": "Văn phòng HCM",
         "hq": "Trụ sở chính: 150/41 Nguyễn Cư Trinh, Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh",
-        "office": "Văn phòng HCM: 51 Lê Văn Lộc, Phường Vũng Tàu, Thành phố Hồ Chí Minh"
+        "office": "Văn phòng HCM: 51 Lê Văn Lộc, Phường Vũng Tàu, Thành phố Hồ Chí Minh",
+        "warehouse": "Kho: 41 Trần Văn Giàu, Phường Tam Thắng, Thành phố Hồ Chí Minh"
     },
     "commitment": {
         "title": "Cam kết của chúng tôi",
@@ -70,7 +71,7 @@
             "delivery": "Giao hàng nhanh chóng & đáng tin cậy"
         },
         "about": {
-            "p1": "Fast Group Engineering là nhà cung cấp thiết bị kỹ thuật công nghiệp uy tín cho các ngành dầu khí, điện và sản xuất tại Việt Nam.",
+            "p1": "Fast Group Engineering là nhà cung cấp thiết bị kỹ thuật công nghiệp uy tín cho các ngành dầu khí, điện và sản xuất tại Việt Nam. Là đại diện chính thức của Rheintacho (Đức), chúng tôi cung cấp các thiết bị đo tốc độ chính xác cao, cảm biến và giải pháp giám sát máy móc. Không chỉ cung cấp sản phẩm, chúng tôi còn đồng hành với khách hàng qua tư vấn chuyên sâu, tối ưu hệ thống và hợp tác lâu dài.",
             "p2": "Là đại diện chính thức của Rheintacho (Đức), chúng tôi cung cấp các thiết bị đo tốc độ chính xác cao, cảm biến và giải pháp giám sát máy móc.",
             "p3": "Không chỉ cung cấp sản phẩm, chúng tôi còn đồng hành với khách hàng qua tư vấn chuyên sâu, tối ưu hệ thống và hợp tác lâu dài."
         }

@@ -45,7 +45,7 @@ div {
 .h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px !important;
-  font-weight: 200 !important;
+  font-weight: 450 !important;
 }
 
 .h2 {
@@ -93,16 +93,16 @@ div {
 }
 
 .bg-success {
-  background-color: #695aa0 !important;
+  background-color: #F58220 !important;
 }
 
 .btn-success {
-  background-color: #695aa0 !important;
+  background-color: #F58220 !important;
   border-color: #1d242d !important;
 }
 
 .btn-success:hover {
-  background-color: #4c3b90 !important
+  background-color: #b86924 !important
 }
 
 .pagination .page-link:hover {

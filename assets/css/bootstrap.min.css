@@ -3204,14 +3204,14 @@ fieldset:disabled .btn {
 
 .btn-success {
     color: #fff;
-    background-color: #695aa0;
-    border-color: #695aa0
+    background-color: #F58220;
+    border-color: #F58220
 }
 
 .btn-success:hover {
     color: #fff;
-    background-color: #157347;
-    border-color: #146c43
+    background-color: #F58220;
+    border-color: #F58220
 }
 
 .btn-check:focus+.btn-success,
@@ -8035,7 +8035,7 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #695aa0 !important
+    background-color: #F58220 !important
 }
 
 .bg-secondary {
