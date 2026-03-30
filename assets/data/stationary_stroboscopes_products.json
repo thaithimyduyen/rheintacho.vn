@@ -31,8 +31,6 @@
       }
     },
     "images": [
-      "csm_STROBE_qbLEDs_Anschluesse_572x386px_d413e1108a.jpg",
-      "csm_Textilbranche_270x160px_a3e6e30891.jpg",
       "csm_STROBE_qbLEDs_572x386px_3c283d172d.jpg"
     ],
     "docs": [
@@ -279,40 +277,6 @@
       "csm_Accessories_Eco-Control_572x386px_4995228c5a.jpg"
     ],
     "docs": [],
-    "category": {
-      "en": "Control",
-      "vi": "Điều khiển"
-    }
-  },
-  "rt-strobe-remote-app": {
-    "name": {
-      "en": "RT STROBE remote App",
-      "vi": "Ứng dụng RT STROBE điều khiển từ xa"
-    },
-    "applications": [],
-    "features": [],
-    "scope_of_delivery": {
-      "en": "",
-      "vi": ""
-    },
-    "description": {
-      "en": "\n<p>With the RT STROBE Remote App from RHEINTACHO, you can easily use the many functions of RHEINTACHO measuring instruments via smartphone.</p>\n<p><strong>Compatible devices</strong><br/>Before using the app, please make sure that you own the following device:</p><ul><li>RT STROBE pocketLED LASER</li></ul><p><strong>Precise setting options</strong><br/>Intuitive operation allows you to configure your measuring device even faster and more precisely</p>\n<p><strong>Device manager</strong><br/>Search and connect compatible RHEINTACHO measuring devices</p>\n<p><strong>Wireless</strong><br/>Thanks to Blutooth Low Energy you can control your measuring device without having to be directly at the device</p>\n<p><strong>Profiles</strong><br/>Save and share profiles for your measuring device to quickly load appropriate settings</p>\n<a class=\"btn btn-third-arrow btn-cyan\" href=\"/fileadmin/Other_documents/RT_Privacy-notice_App-RTStrobeRemote-22-02.pdf\">Privacy notice</a>\n",
-      "vi": "<p>Với ứng dụng RT STROBE Remote từ RHEINTACHO, bạn có thể dễ dàng sử dụng nhiều chức năng của các thiết bị đo RHEINTACHO thông qua điện thoại thông minh.</p>\n<p><strong>Thiết bị tương thích</strong><br/>Trước khi sử dụng ứng dụng, vui lòng đảm bảo rằng bạn sở hữu thiết bị sau:</p>\n<ul>\n<li>RT STROBE pocketLED LASER</li>\n</ul>\n<p><strong>Tùy chọn cài đặt chính xác</strong><br/>Vận hành trực quan cho phép bạn cấu hình thiết bị đo của mình nhanh hơn và chính xác hơn</p>\n<p><strong>Trình quản lý thiết bị</strong><br/>Tìm kiếm và kết nối các thiết bị đo RHEINTACHO tương thích</p>\n<p><strong>Không dây</strong><br/>Nhờ công nghệ Bluetooth Low Energy, bạn có thể điều khiển thiết bị đo mà không cần phải trực tiếp ở gần thiết bị</p>\n<p><strong>Hồ sơ cấu hình</strong><br/>Lưu và chia sẻ hồ sơ cấu hình cho thiết bị đo của bạn để nhanh chóng tải các thiết lập phù hợp</p>\n<a class=\"btn btn-third-arrow btn-cyan\" href=\"/fileadmin/Other_documents/RT_Privacy-notice_App-RTStrobeRemote-22-02.pdf\">Chính sách bảo mật</a>"
-    },
-    "technical_data": {
-      "en": {},
-      "vi": {}
-    },
-    "images": [
-      "csm_RT-STROBE-remote-App_Device-Manager_572x386px_8e5bc7031f.jpg",
-      "csm_RT-STROBE-remote-App_Display-measured-values_572x386px_325191a458.jpg",
-      "csm_RT-STROBE-remote-App_Measuing-profile_572x386px_6ce4ce85a4.jpg",
-      "csm_RT-STROBE-remote-App_Settings_572x386px_1e70764358.jpg",
-      "csm_RT-STROBE-remote-App_Settings-brightness_572x386px_b689d634bf.jpg"
-    ],
-    "docs": [
-      "RT_Privacy-notice_App-RTStrobeRemote-22-02.pdf"
-    ],
     "category": {
       "en": "Control",
       "vi": "Điều khiển"
