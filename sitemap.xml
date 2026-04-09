@@ -6,4 +6,7 @@
    <sitemap>
       <loc>https://rheintacho.com.vn/sitemap-en.xml</loc>
    </sitemap>
+   <sitemap>
+      <loc>https://rheintacho.com.vn/sitemap-app.xml</loc>
+   </sitemap>
 </sitemapindex>

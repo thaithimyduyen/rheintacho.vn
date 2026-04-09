@@ -308,3 +308,11 @@ span#fcta-zalo-tracking {
     /* 👉 cắt ảnh cho đẹp */
     border-radius: 8px;
 }
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* số dòng */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

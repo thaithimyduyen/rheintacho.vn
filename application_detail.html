@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO TITLE -->
+    <title>{{name}} | Ứng dụng đo tốc độ | Rheintacho Việt Nam</title>
+
+    <!-- SEO META -->
+    <meta name="description" content="{{short_description}}">
+    <meta name="keywords" content="{{name}}, đo tốc độ, tachometer, cảm biến tốc độ">
+    <meta name="author" content="Fast Group Engineering">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="{{lang}}">
+    <meta http-equiv="content-language" content="{{lang}}">
+
+    <!-- CANONICAL -->
+    <link rel="canonical" href="{{url}}">
+
+    <!-- HREFLANG -->
+    <link rel="alternate" hreflang="vi" href="{{url_vi}}">
+    <link rel="alternate" hreflang="en" href="{{url_en}}">
+    <link rel="alternate" hreflang="x-default" href="{{url_vi}}">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="{{name}}">
+    <meta property="og:description" content="{{short_description}}">
+    <meta property="og:url" content="{{url}}">
+    <meta property="og:type" content="article">
+
+    <link rel="apple-touch-icon" href="/assets/images/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/templatemo.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "{{name}}",
+        "description": "{{short_description}}",
+        "inLanguage": "{{lang}}",
+        "url": "{{url}}"
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <section class="container py-5">
+
+        <!-- BREADCRUMB -->
+        <nav aria-label="breadcrumb" class="mb-3">
+            <ol class="breadcrumb" id="breadcrumb">
+                {{breadcrumb}}
+            </ol>
+        </nav>
+
+        <!-- TITLE -->
+        <!-- <h1 class="fw-bold mb-3">{{name}}</h1> -->
+
+        <!-- SHORT DESCRIPTION -->
+        <!-- <p class="lead mb-4">
+            {{short_description}}
+        </p> -->
+
+        <!-- CONTENT -->
+        <div class="application-content">
+            {{content}}
+        </div>
+
+        <!-- CTA -->
+        <div class="bg-light p-4 rounded mt-5 text-center">
+            <h4>Bạn cần tư vấn giải pháp đo tốc độ?</h4>
+            <p>Liên hệ để được tư vấn kỹ thuật và lựa chọn thiết bị phù hợp</p>
+
+            <a href="tel:+84938888958" class="btn btn-success px-4 py-2">
+                Liên hệ ngay
+            </a>
+        </div>
+
+        <div class="mt-5">
+            {{related_applications}}
+        </div>
+
+    </section>
+
+    <div id="footer"></div>
+
+    <!-- SCRIPT -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/templatemo.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
