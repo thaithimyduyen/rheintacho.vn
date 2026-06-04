@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- SEO TITLE -->
-    <title>{{name}} | {{brand}} | Rheintacho | Nhà phân phối chính thức</title>
+    <title>{{name}} | Rheintacho Vietnam</title>
 
     <!-- SEO META -->
     <meta name="description" content="{{name}} {{short_description}}">
     <meta name="keywords" content="{{name}}, {{keywords}}">
     <meta name="author" content="Fast Group Engineering">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="noindex, follow">
     <meta name="language" content="{{lang}}">
     <meta http-equiv="content-language" content="{{lang}}">
 
@@ -77,9 +77,16 @@
         },
         "offers": {
             "@type": "Offer",
+           "name": "Contact for quotation",
+             "name": "Contact for quotation",
             "priceCurrency": "VND",
             "availability": "https://schema.org/InStock",
             "url": "{{url}}",
+            "priceSpecification": {
+                "@type": "PriceSpecification",
+                "priceCurrency": "VND",
+                "description": "Contact Fast Group Engineering for the latest quotation"
+            },
             "seller": {
                 "@type": "Organization",
                 "name": "Fast Group Engineering"
@@ -106,8 +113,9 @@
                 <div class="col-md-12">
                     <span class="badge bg-success mb-2">{{category}}</span>
                     <span class="badge bg-success mb-2">{{main_category}}</span>
-                    <h2 class="fw-bold">{{name}}</h2>
+                    <h1 class="fw-bold">{{name}}</h1>
                     <p class="fw-bold">{{short_description}}</p>
+                    <p class="mb-3"><span class="fw-semibold">Price:</span> Contact for quotation</p>
 
                     <div class="mt-3">
                         {{description}}
@@ -167,7 +175,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="/assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
-    <script src="/assets/js/templatemo.js"></script>
+    <script src="/assets/js/templatemo.min.js"></script>
     <script src="/assets/js/main.js"></script>
     <!-- End Script -->
 </body>
