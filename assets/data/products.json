@@ -1,7 +1,7 @@
 {
-  "assessories": {
+  "accessories": {
     "slug": {
-      "en": "assessories",
+      "en": "accessories",
       "vi": "phu-kien"
     },
     "description": {
@@ -52,7 +52,7 @@
       },
       "slug": {
         "en": "measuring-wheel-01-m",
-        "vi": "banh-xe-o-01-m"
+        "vi": "banh-xe-do-01-m"
       },
       "short_description": {
         "en": "Rheintacho 0.1 m measuring wheel: Precision industrial measurement tool from Germany, designed for accurate distance measurement in various applications.",
@@ -102,7 +102,7 @@
       },
       "slug": {
         "en": "measuring-wheel-6",
-        "vi": "banh-xe-o-6"
+        "vi": "banh-xe-do-6"
       },
       "short_description": {
         "en": "Discover precision with the Rheintacho 6\" measuring wheel. Ideal for accurate industrial measurements. Durable and reliable for professionals.",
@@ -152,7 +152,7 @@
       },
       "slug": {
         "en": "measuring-wheel-6-special-model",
-        "vi": "banh-xe-o-luong-6-mau-ac-biet"
+        "vi": "banh-xe-do-luong-6-mau-dac-biet"
       },
       "short_description": {
         "en": "Discover precision with the 6\" Rheintacho Measuring Wheel—ideal for industrial measurements and engineered in Germany for ultimate reliability.",
@@ -202,7 +202,7 @@
       },
       "slug": {
         "en": "measuring-wheel-12",
-        "vi": "banh-xe-o-12"
+        "vi": "banh-xe-do-12"
       },
       "short_description": {
         "en": "Discover precision with the Rheintacho 12\" measuring wheel, ideal for accurate distance measurement in industrial applications. Durable and reliable!",
@@ -252,7 +252,7 @@
       },
       "slug": {
         "en": "measuring-funnel",
-        "vi": "pheu-o-luong"
+        "vi": "pheu-do-luong"
       },
       "short_description": {
         "en": "Optimize precision with Rheintacho's Measuring Funnel – the essential tool for accurate industrial measurements in Germany. Durable and reliable.",
@@ -302,7 +302,7 @@
       },
       "slug": {
         "en": "measuring-tip",
-        "vi": "au-o"
+        "vi": "dau-do"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's measuring tip—engineered in Germany for industrial accuracy and reliability. Perfect for all measurement needs.",
@@ -717,7 +717,7 @@
       },
       "slug": {
         "en": "rt-strobe-control",
-        "vi": "ieu-khien-rt-strobe"
+        "vi": "dieu-khien-rt-strobe"
       },
       "short_description": {
         "en": "Enhance precision with the RT STROBE control by Rheintacho, trusted for industrial measurement excellence in Germany. Perfect for accurate timing!",
@@ -976,7 +976,7 @@
       },
       "slug": {
         "en": "articulating-arm-including-mounting-kit",
-        "vi": "can-khop-noi-bao-gom-bo-dung-cu-lap-at"
+        "vi": "can-khop-noi-bao-gom-bo-dung-cu-lap-dat"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's articulating arm and mounting kit, designed for seamless industrial measurement applications in Germany.",
@@ -1042,7 +1042,7 @@
       },
       "slug": {
         "en": "tripod-3-way-adjustable",
-        "vi": "chan-may-ba-chan-ieu-chinh-3-huong"
+        "vi": "chan-may-ba-chan-dieu-chinh-3-huong"
       },
       "short_description": {
         "en": "\"Rheintacho's 3-way adjustable tripod offers stability and precision for industrial measurements. Perfect for reliable performance in any environment.\"",
@@ -1194,7 +1194,7 @@
       },
       "slug": {
         "en": "ac-adapter",
-        "vi": "bo-chuyen-oi-ac"
+        "vi": "bo-chuyen-doi-ac"
       },
       "short_description": {
         "en": "Power your devices with the Rheintacho AC adapter—reliable, efficient, and designed for industrial precision. Perfect for your measurement needs.",
@@ -1246,7 +1246,7 @@
       },
       "slug": {
         "en": "ac-adapter",
-        "vi": "bo-chuyen-oi-ac"
+        "vi": "bo-chuyen-doi-ac"
       },
       "short_description": {
         "en": "Power your devices efficiently with the Rheintacho AC adapter—trusted German quality for reliable industrial measurement solutions.",
@@ -1296,7 +1296,7 @@
       },
       "slug": {
         "en": "belt-bag-with-clip",
-        "vi": "tui-eo-hong-co-khoa-kep"
+        "vi": "tui-deo-hong-co-khoa-kep"
       },
       "short_description": {
         "en": "Discover Rheintacho's durable belt bag with clip—perfect for secure storage and easy access in industrial measurement applications.",
@@ -1346,7 +1346,7 @@
       },
       "slug": {
         "en": "spare-parts-electronics",
-        "vi": "linh-kien-ien-tu-thay-the"
+        "vi": "linh-kien-dien-tu-thay-the"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho spare parts for industrial measurement electronics – reliable solutions from Germany for optimal performance.",
@@ -1396,7 +1396,7 @@
       },
       "slug": {
         "en": "flash-tube",
-        "vi": "ong-flash"
+        "vi": "ong-den-flash"
       },
       "short_description": {
         "en": "Rheintacho's flash tube offers precise industrial measurement solutions, ensuring reliability and accuracy for your projects. Optimize performance today!",
@@ -1496,7 +1496,7 @@
       },
       "slug": {
         "en": "lensbezel-assembly",
-        "vi": "bo-phan-ong-kinhkhung-giu"
+        "vi": "bo-phan-ong-kinh-khung-giu"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's Lens/Bezel Assembly, expertly crafted for industrial measurement applications in Germany. Perfect for accurate readings!",
@@ -1546,7 +1546,7 @@
       },
       "slug": {
         "en": "universal-battery-charger-100-230-v",
-        "vi": "bo-sac-pin-a-nang-100-230-v"
+        "vi": "bo-sac-pin-da-nang-100-230-v"
       },
       "short_description": {
         "en": "Charge any device effortlessly with Rheintacho's universal battery charger (100-230 V), designed for reliable industrial performance in Germany.",
@@ -1596,7 +1596,7 @@
       },
       "slug": {
         "en": "adapter-rotaro",
-        "vi": "bo-chuyen-oi-rotaro"
+        "vi": "bo-chuyen-doi-rotaro"
       },
       "short_description": {
         "en": "Boost your precision with the Rheintacho Adapter Rotaro, designed for seamless industrial measurement in Germany. Enhance your efficiency today!",
@@ -1646,7 +1646,7 @@
       },
       "slug": {
         "en": "adapter-rotaro-t",
-        "vi": "bo-chuyen-oi-rotaro-t"
+        "vi": "bo-chuyen-doi-rotaro-t"
       },
       "short_description": {
         "en": "Optimize your industrial measurements with the Rheintacho Adapter Rotaro T, designed for precision and reliability. Perfect for all applications!",
@@ -1746,7 +1746,7 @@
       },
       "slug": {
         "en": "adapter-rotaro-tw",
-        "vi": "bo-chuyen-oi-rotaro-tw"
+        "vi": "bo-chuyen-doi-rotaro-tw"
       },
       "short_description": {
         "en": "Optimize your measurements with the Rheintacho Tw Adapter Rotaro – precision-engineered for reliable industrial performance in Germany.",
@@ -1826,7 +1826,7 @@
       },
       "slug": {
         "en": "digital-hand-tachometer-redpoint",
-        "vi": "ong-ho-o-toc-o-vong-quay-ky-thuat-so-redpoint"
+        "vi": "dong-ho-do-toc-do-vong-quay-ky-thuat-so-redpoint"
       },
       "short_description": {
         "en": "Discover precision with the Rheintacho Digital Hand-Tachometer. Ideal for industrial measurement, ensuring reliable performance and accuracy in Germany's toughest environments.",
@@ -1917,7 +1917,7 @@
       },
       "slug": {
         "en": "digital-hand-tachometer-rotaro",
-        "vi": "ong-ho-o-toc-o-quay-ky-thuat-so-rotaro"
+        "vi": "dong-ho-do-toc-do-quay-ky-thuat-so-rotaro"
       },
       "short_description": {
         "en": "Discover precision with the Rheintacho digital hand-tachometer Rotaro, designed for accurate industrial measurement and performance.",
@@ -1983,7 +1983,7 @@
       },
       "slug": {
         "en": "digital-hand-tachometer-rotaro-t",
-        "vi": "may-o-toc-o-quay-ky-thuat-so-rotaro-t"
+        "vi": "may-do-toc-do-quay-ky-thuat-so-rotaro-t"
       },
       "short_description": {
         "en": "Discover precision with the Rheintacho Digital Hand-Tachometer Rotaro T—your reliable solution for accurate RPM measurement in industrial applications.",
@@ -2051,7 +2051,7 @@
       },
       "slug": {
         "en": "digital-hand-tachometer-rotaro-te",
-        "vi": "ong-ho-o-toc-o-quay-ky-thuat-so-rotaro-te"
+        "vi": "dong-ho-do-toc-do-quay-ky-thuat-so-rotaro-te"
       },
       "short_description": {
         "en": "Discover accuracy and efficiency with the Rheintacho Digital Hand-Tachometer Rotaro TE, perfect for precise industrial measurements.",
@@ -2119,7 +2119,7 @@
       },
       "slug": {
         "en": "digital-hand-tachometers-rotaro-tw",
-        "vi": "may-o-toc-o-quay-ky-thuat-so-rotaro-tw"
+        "vi": "may-do-toc-do-quay-ky-thuat-so-rotaro-tw"
       },
       "short_description": {
         "en": "Discover precision with Rheintacho's digital hand-tachometers Rotaro Tw – perfect for accurate industrial speed measurements. Upgrade your efficiency today!",
@@ -2197,7 +2197,7 @@
       },
       "slug": {
         "en": "rotational-speed-monitor-rotas-with-dcdc-converter",
-        "vi": "bo-giam-sat-toc-o-quay-rotas-voi-bo-chuyen-oi-dcdc"
+        "vi": "bo-giam-sat-toc-do-quay-rotas-voi-bo-chuyen-doi-dcdc"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's Rotational Speed Monitor Rotas, featuring a reliable DC/DC converter for optimal industrial performance.",
@@ -2284,7 +2284,7 @@
       },
       "slug": {
         "en": "rotational-speed-monitor-rotas",
-        "vi": "bo-giam-sat-toc-o-quay-rotas"
+        "vi": "bo-giam-sat-toc-do-quay-rotas"
       },
       "short_description": {
         "en": "Optimize your operations with Rheintacho's Rotational Speed Monitor Rotas—precision monitoring for enhanced efficiency and performance in industrial settings.",
@@ -2366,7 +2366,7 @@
       },
       "slug": {
         "en": "led-indicators---circle-housing",
-        "vi": "en-bao-led---vo-hinh-tron"
+        "vi": "den-bao-led-vo-hinh-tron"
       },
       "short_description": {
         "en": "Discover Rheintacho's LED indicators in circle housing, perfect for precision industrial measurement. Enhance visibility and efficiency in your applications.",
@@ -2512,7 +2512,7 @@
       },
       "slug": {
         "en": "portable-stroboscope-rt-strobe-pocketled",
-        "vi": "en-nhay-cam-tay-rt-strobe-pocketled"
+        "vi": "den-nhay-cam-tay-rt-strobe-pocketled"
       },
       "short_description": {
         "en": "Discover the Rheintacho Portable Stroboscope RT STROBE pocketLED for precise industrial measurement and enhanced efficiency. Perfect for on-the-go professionals!",
@@ -2581,7 +2581,7 @@
       },
       "slug": {
         "en": "portable-stroboscope-rt-strobe-pocketled-with-trigger",
-        "vi": "en-nhap-nhay-cam-tay-rt-strobe-pocketled-co-chuc-nang-kich-hoat"
+        "vi": "den-nhap-nhay-cam-tay-rt-strobe-pocketled-co-chuc-nang-kich-hoat"
       },
       "short_description": {
         "en": "Discover the Rheintacho RT STROBE pocketLED: a compact, portable stroboscope with trigger for precise industrial measurement and inspection.",
@@ -2652,7 +2652,7 @@
       },
       "slug": {
         "en": "portable-stroboscope-rt-strobe-pocketled-laser",
-        "vi": "en-nhay-di-ong-rt-strobe-pocketled-laser"
+        "vi": "den-nhay-di-dong-rt-strobe-pocketled-laser"
       },
       "short_description": {
         "en": "Discover the Rheintacho RT STROBE pocketLED LASER, a portable stroboscope for precise industrial measurement. Compact, reliable, and easy to use!",
@@ -2721,7 +2721,7 @@
       },
       "slug": {
         "en": "portable-stroboscope-rt-strobe-pocketled-laser-with-trigger",
-        "vi": "en-nhay-cam-tay-rt-strobe-pocketled-laser-voi-bo-kich-hoat"
+        "vi": "den-nhay-cam-tay-rt-strobe-pocketled-laser-voi-bo-kich-hoat"
       },
       "short_description": {
         "en": "Discover the Rheintacho RT STROBE pocketLED LASER: a portable, precise stroboscope for industrial measurements. Perfect for any professional setting!",
@@ -2788,7 +2788,7 @@
       },
       "slug": {
         "en": "portable-stroboscope-rt-strobe-qbled",
-        "vi": "en-nhay-cam-tay-rt-strobe-qbled"
+        "vi": "den-nhay-cam-tay-rt-strobe-qbled"
       },
       "short_description": {
         "en": "Optimize your measurements with the portable Rheintacho RT STROBE qbLED stroboscope—precision and portability for industrial applications.",
@@ -2855,7 +2855,7 @@
       },
       "slug": {
         "en": "portable-stroboscope-rt-strobe-super-qbled",
-        "vi": "en-nhay-cam-tay-rt-strobe-super-qbled"
+        "vi": "den-nhay-cam-tay-rt-strobe-super-qbled"
       },
       "short_description": {
         "en": "Discover precision with the Rheintacho RT STROBE super qbLED: a portable stroboscope designed for accurate industrial measurement. Perfect for professionals!",
@@ -2920,7 +2920,7 @@
       },
       "slug": {
         "en": "portable-stroboscope-rt-strobe-pocket-rolux",
-        "vi": "en-chop-cam-tay-rt-strobe-pocket-rolux"
+        "vi": "den-chop-cam-tay-rt-strobe-pocket-rolux"
       },
       "short_description": {
         "en": "Discover the Rheintacho RT STROBE Pocket Rolux: a portable stroboscope for precise industrial measurements and enhanced efficiency. Perfect for on-the-go use!",
@@ -3090,7 +3090,7 @@
       },
       "slug": {
         "en": "1-channel-hall-m8-speed-sensor-with-temperature-detection",
-        "vi": "cam-bien-toc-o-1-kenh-hall-m8-co-chuc-nang-phat-hien-nhiet-o"
+        "vi": "cam-bien-toc-do-1-kenh-hall-m8-co-chuc-nang-phat-hien-nhiet-do"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's 1-Channel M8 Speed Sensor, featuring temperature detection for reliable industrial measurement.",
@@ -3158,7 +3158,7 @@
       },
       "slug": {
         "en": "1-channel-hall-m14-heavy-duty-speed-sensors",
-        "vi": "cam-bien-toc-o-hall-1-kenh-m14-cong-nghiep-nang"
+        "vi": "cam-bien-toc-do-hall-1-kenh-m14-cong-nghiep-nang"
       },
       "short_description": {
         "en": "Upgrade precision with Rheintacho's 1-Channel Hall M14 Heavy Duty Speed Sensors for reliable industrial measurement and performance.",
@@ -3228,7 +3228,7 @@
       },
       "slug": {
         "en": "1-channel-hall-m16-speed-sensors",
-        "vi": "cam-bien-toc-o-hall-1-kenh-m16"
+        "vi": "cam-bien-toc-do-hall-1-kenh-m16"
       },
       "short_description": {
         "en": "Boost precision with Rheintacho's 1-Channel Hall M16 Speed Sensors, designed for reliable industrial measurements. Enhance performance today!",
@@ -3298,7 +3298,7 @@
       },
       "slug": {
         "en": "1-channel-hall-m18-stainless-steel-speed-sensors",
-        "vi": "cam-bien-toc-o-hall-1-kenh-m18-bang-thep-khong-gi"
+        "vi": "cam-bien-toc-do-hall-1-kenh-m18-bang-thep-khong-gi"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho’s 1-Channel Hall M18 Stainless Steel Speed Sensors, designed for industrial measurement excellence. Perfect for reliable performance.",
@@ -3368,7 +3368,7 @@
       },
       "slug": {
         "en": "1-channel-hall-m18-brass-speed-sensors",
-        "vi": "cam-bien-toc-o-hall-1-kenh-m18-bang-ong"
+        "vi": "cam-bien-toc-do-hall-1-kenh-m18-bang-dong"
       },
       "short_description": {
         "en": "Discover precision with Rheintacho's 1-Channel Hall M18 Brass Speed Sensors for reliable industrial measurements. Durable, efficient, and German-engineered.",
@@ -3436,7 +3436,7 @@
       },
       "slug": {
         "en": "1-channel-hall-inch-speed-sensors",
-        "vi": "cam-bien-toc-o-hall-1-kenh-kich-thuoc-inch"
+        "vi": "cam-bien-toc-do-hall-1-kenh-kich-thuoc-inch"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho 1-Channel Hall Inch Speed Sensors, designed for reliable industrial measurement and performance.",
@@ -3512,7 +3512,7 @@
       },
       "slug": {
         "en": "1-channel-differential-hall-fe-speed-sensors",
-        "vi": "cam-bien-toc-o-loai-hall-vi-sai-1-kenh"
+        "vi": "cam-bien-toc-do-loai-hall-vi-sai-1-kenh"
       },
       "short_description": {
         "en": "Discover Rheintacho's 1-Channel Differential-Hall FE Speed Sensors for precise industrial measurement. Enhance efficiency with reliable German engineering.",
@@ -3585,7 +3585,7 @@
       },
       "slug": {
         "en": "1-channel-differential-hall-fe-high-pressure-speed-sensors",
-        "vi": "cam-bien-toc-o-ap-suat-cao-1-kenh-su-dung-cong-nghe-hall-vi-sai-fe"
+        "vi": "cam-bien-toc-do-ap-suat-cao-1-kenh-su-dung-cong-nghe-hall-vi-sai-fe"
       },
       "short_description": {
         "en": "Discover Rheintacho's 1-Channel Differential-Hall FE Speed Sensors for precise high-pressure measurements in industrial applications. Reliability meets precision.",
@@ -3655,7 +3655,7 @@
       },
       "slug": {
         "en": "1-channel-differential-hall-m12-plug-standard-speed-sensors",
-        "vi": "cam-bien-toc-o-chuan-kenh-on-hall-hieu-chuan-khac-biet-au-cam-m12"
+        "vi": "cam-bien-toc-do-chuan-kenh-don-hall-hieu-chuan-khac-biet-dau-cam-m12"
       },
       "short_description": {
         "en": "Discover Rheintacho’s 1-Channel Differential-Hall M12 Speed Sensors for precise industrial measurements. Durable and reliable for optimal performance.",
@@ -3725,7 +3725,7 @@
       },
       "slug": {
         "en": "1-channel-differential-hall-m12-cable-standard-speed-sensors",
-        "vi": "cam-bien-toc-o-tieu-chuan-1-kenh-hall-vi-sai-voi-cap-m12"
+        "vi": "cam-bien-toc-do-tieu-chuan-1-kenh-hall-vi-sai-voi-cap-m12"
       },
       "short_description": {
         "en": "Optimize your measurements with Rheintacho's 1-Channel Differential-Hall M12 Standard Speed Sensors for precise industrial performance.",
@@ -3797,7 +3797,7 @@
       },
       "slug": {
         "en": "1-channel-differential-hall-m12-high-pressure-speed-sensors",
-        "vi": "cam-bien-toc-o-ap-suat-cao-kenh-on-differential-hall-m12"
+        "vi": "cam-bien-toc-do-ap-suat-cao-kenh-don-differential-hall-m12"
       },
       "short_description": {
         "en": "Discover Rheintacho's 1-Channel Differential-Hall M12 High-pressure Speed Sensors for precise industrial measurement and reliable performance in Germany.",
@@ -3871,7 +3871,7 @@
       },
       "slug": {
         "en": "2-channel-hall-pwm-fe-speed-sensors",
-        "vi": "cam-bien-toc-o-fe-pwm-hall-2-kenh"
+        "vi": "cam-bien-toc-do-fe-pwm-hall-2-kenh"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's 2-Channel Hall PWM FE Speed Sensors—ideal for industrial measurement applications in Germany.",
@@ -3946,7 +3946,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-fk-speed-sensors",
-        "vi": "cam-bien-toc-o-hall-vi-sai-2-kenh-fk"
+        "vi": "cam-bien-toc-do-hall-vi-sai-2-kenh-fk"
       },
       "short_description": {
         "en": "Elevate precision with Rheintacho's 2-Channel Differential-Hall FK Speed Sensors—ideal for reliable industrial measurement in Germany.",
@@ -4019,7 +4019,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-fa-speed-sensors",
-        "vi": "cam-bien-toc-o-fa-hall-vi-sai-2-kenh"
+        "vi": "cam-bien-toc-do-fa-hall-vi-sai-2-kenh"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho 2-Channel Differential-Hall FA Speed Sensors, designed for accurate industrial measurements in Germany.",
@@ -4094,7 +4094,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-fe-push-pull-speed-sensors",
-        "vi": "cam-bien-toc-o-2-kenh-voi-mach-ay-keo-hall-hieu-ung-vi-sai"
+        "vi": "cam-bien-toc-do-2-kenh-voi-mach-day-keo-hall-hieu-ung-vi-sai"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's 2-Channel Differential-Hall FE Push-Pull Speed Sensors for reliable industrial measurement solutions.",
@@ -4172,7 +4172,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-fc-speed-sensors",
-        "vi": "cam-bien-toc-o-fc-hall-vi-sai-2-kenh"
+        "vi": "cam-bien-toc-do-fc-hall-vi-sai-2-kenh"
       },
       "short_description": {
         "en": "Elevate precision with Rheintacho's 2-Channel Differential-Hall FC Speed Sensors for reliable industrial measurement solutions from Germany.",
@@ -4247,7 +4247,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-fp-speed-sensors",
-        "vi": "cam-bien-toc-o-fp-hall-vi-sai-2-kenh"
+        "vi": "cam-bien-toc-do-fp-hall-vi-sai-2-kenh"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's 2-Channel Differential-Hall FP Speed Sensors for reliable industrial measurement in Germany.",
@@ -4315,7 +4315,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-fm-speed-sensors",
-        "vi": "cam-bien-toc-o-fm-hall-khac-biet-2-kenh"
+        "vi": "cam-bien-toc-do-fm-hall-khac-biet-2-kenh"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's 2-Channel Differential-Hall FM Speed Sensors, designed for superior industrial measurement in Germany.",
@@ -4394,7 +4394,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-fq-next-generation-speed-sensor",
-        "vi": "cam-bien-toc-o-the-he-tiep-theo-2-kenh-hall-vi-sai-fq"
+        "vi": "cam-bien-toc-do-the-he-tiep-theo-2-kenh-hall-vi-sai-fq"
       },
       "short_description": {
         "en": "Discover precision with Rheintacho's 2-Channel Differential-Hall FQ Speed Sensor—next-gen technology for reliable industrial measurements.",
@@ -4469,7 +4469,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-m12-speed-sensors",
-        "vi": "cam-bien-toc-o-hall-vi-sai-2-kenh-m12"
+        "vi": "cam-bien-toc-do-hall-vi-sai-2-kenh-m12"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's 2-Channel Differential-Hall M12 Speed Sensors—ideal for reliable industrial measurement solutions in Germany.",
@@ -4540,7 +4540,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-m12-speed-sensor-with-temperature-detection",
-        "vi": "cam-bien-toc-o-hall-vi-sai-2-kenh-m12-voi-phat-hien-nhiet-o"
+        "vi": "cam-bien-toc-do-hall-vi-sai-2-kenh-m12-voi-phat-hien-nhiet-do"
       },
       "short_description": {
         "en": "Discover precise speed measurement with Rheintacho's 2-Channel Differential-Hall M12 Speed Sensor, featuring temperature detection for optimal performance.",
@@ -4610,7 +4610,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-m14-push-pull-speed-sensors",
-        "vi": "cam-bien-toc-o-2-kenh-uong-kinh-hall-m14-ay-keo"
+        "vi": "cam-bien-toc-do-2-kenh-duong-kinh-hall-m14-day-keo"
       },
       "short_description": {
         "en": "Discover precision with Rheintacho's 2-Channel Differential-Hall M14 Push-Pull Speed Sensors for reliable industrial measurement in Germany.",
@@ -4678,7 +4678,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-m18-push-pull-speed-sensors",
-        "vi": "cam-bien-toc-o-kieu-m18-2-kenh-hall-vi-sai-ay-keo"
+        "vi": "cam-bien-toc-do-kieu-m18-2-kenh-hall-vi-sai-day-keo"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's 2-Channel Differential-Hall M18 Push-Pull Speed Sensors for reliable industrial measurements. Durable and efficient.",
@@ -4750,7 +4750,7 @@
       },
       "slug": {
         "en": "2-channel-differential-hall-fu-speed-sensors",
-        "vi": "cam-bien-toc-o-fu-hall-vi-sai-2-kenh"
+        "vi": "cam-bien-toc-do-fu-hall-vi-sai-2-kenh"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's 2-Channel Differential-Hall FU Speed Sensors for accurate industrial measurements. Reliable, efficient, and German-engineered.",
@@ -4827,7 +4827,7 @@
       },
       "slug": {
         "en": "stationary-stroboscope-rt-strobe-qbleds",
-        "vi": "en-nhay-co-inh-rt-strobe-qbleds"
+        "vi": "den-nhay-co-dinh-rt-strobe-qbleds"
       },
       "short_description": {
         "en": "Discover precise measurement with the Rheintacho RT STROBE qbLEDs stationary stroboscope—ideal for industrial applications and quality control.",
@@ -4888,7 +4888,7 @@
       },
       "slug": {
         "en": "stationary-stroboscope-rt-strobe-3000-led",
-        "vi": "en-nhay-co-inh-rt-strobe-3000-led"
+        "vi": "den-nhay-co-dinh-rt-strobe-3000-led"
       },
       "short_description": {
         "en": "Enhance precision with the Rheintacho RT STROBE 3000 LED, the ultimate stationary stroboscope for industrial measurement applications.",
@@ -4949,7 +4949,7 @@
       },
       "slug": {
         "en": "stationary-stroboscope-rt-strobe-5000-led",
-        "vi": "en-nhay-co-inh-rt-strobe-5000-led"
+        "vi": "den-nhay-co-dinh-rt-strobe-5000-led"
       },
       "short_description": {
         "en": "Discover precision with the Rheintacho RT STROBE 5000 LED, your ultimate stationary stroboscope for accurate industrial measurements.",
@@ -5011,7 +5011,7 @@
       },
       "slug": {
         "en": "stationary-stroboscope-rt-strobe-7000-led",
-        "vi": "en-nhay-co-inh-rt-strobe-7000-led"
+        "vi": "den-nhay-co-dinh-rt-strobe-7000-led"
       },
       "short_description": {
         "en": "Discover precision with the Rheintacho RT STROBE 7000 LED stationary stroboscope, ideal for industrial measurements and reliable performance.",
@@ -5073,7 +5073,7 @@
       },
       "slug": {
         "en": "stationary-stroboscope-rt-strobe-12000-led",
-        "vi": "en-nhap-nhay-co-inh-rt-strobe-12000-led"
+        "vi": "den-nhap-nhay-co-dinh-rt-strobe-12000-led"
       },
       "short_description": {
         "en": "Discover the Rheintacho RT STROBE 12000 LED: a high-performance stationary stroboscope for precise industrial measurements and enhanced efficiency.",
@@ -5128,7 +5128,7 @@
       },
       "slug": {
         "en": "rt-strobe-control",
-        "vi": "ieu-khien-rt-strobe"
+        "vi": "dieu-khien-rt-strobe"
       },
       "short_description": {
         "en": "Enhance precision with Rheintacho's RT STROBE control, ideal for accurate industrial measurement and reliable performance. Perfect for your needs!",
@@ -5174,7 +5174,7 @@
       },
       "slug": {
         "en": "rt-strobe-eco-control",
-        "vi": "rt-strobe-ieu-khien-eco"
+        "vi": "rt-strobe-dieu-khien-eco"
       },
       "short_description": {
         "en": "Optimize your operations with the RT STROBE eco control by Rheintacho, enhancing precision in industrial measurements. Durable and efficient.",
