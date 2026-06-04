@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cách đo tốc độ motor công nghiệp: tiếp xúc, quang học và cảm biến Hall | Rheintacho Việt Nam</title>
+    <meta name="description" content="Hướng dẫn chi tiết cách đo tốc độ motor bằng tachometer tiếp xúc, quang học laser và cảm biến Hall. Chọn phương pháp phù hợp cho O&G, băng tải và CNC." />
+    <link rel="canonical" href="https://rheintacho.com.vn/vi/thong-tin/cach-do-toc-do-motor/" />
+    <link rel="alternate" hreflang="vi" href="https://rheintacho.com.vn/vi/thong-tin/cach-do-toc-do-motor/">
+    <link rel="alternate" hreflang="x-default" href="https://rheintacho.com.vn/vi/thong-tin/cach-do-toc-do-motor/">
+    <meta property="og:title" content="Cách đo tốc độ motor: 3 phương pháp chi tiết cho công nghiệp" />
+    <meta property="og:description" content="So sánh tachometer tiếp xúc, laser quang học và cảm biến Hall — ưu nhược điểm và hướng dẫn đo tốc độ motor an toàn, chính xác tại hiện trường." />
+    <meta property="og:url" content="https://rheintacho.com.vn/vi/thong-tin/cach-do-toc-do-motor/" />
+    <meta property="og:image" content="https://rheintacho.com.vn/assets/images/category_img_02.jpg" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cách đo tốc độ motor công nghiệp — 3 phương pháp" />
+    <meta name="twitter:description" content="Tachometer tiếp xúc, laser và cảm biến Hall: so sánh và hướng dẫn đo RPM motor an toàn tại hiện trường." />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/templatemo.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="/assets/css/fontawesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "@id": "https://rheintacho.com.vn/vi/thong-tin/cach-do-toc-do-motor/",
+      "name": "Cách đo tốc độ motor công nghiệp",
+      "description": "Hướng dẫn chi tiết 3 phương pháp đo tốc độ motor: tiếp xúc, quang học laser và cảm biến Hall, với an toàn và độ chính xác cho môi trường công nghiệp.",
+      "image": "https://rheintacho.com.vn/assets/images/category_img_02.jpg",
+      "author": { "@type": "Organization", "name": "FAST GROUP ENGINEERING", "@id": "https://rheintacho.com.vn/#organization" },
+      "publisher": { "@type": "Organization", "name": "FAST GROUP ENGINEERING", "logo": { "@type": "ImageObject", "url": "https://rheintacho.com.vn/assets/images/main_logo.png" } },
+      "datePublished": "2026-04-20",
+      "dateModified": "2026-06-01",
+      "inLanguage": "vi",
+      "url": "https://rheintacho.com.vn/vi/thong-tin/cach-do-toc-do-motor/"
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+    <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between">
+            <div>
+                <i class="fa fa-envelope mx-2"></i>
+                <a class="navbar-sm-brand text-light text-decoration-none"
+                    href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a>
+                <i class="fa fa-phone mx-2"></i>
+                <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+84938888958">+84 938 888 958</a>
+                <!-- Zalo -->
+                <a class="mx-2" href="https://zalo.me/84938888958" target="_blank">
+                    <img alt="Zalo" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+                        style="height:32px;" />
+                </a>
+                <a href="https://wa.me/84938888958" target="_blank">
+                    <img height="35px" src="/assets/images/whatsapp-logo.png" />
+                </a>
+            </div>
+            <div>
+                <a class="text-light" href="https://www.facebook.com/profile.php?id=61578520749284" rel="noopener noreferrer"
+                    target="_blank"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="https://www.youtube.com/channel/UCslJPz9yixGQssF1BHKzavQ" rel="noopener noreferrer"
+                    target="_blank"><i class="fab fa-youtube fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="https://www.linkedin.com/company/fast-group-engineering" target="_blank"><i
+                        class="fab fa-linkedin fa-sm fa-fw"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="/vi/index.html">
+            <img alt="Logo" class="main-logo" height="110px" src="/assets/images/main_logo.png" />
+        </a>
+        <!-- <a class="navbar-brand text-success logo h3 align-self-center" href="index.html" data-i18n="brand.name"></a> -->
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler border-0" data-bs-target="#templatemo_main_nav" data-bs-toggle="collapse"
+            type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
+            id="templatemo_main_nav">
+            <div class="flex-fill">
+                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="/vi/index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="/vi/rheintacho-viet-nam/">Rheintacho Việt Nam</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown"
+                            href="/vi/categories.html">Danh mục</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/vi/cam-bien-toc-do-quay">Cảm biến tốc độ quay</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/vi/den-nhay-co-dinh">Đèn nháy cố định</a></li>
+                            <li><a class="dropdown-item" href="/vi/may-do-toc-do-di-dong">Đèn nháy cầm tay</a></li>
+                            <li><a class="dropdown-item" href="/vi/dong-ho-do-toc-do-cam-tay-ki-thuat-so">Máy đo tốc độ
+                                    cầm tay</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/vi/phu-kien">Phụ kiện và linh kiện</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="/vi/ung-dung/">Ứng dụng</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown"
+                            href="/vi/information.html">Thông tin</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/vi/thong-tin/tachometer-la-gi/">Tachometer là gì</a></li>
+                            <li><a class="dropdown-item" href="/vi/thong-tin/rpm-la-gi/">RPM là gì</a></li>
+                            <li><a class="dropdown-item" href="/vi/thong-tin/cach-do-toc-do-motor/">Cách đo tốc độ motor</a></li>
+                            <li><a class="dropdown-item" href="/vi/thong-tin/stroboscope-la-gi/">Stroboscope là gì</a></li>
+                            <li><a class="dropdown-item" href="/vi/thong-tin/so-sanh-tachometer/">So sánh Tachometer tiếp xúc và không tiếp xúc</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="/vi/contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center ms-3">
+                <button class="btn btn-sm btn-outline-secondary me-2 lang-btn" data-lang="en">
+                    EN
+                </button>
+                <button class="btn btn-sm btn-outline-secondary lang-btn" data-lang="vi">
+                    VI
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container py-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/vi/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1">
+                </li>
+                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/vi/information.html" itemprop="item"><span itemprop="name">Thông tin</span></a><meta itemprop="position" content="2">
+                </li>
+                <li class="breadcrumb-item active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">Cách đo tốc độ motor</span><meta itemprop="position" content="3">
+                </li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <article>
+                    <h1 class="fw-bold mb-3">Cách đo tốc độ motor công nghiệp: Hướng dẫn 3 phương pháp từ tiếp xúc đến cảm biến Hall</h1>
+                    <p class="text-muted mb-4"><i class="bi bi-calendar3 me-1"></i> Cập nhật: 01/06/2026 &nbsp;|&nbsp; <i class="bi bi-building me-1"></i> FAST GROUP ENGINEERING</p>
+
+                    <p class="lead">Đo tốc độ motor (RPM) là thao tác bảo trì cơ bản nhưng cần lựa chọn đúng phương pháp để đảm bảo an toàn và độ chính xác. Bài viết này so sánh ba phương pháp phổ biến trong môi trường công nghiệp Việt Nam.</p>
+
+                    <div class="alert alert-warning d-flex align-items-center mt-3 mb-4" role="alert">
+                        <i class="bi bi-exclamation-triangle-fill me-2 fs-5"></i>
+                        <div><strong>Lưu ý an toàn:</strong> Không tiếp xúc tay trần với trục quay đang vận hành. Tuân thủ quy trình LOTO (Lockout/Tagout) khi cần tiếp cận gần thiết bị.</div>
+                    </div>
+
+                    <h2 class="fw-bold mt-4 mb-3">Phương pháp 1: Tachometer tiếp xúc (Contact Tachometer)</h2>
+                    <p><strong>Nguyên lý:</strong> Đầu đo (bánh xe cao su hoặc đầu côn) tiếp xúc trực tiếp với đầu trục motor. Lực ma sát làm quay cảm biến bên trong, bộ đếm tính ra RPM.</p>
+
+                    <h3 class="h5 fw-bold mt-3">Các bước thực hiện:</h3>
+                    <ol>
+                        <li>Chọn đầu đo phù hợp: đầu côn cho lỗ trục; bánh xe cao su cho đầu trục trơn.</li>
+                        <li>Gắn chắc đầu đo vào tachometer, kiểm tra pin đủ.</li>
+                        <li>Khởi động motor và để ổn định tốc độ (≥30 giây).</li>
+                        <li>Áp đầu đo vào đầu trục dọc theo tâm trục — không lệch góc quá 5°.</li>
+                        <li>Giữ ổn định 3–5 giây, đọc giá trị hiển thị. Ghi lại RPM, lưu ý nếu model hỗ trợ Min/Max.</li>
+                    </ol>
+
+                    <p><strong>Ưu điểm:</strong> Không cần chuẩn bị trước, đo được ngay, giá thành thấp.</p>
+                    <p><strong>Nhược điểm:</strong> Phải tiếp cận gần trục — nguy hiểm với thiết bị không có bảo vệ; không dùng được nếu đầu trục bịt kín hoặc bao che hoàn toàn.</p>
+
+                    <h2 class="fw-bold mt-4 mb-3">Phương pháp 2: Tachometer quang học laser (Non-contact Optical)</h2>
+                    <p><strong>Nguyên lý:</strong> Dán một miếng băng phản quang (reflective tape) lên trục. Tia laser từ tachometer chiếu vào, mỗi vòng quay băng phản chiếu tia về — bộ đếm xung suy ra RPM.</p>
+
+                    <h3 class="h5 fw-bold mt-3">Các bước thực hiện:</h3>
+                    <ol>
+                        <li>Dán miếng băng phản quang lên bề mặt trục (1 miếng = 1 pulse/vòng; nhiều miếng = nhân hệ số).</li>
+                        <li>Đặt tachometer cách trục 5–30 cm (theo spec từng model).</li>
+                        <li>Chỉnh chế độ đo quang học/laser trên tachometer.</li>
+                        <li>Nhắm tia laser vào băng phản quang, giữ tay ổn định.</li>
+                        <li>Đọc kết quả khi số hiển thị ổn định. Nếu đặt nhiều miếng băng, chia số đọc cho số miếng.</li>
+                    </ol>
+
+                    <p><strong>Ưu điểm:</strong> An toàn — đứng xa trục quay; dùng được với thiết bị bao che, trục nằm sâu trong bệ máy.</p>
+                    <p><strong>Nhược điểm:</strong> Cần chuẩn bị băng phản quang; ánh sáng môi trường mạnh có thể gây nhiễu; không phù hợp đo liên tục 24/7.</p>
+
+                    <h2 class="fw-bold mt-4 mb-3">Phương pháp 3: Cảm biến tốc độ Hall (Proximity Speed Sensor)</h2>
+                    <p><strong>Nguyên lý:</strong> Cảm biến Hall gắn cố định, nhận biết sự thay đổi từ trường khi răng bánh răng (gear tooth) hoặc mark từ trên đĩa quay đi qua. Mỗi răng tạo 1 xung — bộ đếm/DCS tính RPM theo công thức: <code>RPM = (f × 60) / Z</code> với Z = số răng.</p>
+
+                    <h3 class="h5 fw-bold mt-3">Các bước lắp đặt:</h3>
+                    <ol>
+                        <li>Xác định vị trí lắp: cảm biến nhắm vào bánh răng trên trục motor hoặc đĩa xung chuyên dụng.</li>
+                        <li>Chọn cảm biến phù hợp: M8/M12/M14/M18, độ dài thread theo bề mặt lắp.</li>
+                        <li>Điều chỉnh khe hở (air gap): thường 0,5–2,5 mm tùy model — tra datasheet Rheintacho.</li>
+                        <li>Kết nối dây: thường 3 dây (VCC, GND, Signal) hoặc 2 dây (NPN/PNP output).</li>
+                        <li>Cấu hình bộ đếm hoặc PLC theo số răng Z để tính RPM đúng.</li>
+                    </ol>
+
+                    <p><strong>Ưu điểm:</strong> Đo liên tục 24/7; kết nối SCADA/DCS; dải tốc độ rộng; chịu môi trường khắc nghiệt (IP67/IP69K).</p>
+                    <p><strong>Nhược điểm:</strong> Cần lắp đặt cố định; chi phí đầu tư ban đầu cao hơn tachometer cầm tay.</p>
+
+                    <h2 class="fw-bold mt-4 mb-3">Bảng so sánh 3 phương pháp</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered align-middle">
+                            <thead class="table-primary">
+                                <tr><th>Tiêu chí</th><th>Tiếp xúc</th><th>Quang học laser</th><th>Cảm biến Hall</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>An toàn tiếp cận</td><td>Thấp</td><td>Cao</td><td>Cao (sau lắp đặt)</td></tr>
+                                <tr><td>Chuẩn bị</td><td>Không cần</td><td>Cần băng phản quang</td><td>Lắp đặt 1 lần</td></tr>
+                                <tr><td>Đo liên tục</td><td>Không</td><td>Không</td><td>Có</td></tr>
+                                <tr><td>Kết nối PLC/SCADA</td><td>Không</td><td>Không</td><td>Có</td></tr>
+                                <tr><td>Chi phí ban đầu</td><td>Thấp</td><td>Trung bình</td><td>Cao hơn</td></tr>
+                                <tr><td>Sản phẩm Rheintacho</td><td>Rotaro, Redpoint</td><td>Rotaro T, Rotaro TW</td><td>FA, FC, FE, FM, FP, FU series</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h2 class="fw-bold mt-4 mb-3">Thiết bị đo tốc độ motor Rheintacho</h2>
+                    <ul>
+                        <li><a href="/vi/dong-ho-do-toc-do-cam-tay-ki-thuat-so/">Rotaro, Rotaro T, Rotaro TW, Redpoint</a> — tachometer cầm tay kỹ thuật số đa chức năng.</li>
+                        <li><a href="/vi/may-do-toc-do-di-dong/">RT-STROBE pocketLED Laser</a> — kết hợp stroboscope và đo RPM quang học.</li>
+                        <li><a href="/vi/cam-bien-toc-do-quay/">Cảm biến Hall FA/FC/FE/FM/FU</a> — lắp cố định, giám sát 24/7.</li>
+                    </ul>
+
+                    <div class="bg-light p-4 rounded mt-5 text-center">
+                        <h4 class="fw-bold">Cần tư vấn phương pháp đo phù hợp?</h4>
+                        <p>Mô tả thiết bị motor, môi trường lắp đặt và yêu cầu giám sát — đội ngũ kỹ thuật FAST GROUP ENGINEERING sẽ đề xuất giải pháp đo lường tối ưu.</p>
+                        <a href="/vi/contact.html" class="btn btn-success me-2 px-4">Yêu cầu tư vấn</a>
+                        <a href="tel:+84938888958" class="btn btn-outline-success px-4"><i class="fa fa-phone me-1"></i> +84 938 888 958</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark" id="tempaltemo_footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pt-5">
+                <a class="navbar-brand d-flex align-items-center" href="/vi/index.html">
+                    <img alt="Logo" class="main-logo" height="90px" src="/assets/images/main_logo.png" />
+                </a>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <span>Trụ sở chính: 150/41 Nguyễn Cư Trinh, Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <span>Văn phòng Vũng Tàu: 51 Lê Văn Lộc, Phường 9, Thành phố Vũng Tàu</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <span>Kho: 41 Trần Văn Giàu, Phường Tam Thắng, Thành phố Hồ Chí Minh</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone fa-fw"></i>
+                        <a class="text-decoration-none" href="tel:+84938888958">+84 938 888 958</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope fa-fw"></i>
+                        <a class="text-decoration-none" href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light fw-bold">Danh mục</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="/vi/cam-bien-toc-do-quay">Cảm biến tốc độ quay</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/den-nhay-co-dinh">Đèn nháy cố định</a></li>
+                    <li><a class="text-decoration-none" href="/vi/may-do-toc-do-di-dong">Đèn nháy cầm tay</a></li>
+                    <li><a class="text-decoration-none" href="/vi/dong-ho-do-toc-do-cam-tay-ki-thuat-so">Máy đo tốc độ
+                            cầm tay</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/phu-kien">Phụ kiện và linh kiện</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light fw-bold">Ứng dụng</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/do-toc-do-dong-co/">Đo tốc độ động cơ</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/giam-sat-toc-do-turbine">Giám sát tốc độ
+                            turbine</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/giam-sat-toc-do-may-bom">Giám sát tốc độ
+                            bơm</a></li>
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/do-toc-do-bang-tai">Đo tốc độ băng tải</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/giam-sat-thiet-bi-quay">Giám sát máy quay</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light fw-bold">Thông tin</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="/vi/rheintacho-viet-nam/">Rheintacho Việt Nam</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/tachometer-la-gi/">Tachometer là gì</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/rpm-la-gi/">RPM là gì</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/cach-do-toc-do-motor/">Cách đo tốc độ motor</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/stroboscope-la-gi/">Stroboscope là gì</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/so-sanh-tachometer/">So sánh Tachometer tiếp xúc và không tiếp xúc</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row text-light mb-4">
+            <div class="col-12 mb-3">
+                <div class="w-100 my-3 border-top border-light"></div>
+            </div>
+            <div class="col-auto me-auto">
+                <ul class="list-inline text-left footer-icons">
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none"
+                            href="https://www.facebook.com/profile.php?id=61578520749284" target="_blank"><i
+                                class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none"
+                            href="https://www.youtube.com/channel/UCslJPz9yixGQssF1BHKzavQ" target="_blank"><i
+                                class="fab fa-youtube fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none"
+                            href="https://www.linkedin.com/company/fast-group-engineering" target="_blank"><i
+                                class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-auto">
+                <label class="sr-only" for="subscribeEmail">Email address</label>
+                <div class="input-group mb-2">
+                    <input class="form-control bg-dark border-light"
+                        data-i18n-placeholder="footer.subscribe.placeholder" id="subscribeEmail" type="text" />
+                    <div class="input-group-text btn-success text-light">Đăng ký</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-100 bg-black py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-12">
+                    <p class="text-left text-light">
+                        <span>Bản quyền © 2026 TNHH Fast Group</span>
+                        | Designed by
+                        <a href="https://ocmoxa.com" rel="noopener noreferrer" target="_blank">OCMOXA</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/templatemo.min.js"></script>
+    <script src="/assets/js/custom.js"></script>
+</body>
+</html>

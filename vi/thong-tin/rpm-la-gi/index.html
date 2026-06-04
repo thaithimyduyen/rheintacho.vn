@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RPM là gì? Đơn vị đo tốc độ quay, công thức và ứng dụng | Rheintacho Việt Nam</title>
+    <meta name="description" content="RPM là gì? Giải thích đơn vị vòng/phút, công thức tính tốc độ góc, tần số và mối quan hệ với Hz trong đo lường công nghiệp O&G và sản xuất." />
+    <link rel="canonical" href="https://rheintacho.com.vn/vi/thong-tin/rpm-la-gi/" />
+    <link rel="alternate" hreflang="vi" href="https://rheintacho.com.vn/vi/thong-tin/rpm-la-gi/">
+    <link rel="alternate" hreflang="x-default" href="https://rheintacho.com.vn/vi/thong-tin/rpm-la-gi/">
+    <meta property="og:title" content="RPM là gì? Đơn vị đo tốc độ quay, công thức và ứng dụng công nghiệp" />
+    <meta property="og:description" content="Giải thích RPM (Revolutions Per Minute), công thức chuyển đổi sang rad/s, Hz và ứng dụng thực tế trong O&G, turbine và băng tải." />
+    <meta property="og:url" content="https://rheintacho.com.vn/vi/thong-tin/rpm-la-gi/" />
+    <meta property="og:image" content="https://rheintacho.com.vn/assets/images/Produktuebersicht_2018_870x386px_72dpi.jpg" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="RPM là gì? Đơn vị đo tốc độ quay và công thức tính" />
+    <meta name="twitter:description" content="Giải thích RPM, RPS, Hz và rad/s — mối quan hệ và công thức chuyển đổi trong đo lường công nghiệp." />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/templatemo.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="/assets/css/fontawesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "@id": "https://rheintacho.com.vn/vi/thong-tin/rpm-la-gi/",
+      "headline": "RPM là gì? Đơn vị đo tốc độ quay, công thức và ứng dụng công nghiệp",
+      "description": "Giải thích RPM (Revolutions Per Minute), công thức chuyển đổi sang rad/s và Hz, cùng ứng dụng thực tế trong O&G và sản xuất.",
+      "image": "https://rheintacho.com.vn/assets/images/Produktuebersicht_2018_870x386px_72dpi.jpg",
+      "author": { "@type": "Organization", "name": "FAST GROUP ENGINEERING", "@id": "https://rheintacho.com.vn/#organization" },
+      "publisher": { "@type": "Organization", "name": "FAST GROUP ENGINEERING", "logo": { "@type": "ImageObject", "url": "https://rheintacho.com.vn/assets/images/main_logo.png" } },
+      "datePublished": "2026-04-15",
+      "dateModified": "2026-06-01",
+      "inLanguage": "vi",
+      "url": "https://rheintacho.com.vn/vi/thong-tin/rpm-la-gi/"
+    }
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+    <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between">
+            <div>
+                <i class="fa fa-envelope mx-2"></i>
+                <a class="navbar-sm-brand text-light text-decoration-none"
+                    href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a>
+                <i class="fa fa-phone mx-2"></i>
+                <a class="navbar-sm-brand text-light text-decoration-none" href="tel:+84938888958">+84 938 888 958</a>
+                <!-- Zalo -->
+                <a class="mx-2" href="https://zalo.me/84938888958" target="_blank">
+                    <img alt="Zalo" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg"
+                        style="height:32px;" />
+                </a>
+                <a href="https://wa.me/84938888958" target="_blank">
+                    <img height="35px" src="/assets/images/whatsapp-logo.png" />
+                </a>
+            </div>
+            <div>
+                <a class="text-light" href="https://www.facebook.com/profile.php?id=61578520749284" rel="noopener noreferrer"
+                    target="_blank"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="https://www.youtube.com/channel/UCslJPz9yixGQssF1BHKzavQ" rel="noopener noreferrer"
+                    target="_blank"><i class="fab fa-youtube fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="https://www.linkedin.com/company/fast-group-engineering" target="_blank"><i
+                        class="fab fa-linkedin fa-sm fa-fw"></i></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light shadow">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand d-flex align-items-center" href="/vi/index.html">
+            <img alt="Logo" class="main-logo" height="110px" src="/assets/images/main_logo.png" />
+        </a>
+        <!-- <a class="navbar-brand text-success logo h3 align-self-center" href="index.html" data-i18n="brand.name"></a> -->
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler border-0" data-bs-target="#templatemo_main_nav" data-bs-toggle="collapse"
+            type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between"
+            id="templatemo_main_nav">
+            <div class="flex-fill">
+                <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="/vi/index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="/vi/rheintacho-viet-nam/">Rheintacho Việt Nam</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown"
+                            href="/vi/categories.html">Danh mục</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/vi/cam-bien-toc-do-quay">Cảm biến tốc độ quay</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/vi/den-nhay-co-dinh">Đèn nháy cố định</a></li>
+                            <li><a class="dropdown-item" href="/vi/may-do-toc-do-di-dong">Đèn nháy cầm tay</a></li>
+                            <li><a class="dropdown-item" href="/vi/dong-ho-do-toc-do-cam-tay-ki-thuat-so">Máy đo tốc độ
+                                    cầm tay</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/vi/phu-kien">Phụ kiện và linh kiện</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="/vi/ung-dung/">Ứng dụng</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle fw-bold" data-bs-toggle="dropdown"
+                            href="/vi/information.html">Thông tin</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/vi/thong-tin/tachometer-la-gi/">Tachometer là gì</a></li>
+                            <li><a class="dropdown-item" href="/vi/thong-tin/rpm-la-gi/">RPM là gì</a></li>
+                            <li><a class="dropdown-item" href="/vi/thong-tin/cach-do-toc-do-motor/">Cách đo tốc độ motor</a></li>
+                            <li><a class="dropdown-item" href="/vi/thong-tin/stroboscope-la-gi/">Stroboscope là gì</a></li>
+                            <li><a class="dropdown-item" href="/vi/thong-tin/so-sanh-tachometer/">So sánh Tachometer tiếp xúc và không tiếp xúc</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="/vi/contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center ms-3">
+                <button class="btn btn-sm btn-outline-secondary me-2 lang-btn" data-lang="en">
+                    EN
+                </button>
+                <button class="btn btn-sm btn-outline-secondary lang-btn" data-lang="vi">
+                    VI
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="container py-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/vi/" itemprop="item"><span itemprop="name">Trang chủ</span></a><meta itemprop="position" content="1">
+                </li>
+                <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <a href="/vi/information.html" itemprop="item"><span itemprop="name">Thông tin</span></a><meta itemprop="position" content="2">
+                </li>
+                <li class="breadcrumb-item active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                    <span itemprop="name">RPM là gì</span><meta itemprop="position" content="3">
+                </li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="container py-4">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <article>
+                    <h1 class="fw-bold mb-3">RPM là gì? Đơn vị đo tốc độ quay, công thức và ứng dụng trong công nghiệp</h1>
+                    <p class="text-muted mb-4"><i class="bi bi-calendar3 me-1"></i> Cập nhật: 01/06/2026 &nbsp;|&nbsp; <i class="bi bi-building me-1"></i> FAST GROUP ENGINEERING</p>
+
+                    <p class="lead"><strong>RPM</strong> là viết tắt của <em>Revolutions Per Minute</em> — đơn vị đo số vòng quay hoàn chỉnh của một trục hoặc bộ phận quay trong một phút. Đây là thông số kỹ thuật quan trọng nhất trong vận hành và bảo trì motor, turbine, máy bơm và băng tải công nghiệp.</p>
+
+                    <h2 class="fw-bold mt-4 mb-3">Định nghĩa RPM và các đơn vị liên quan</h2>
+                    <p>1 RPM = 1 vòng quay hoàn chỉnh (360°) trong 1 phút. Trong kỹ thuật, tốc độ quay còn được biểu diễn bằng các đơn vị khác:</p>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="table-primary">
+                                <tr><th>Đơn vị</th><th>Ký hiệu</th><th>Quan hệ với RPM</th><th>Dùng trong</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Vòng/phút</td><td>RPM (n)</td><td>Cơ sở</td><td>Motor, turbine, máy bơm</td></tr>
+                                <tr><td>Vòng/giây</td><td>RPS (n/s)</td><td>RPM ÷ 60</td><td>Máy tốc độ cao, spindle CNC</td></tr>
+                                <tr><td>Hertz</td><td>Hz</td><td>RPM ÷ 60</td><td>Phân tích rung động, FFT</td></tr>
+                                <tr><td>Radian/giây</td><td>rad/s (ω)</td><td>RPM × 2π ÷ 60</td><td>Tính toán động lực học</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h2 class="fw-bold mt-4 mb-3">Công thức chuyển đổi RPM</h2>
+                    <div class="bg-light p-3 rounded mb-3">
+                        <code>
+                            ω (rad/s) = RPM × 2π / 60 ≈ RPM × 0,1047<br>
+                            f (Hz) = RPM / 60<br>
+                            RPM = f (Hz) × 60<br>
+                            RPM = ω (rad/s) × 60 / (2π) ≈ ω × 9,549
+                        </code>
+                    </div>
+                    <p><strong>Ví dụ thực tế:</strong> Motor 4-cực chạy ở tần số lưới 50 Hz → tốc độ đồng bộ = 1.500 RPM. Motor 2-cực ở 50 Hz → 3.000 RPM.</p>
+
+                    <h2 class="fw-bold mt-4 mb-3">RPM định mức và RPM vận hành thực tế</h2>
+                    <p>Nhà sản xuất thiết bị luôn công bố <strong>tốc độ định mức (rated RPM)</strong> trên nameplate. Trong vận hành thực tế, RPM có thể thay đổi do:</p>
+                    <ul>
+                        <li>Biến đổi tải (load variation)</li>
+                        <li>Mòn ổ bi, rò rỉ chất lỏng làm mát</li>
+                        <li>Tần số nguồn điện dao động</li>
+                        <li>Lỗi khớp nối, imbalance trên trục</li>
+                    </ul>
+                    <p>Sai lệch &gt;3% so với RPM định mức là dấu hiệu cần kiểm tra bảo trì.</p>
+
+                    <h2 class="fw-bold mt-4 mb-3">RPM trong các ngành công nghiệp tại Việt Nam</h2>
+                    <ul>
+                        <li><strong>Dầu khí O&G:</strong> Pump 1.450–1.500 RPM; Compressor 3.000–6.000 RPM; Turbine khí 6.000–15.000 RPM.</li>
+                        <li><strong>Điện lực:</strong> Turbine hơi 3.000 RPM (50 Hz, 2-cực); Máy phát diesel 1.500 RPM.</li>
+                        <li><strong>Đóng tàu:</strong> Máy chính 80–600 RPM; Máy phụ 900–1.800 RPM.</li>
+                        <li><strong>CNC/Gia công cơ khí:</strong> Spindle 100–30.000 RPM tùy vật liệu và dao cắt.</li>
+                    </ul>
+
+                    <h2 class="fw-bold mt-4 mb-3">Thiết bị đo RPM Rheintacho</h2>
+                    <p>Để đo RPM chính xác tại hiện trường hoặc tích hợp vào hệ thống giám sát liên tục:</p>
+                    <ul>
+                        <li><a href="/vi/dong-ho-do-toc-do-cam-tay-ki-thuat-so/">Tachometer cầm tay Rotaro</a> — đo tiếp xúc/quang học, hiển thị RPM tức thì, lưu Max/Min.</li>
+                        <li><a href="/vi/cam-bien-toc-do-quay/">Cảm biến tốc độ Hall</a> — tín hiệu xung kết nối PLC/DCS, phản hồi RPM thời gian thực.</li>
+                        <li><a href="/vi/san-pham-khac/">Bộ giám sát Rotas</a> — cài ngưỡng RPM cảnh báo và cắt máy tự động.</li>
+                    </ul>
+
+                    <div class="bg-light p-4 rounded mt-5 text-center">
+                        <h4 class="fw-bold">Cần thiết bị đo RPM phù hợp cho ứng dụng của bạn?</h4>
+                        <p>Cung cấp thông tin dải RPM, môi trường làm việc và yêu cầu tín hiệu ra — FAST GROUP ENGINEERING sẽ tư vấn model tối ưu.</p>
+                        <a href="/vi/contact.html" class="btn btn-success me-2 px-4">Yêu cầu báo giá</a>
+                        <a href="tel:+84938888958" class="btn btn-outline-success px-4"><i class="fa fa-phone me-1"></i> +84 938 888 958</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark" id="tempaltemo_footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 pt-5">
+                <a class="navbar-brand d-flex align-items-center" href="/vi/index.html">
+                    <img alt="Logo" class="main-logo" height="90px" src="/assets/images/main_logo.png" />
+                </a>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <span>Trụ sở chính: 150/41 Nguyễn Cư Trinh, Phường Cầu Ông Lãnh, Thành phố Hồ Chí Minh</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <span>Văn phòng Vũng Tàu: 51 Lê Văn Lộc, Phường 9, Thành phố Vũng Tàu</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <span>Kho: 41 Trần Văn Giàu, Phường Tam Thắng, Thành phố Hồ Chí Minh</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone fa-fw"></i>
+                        <a class="text-decoration-none" href="tel:+84938888958">+84 938 888 958</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope fa-fw"></i>
+                        <a class="text-decoration-none" href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light fw-bold">Danh mục</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="/vi/cam-bien-toc-do-quay">Cảm biến tốc độ quay</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/den-nhay-co-dinh">Đèn nháy cố định</a></li>
+                    <li><a class="text-decoration-none" href="/vi/may-do-toc-do-di-dong">Đèn nháy cầm tay</a></li>
+                    <li><a class="text-decoration-none" href="/vi/dong-ho-do-toc-do-cam-tay-ki-thuat-so">Máy đo tốc độ
+                            cầm tay</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/phu-kien">Phụ kiện và linh kiện</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light fw-bold">Ứng dụng</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/do-toc-do-dong-co/">Đo tốc độ động cơ</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/giam-sat-toc-do-turbine">Giám sát tốc độ
+                            turbine</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/giam-sat-toc-do-may-bom">Giám sát tốc độ
+                            bơm</a></li>
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/do-toc-do-bang-tai">Đo tốc độ băng tải</a>
+                    </li>
+                    <li><a class="text-decoration-none" href="/vi/ung-dung/giam-sat-thiet-bi-quay">Giám sát máy quay</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light fw-bold">Thông tin</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="/vi/rheintacho-viet-nam/">Rheintacho Việt Nam</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/tachometer-la-gi/">Tachometer là gì</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/rpm-la-gi/">RPM là gì</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/cach-do-toc-do-motor/">Cách đo tốc độ motor</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/stroboscope-la-gi/">Stroboscope là gì</a></li>
+                    <li><a class="text-decoration-none" href="/vi/thong-tin/so-sanh-tachometer/">So sánh Tachometer tiếp xúc và không tiếp xúc</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row text-light mb-4">
+            <div class="col-12 mb-3">
+                <div class="w-100 my-3 border-top border-light"></div>
+            </div>
+            <div class="col-auto me-auto">
+                <ul class="list-inline text-left footer-icons">
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none"
+                            href="https://www.facebook.com/profile.php?id=61578520749284" target="_blank"><i
+                                class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none"
+                            href="https://www.youtube.com/channel/UCslJPz9yixGQssF1BHKzavQ" target="_blank"><i
+                                class="fab fa-youtube fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none"
+                            href="https://www.linkedin.com/company/fast-group-engineering" target="_blank"><i
+                                class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-auto">
+                <label class="sr-only" for="subscribeEmail">Email address</label>
+                <div class="input-group mb-2">
+                    <input class="form-control bg-dark border-light"
+                        data-i18n-placeholder="footer.subscribe.placeholder" id="subscribeEmail" type="text" />
+                    <div class="input-group-text btn-success text-light">Đăng ký</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-100 bg-black py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-12">
+                    <p class="text-left text-light">
+                        <span>Bản quyền © 2026 TNHH Fast Group</span>
+                        | Designed by
+                        <a href="https://ocmoxa.com" rel="noopener noreferrer" target="_blank">OCMOXA</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/templatemo.min.js"></script>
+    <script src="/assets/js/custom.js"></script>
+</body>
+</html>

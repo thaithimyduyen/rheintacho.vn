@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="vi" id="page-404">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title id="page-title">404 — Không tìm thấy trang | Rheintacho Việt Nam</title>
+    <meta name="robots" content="noindex, nofollow">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <!-- CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/templatemo.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="/assets/css/fontawesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .error-section {
+            min-height: 65vh;
+            display: flex;
+            align-items: center;
+        }
+        .error-code {
+            font-size: 7rem;
+            font-weight: 900;
+            line-height: 1;
+            color: #198754;
+            opacity: 0.15;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -60%);
+            pointer-events: none;
+            user-select: none;
+        }
+        .error-content {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inlined Header VI (auto-selected by JS) -->
+    <div id="header-placeholder"></div>
+
+    <section class="error-section">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-7 position-relative py-5">
+                    <div class="error-code">404</div>
+                    <div class="error-content">
+                        <div class="mb-4">
+                            <i class="bi bi-search text-success" style="font-size:3.5rem;"></i>
+                        </div>
+                        <h1 class="fw-bold mb-3" id="err-title">Không tìm thấy trang</h1>
+                        <p class="text-muted mb-4 fs-5" id="err-desc">
+                            Trang bạn đang tìm kiếm không tồn tại hoặc đã bị di chuyển.
+                        </p>
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <a id="link-home" href="/vi/" class="btn btn-success px-4 py-2">
+                                <i class="bi bi-house me-2"></i><span id="txt-home">Trang chủ</span>
+                            </a>
+                            <a id="link-cat" href="/vi/categories.html" class="btn btn-outline-success px-4 py-2">
+                                <i class="bi bi-grid me-2"></i><span id="txt-cat">Danh mục sản phẩm</span>
+                            </a>
+                            <a id="link-contact" href="/vi/contact.html" class="btn btn-outline-secondary px-4 py-2">
+                                <i class="bi bi-envelope me-2"></i><span id="txt-contact">Liên hệ</span>
+                            </a>
+                        </div>
+                        <p class="mt-4 text-muted small" id="err-help">
+                            Hoặc gọi trực tiếp:
+                            <a href="tel:+84938888958" class="text-success fw-bold">+84 938 888 958</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/templatemo.min.js"></script>
+
+    <script>
+    // ─── Language Detection & Content Swap ───────────────────────────────────
+    (function() {
+        const path = window.location.pathname;
+        const isEN = path.startsWith('/en') || 
+                     (!path.startsWith('/vi') && navigator.language && navigator.language.startsWith('en'));
+
+        if (isEN) {
+            document.documentElement.lang = 'en';
+            document.getElementById('page-title').textContent = '404 — Page Not Found | Rheintacho Vietnam';
+            document.getElementById('err-title').textContent = 'Page Not Found';
+            document.getElementById('err-desc').textContent = 'The page you are looking for does not exist or has been moved.';
+            document.getElementById('link-home').href = '/en/';
+            document.getElementById('txt-home').textContent = 'Home';
+            document.getElementById('link-cat').href = '/en/categories.html';
+            document.getElementById('txt-cat').textContent = 'Product Catalogue';
+            document.getElementById('link-contact').href = '/en/contact.html';
+            document.getElementById('txt-contact').textContent = 'Contact Us';
+            document.getElementById('err-help').innerHTML = 
+                'Or call us directly: <a href="tel:+84938888958" class="text-success fw-bold">+84 938 888 958</a>';
+        }
+    })();
+
+    // ─── Inline Header + Footer via fetch ────────────────────────────────────
+    (async function() {
+        const path = window.location.pathname;
+        const lang = path.startsWith('/vi') ? 'vi' : 'en';
+        const base = `/assets/components/${lang}`;
+
+        async function loadInto(placeholderId, componentName) {
+            try {
+                const res = await fetch(`${base}/${componentName}.html`);
+                if (!res.ok) return;
+                const html = await res.text();
+                const el = document.getElementById(placeholderId);
+                if (el) el.outerHTML = html;
+            } catch(e) { console.warn('Component load failed:', e); }
+        }
+
+        await loadInto('header-placeholder', 'header');
+        await loadInto('footer-placeholder', 'footer');
+
+        // Activate lang button
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.lang === lang);
+        });
+    })();
+    </script>
+</body>
+</html>
