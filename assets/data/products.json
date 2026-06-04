@@ -2234,7 +2234,7 @@
         "vi": [
           "Dữ liệu đầu vào biến cho tín hiệu xung và sóng sin từ 0,01 Hz đến 20,000 Hz.",
           "15 đơn vị đo lường khác nhau",
-          "LC-display in Vietnamese is translated as \"màn hình LC\".",
+          "Màn hình LC",
           "Hướng dẫn sử dụng đơn giản với 6 nút bấm",
           "Hai rơle độc lập (chuyển đổi)",
           "Chuyển đổi relay lập trình tự do",
@@ -2973,7 +2973,7 @@
           "Small jitter"
         ],
         "vi": [
-          "KBA-approval / ECE type-approval can be translated to Vietnamese as:\n\n\"Phê duyệt KBA / Phê duyệt loại ECE\"",
+          "Phê duyệt KBA / Phê duyệt loại ECE",
           "Độ sâu lắp ghép: 30 mm, những cái khác có sẵn theo yêu cầu.",
           "Cổng cáp 90° theo yêu cầu.",
           "Độ dài cáp / đầu nối khác nhau có sẵn theo yêu cầu.",
@@ -3336,7 +3336,7 @@
           "Phát hiện từ 0 Hz",
           "Không yêu cầu căn chỉnh",
           "Kích thước lắp đặt DIN M18",
-          "Brass in Vietnamese is \"thau\".",
+          "Đồng thau",
           "Nhiều khả năng kết nối khác nhau"
         ]
       },
@@ -3405,7 +3405,7 @@
           "Phát hiện từ 0 Hz",
           "Không cần căn chỉnh",
           "Kích thước lắp đặt 5/8 và 3/4 inch",
-          "In Vietnamese, \"Stainless steel\" is translated as \"Thép không gỉ\"."
+          "Thép không gỉ"
         ]
       },
       "technical_data": {
@@ -5082,61 +5082,6 @@
       "keywords": {
         "en": "stationary stroboscope, RT STROBE 12000 LED, Rheintacho stroboscope, LED stroboscope, industrial stroboscope, strobe light for machinery, high-speed stroboscope, precision stroboscope, adjustable frequency strobe, strobe light applications",
         "vi": " đồng hồ stroboscope tĩnh, RT STROBE 12000 LED, đồng hồ stroboscope Rheintacho, đồng hồ stroboscope LED, đồng hồ stroboscope công nghiệp, đèn strobe cho máy móc, đồng hồ stroboscope tốc độ cao, đồng hồ stroboscope chính xác, đèn strobe tần số điều chỉnh, ứng dụng của đèn strobe"
-      }
-    },
-    "rt-strobe-control": {
-      "name": {
-        "en": "RT STROBE control",
-        "vi": "Điều khiển RT STROBE"
-      },
-      "applications": {
-        "en": [],
-        "vi": []
-      },
-      "features": {
-        "en": [],
-        "vi": []
-      },
-      "description": {
-        "en": "\n<p>RT STROBE control is your easy-to-handle control centre for any stroboscope, whether it is from RHEINTACHO or another manufacturer. Use it to create a trigger signal or to influence a signal generated externally. The multiplicity of control parameters make it easy for you to carry out the inspection or measurement tasks required of you</p>\n",
-        "vi": "<p>Điều khiển RT STROBE là trung tâm điều khiển dễ sử dụng cho bất kỳ đèn nháy nào, dù là từ RHEINTACHO hay nhà sản xuất khác. Sử dụng nó để tạo tín hiệu kích hoạt hoặc để điều chỉnh tín hiệu được tạo ra từ bên ngoài. Nhiều tham số điều khiển giúp bạn dễ dàng thực hiện các nhiệm vụ kiểm tra hoặc đo lường được yêu cầu.</p>"
-      },
-      "scope_of_delivery": {
-        "en": "\n<p>A6-1000:</p><ul><li>Stroboscope control unit RT STROBE control</li><li>Operating instructions</li><li>Trigger cable 1.5 m</li><li>Certificate</li><li>Case</li></ul>\n",
-        "vi": "<p>A6-1000:</p><ul><li>Đơn vị điều khiển đèn nhấp nháy RT STROBE control</li><li>Hướng dẫn vận hành</li><li>Cáp kích hoạt dài 1,5 m</li><li>Chứng nhận</li><li>Hộp đựng</li></ul>"
-      },
-      "technical_data": {
-        "en": {
-          "Frequency": "0.5 ... 10,000 Hz",
-          "Phase shift": "0 ... 359° ±1°",
-          "Dimensions": "162 x 820 x 40 mm"
-        },
-        "vi": {
-          "Tần số": "0,5 ... 10.000 Hz",
-          "Độ lệch pha": "0 ... 359° ±1°",
-          "Kích thước": "162 x 820 x 40 mm"
-        }
-      },
-      "images": [],
-      "docs": [
-        "Manual_RT_STROBE_control.pdf",
-        "Brochure_RT_STROBE_control.pdf"
-      ],
-      "category": {
-        "en": "Control",
-        "vi": "Điều khiển"
-      },
-      "slug": {
-        "en": "rt-strobe-control",
-        "vi": "dieu-khien-rt-strobe"
-      },
-      "short_description": {
-        "en": "Enhance precision with Rheintacho's RT STROBE control, ideal for accurate industrial measurement and reliable performance. Perfect for your needs!",
-        "vi": "Nâng cao độ chính xác với bộ điều khiển RT STROBE của Rheintacho, lý tưởng cho đo lường công nghiệp chính xác và hiệu suất đáng tin cậy. Hoàn hảo cho nhu cầu của bạn!"
-      },
-      "keywords": {
-        "en": "RT STROBE control, Rheintacho RT STROBE, strobe control device, stroboscope controller, precision strobe control, Rheintacho electronics, industrial strobe control, RT STROBE features, strobe timing solutions, Rheintacho instrumentation",
-        "vi": " Điều khiển STROBE RT, Rheintacho RT STROBE, Thiết bị điều khiển strobe, Bộ điều khiển stroboscope, Điều khiển strobe chính xác, Điện tử Rheintacho, Điều khiển strobe công nghiệp, Tính năng RT STROBE, Giải pháp đồng bộ strobe, Thiết bị đo lường Rheintacho"
       }
     },
     "rt-strobe-eco-control": {

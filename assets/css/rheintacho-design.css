@@ -1033,3 +1033,81 @@ textarea.form-control { resize: vertical; min-height: 120px; }
     .site-quote-btn span { display: none; }
     .site-quote-btn { padding: 10px 14px; }
 }
+
+/* ═══════════════════════════════════════════════
+   15. PRODUCT DETAIL — ADDENDUM (generator)
+═══════════════════════════════════════════════ */
+.pd-thumbs { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.pd-thumb {
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: linear-gradient(135deg, #e8ecf4, #f0f3f8);
+    aspect-ratio: 1/1;
+    border: 1px solid var(--rt-line);
+    cursor: pointer;
+    transition: border-color .15s;
+}
+.pd-thumb:hover { border-color: var(--rt-violet); }
+.pd-thumb img { width: 100%; height: 100%; object-fit: contain; padding: 8px; }
+
+.pd-feature-list { display: flex; flex-direction: column; gap: 8px; }
+.pd-feature-list li {
+    position: relative; padding-left: 26px;
+    font-size: 14px; line-height: 1.55; color: var(--rt-body);
+}
+.pd-feature-list li::before {
+    content: ""; position: absolute; left: 0; top: 7px;
+    width: 16px; height: 16px; border-radius: 50%;
+    background: var(--rt-violet-pale);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234d3e99' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+    background-size: 11px; background-repeat: no-repeat; background-position: center;
+}
+
+/* Breadcrumb — design-system styling (đè Bootstrap mặc định) */
+.rt-breadcrumb { display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+    font-size: 13px; color: var(--rt-muted); margin-bottom: 24px; padding: 0; }
+.rt-breadcrumb a { color: var(--rt-body); }
+.rt-breadcrumb a:hover { color: var(--rt-violet); }
+.rt-breadcrumb .sep { color: var(--rt-line); }
+.rt-breadcrumb .current { color: var(--rt-violet); font-weight: 600; }
+
+/* Scope of delivery block */
+.pd-scope { margin-bottom: 32px; }
+.pd-scope h3 { font-size: 14px; font-weight: 800; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--rt-slate); margin-bottom: 12px; }
+.pd-scope ul { display: flex; flex-direction: column; gap: 6px; }
+.pd-scope li { padding-left: 18px; position: relative; font-size: 14px; color: var(--rt-body); }
+.pd-scope li::before { content: "—"; position: absolute; left: 0; color: var(--rt-violet); }
+
+/* Group / listing page hero */
+.group-hero { background: linear-gradient(135deg, var(--rt-navy), var(--rt-violet-deep));
+    padding: 56px 0; color: #fff; }
+.group-hero h1 { color: #fff; font-size: 34px; font-weight: 800; margin-bottom: 12px; }
+.group-hero p { color: rgba(255,255,255,.82); max-width: 680px; font-size: 16px; }
+.group-hero .rt-breadcrumb { color: rgba(255,255,255,.6); margin-bottom: 20px; }
+.group-hero .rt-breadcrumb a { color: rgba(255,255,255,.8); }
+.group-hero .rt-breadcrumb .current { color: #fff; }
+
+.group-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; padding: 56px 0; }
+@media (max-width: 900px) { .group-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .group-grid { grid-template-columns: 1fr; } }
+
+@media (max-width: 768px) {
+    .group-hero h1 { font-size: 26px; }
+    .pd-thumbs { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* ── HEADER LAYOUT FIX: tránh brand đè lên menu (desktop) ── */
+@media (min-width: 992px) {
+    .site-navbar .container { flex-wrap: nowrap; gap: 24px; }
+    .site-brand { flex-shrink: 0; }
+    .site-navbar .navbar-collapse {
+        flex: 1 1 auto;
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-end;
+        min-width: 0;
+    }
+    .site-menu { flex-wrap: nowrap; }
+    .site-menu .nav-link { white-space: nowrap; }
+}
