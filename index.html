@@ -10,21 +10,215 @@
   <meta property="og:title" content="Rheintacho Việt Nam | Cảm biến tốc độ, đèn nháy và máy đo tốc độ">
   <meta property="og:description" content="Rheintacho Việt Nam phân phối cảm biến tốc độ quay, đèn nháy đo tốc độ, máy đo tốc độ cầm tay và bộ giám sát tốc độ chính hãng.">
   <meta property="og:url" content="https://rheintacho.com.vn/">
-  <meta property="og:image" content="https://rheintacho.com.vn/assets/images/Produktuebersicht_2018_870x386px_72dpi.webp">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="vi_VN">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-  <link rel="manifest" href="/assets/images/site.webmanifest">
-  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+  :root{
+    --ink:#14161c; --ink-2:#1c1f29; --ink-3:#262a37;
+    --paper:#f4f2ea; --paper-2:#eceae0; --white:#ffffff;
+    --brand:#51459b; --brand-deep:#2c2363; --brand-bright:#7c6ee6; --brand-soft:#efedf9;
+    --signal:#22a98c;
+    --text:#3d4252; --muted:#7b8194; --line:rgba(20,22,28,.13); --line-soft:rgba(20,22,28,.08);
+    --line-light:rgba(255,255,255,.14);
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+    --shadow:0 22px 60px -28px rgba(20,22,28,.45);
+    --maxw:1200px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased;
+    background-image:linear-gradient(var(--line-soft) 1px,transparent 1px),linear-gradient(90deg,var(--line-soft) 1px,transparent 1px);
+    background-size:64px 64px;background-position:center top;}
+  img{display:block;max-width:100%;height:auto}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3{font-family:var(--display);margin:0;line-height:1.04;letter-spacing:-.02em;font-weight:800;color:var(--ink)}
+  p{margin:0}
+  .container{width:min(var(--maxw),calc(100% - 48px));margin-inline:auto}
+  .mono{font-family:var(--mono);text-transform:uppercase;letter-spacing:.22em;font-size:11px;font-weight:500}
+
+  /* ---------- HEADER ---------- */
+  .topbar{background:var(--ink);color:rgba(255,255,255,.7)}
+  .topbar-inner{min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+  .topbar-inner .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--signal);margin-right:9px;box-shadow:0 0 0 0 rgba(34,169,140,.6);animation:pulse 2.4s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(34,169,140,.55)}70%{box-shadow:0 0 0 7px rgba(34,169,140,0)}100%{box-shadow:0 0 0 0 rgba(34,169,140,0)}}
+  .topbar-links{display:flex;gap:22px}
+  .topbar-links a{color:rgba(255,255,255,.82);transition:color .2s}
+  .topbar-links a:hover{color:#fff}
+  .site-header{position:sticky;top:0;z-index:60}
+  .navbar{background:rgba(244,242,234,.86);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line)}
+  .nav-inner{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+  .brand{display:inline-flex;align-items:center;gap:13px}
+  .brand-mark{width:46px;height:46px;flex:none;border-radius:9px;background:var(--ink);display:grid;place-items:center;position:relative;overflow:hidden}
+  .brand-mark svg{width:30px;height:30px}
+  .brand-text strong{font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:.02em;display:block;line-height:1}
+  .brand-text small{font-family:var(--mono);font-size:10px;letter-spacing:.34em;text-transform:uppercase;color:var(--brand);display:block;margin-top:3px}
+  .nav-menu{display:flex;align-items:center;gap:6px}
+  .nav-link{font-weight:500;font-size:14.5px;padding:9px 14px;border-radius:7px;color:var(--ink);transition:background .2s,color .2s;position:relative}
+  .nav-link:hover{background:rgba(20,22,28,.05)}
+  .nav-link.active{color:var(--brand)}
+  .nav-link.active::after{content:"";position:absolute;left:14px;right:14px;bottom:2px;height:2px;background:var(--brand);border-radius:2px}
+  .quote-link{margin-left:8px;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:#fff;background:var(--brand);padding:11px 20px;border-radius:8px;transition:transform .2s,background .2s,box-shadow .2s}
+  .quote-link:hover{background:var(--brand-deep);transform:translateY(-1px);box-shadow:0 10px 24px -10px rgba(44,35,99,.7)}
+  .menu-toggle{display:none;background:none;border:1px solid var(--line);border-radius:8px;width:46px;height:42px;cursor:pointer;flex-direction:column;gap:5px;align-items:center;justify-content:center}
+  .menu-toggle span{width:20px;height:2px;background:var(--ink);transition:.25s}
+
+  /* ---------- BUTTONS ---------- */
+  .btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:12.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:600;padding:15px 26px;border-radius:9px;transition:transform .2s,background .2s,box-shadow .2s,border-color .2s;cursor:pointer;border:1px solid transparent}
+  .btn svg{width:15px;height:15px}
+  .btn-primary{background:var(--brand);color:#fff}
+  .btn-primary:hover{background:var(--brand-deep);transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(44,35,99,.8)}
+  .btn-ghost{border-color:var(--line-light);color:#fff}
+  .btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.06)}
+  .btn-line{border-color:var(--line);color:var(--ink)}
+  .btn-line:hover{border-color:var(--ink);transform:translateY(-2px)}
+  .btn-light{background:var(--paper);color:var(--ink)}
+  .btn-light:hover{background:#fff;transform:translateY(-2px)}
+
+  /* ---------- HERO ---------- */
+  .hero{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line-light) 1px,transparent 1px),linear-gradient(90deg,var(--line-light) 1px,transparent 1px);background-size:64px 64px;opacity:.5;mask-image:radial-gradient(120% 90% at 70% 30%,#000 30%,transparent 78%)}
+  .hero::after{content:"";position:absolute;width:760px;height:760px;right:-180px;top:-220px;border-radius:50%;background:radial-gradient(circle,rgba(124,110,230,.32),transparent 62%);filter:blur(8px)}
+  .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding:84px 0 96px}
+  .eyebrow{display:inline-flex;align-items:center;gap:11px;font-family:var(--mono);font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--brand-bright)}
+  .eyebrow .tick{width:26px;height:1px;background:var(--brand-bright)}
+  .hero h1{font-size:clamp(38px,5.4vw,68px);font-weight:900;margin:22px 0 0;color:#fff}
+  .hero h1 em{font-style:normal;color:var(--brand-bright)}
+  .hero-copy p{margin-top:22px;font-size:17.5px;color:rgba(255,255,255,.74);max-width:46ch}
+  .hero-actions{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap}
+  .hero-stats{margin-top:46px;display:flex;gap:38px;border-top:1px solid var(--line-light);padding-top:26px}
+  .hero-stats .num{font-family:var(--display);font-weight:800;font-size:30px;color:#fff}
+  .hero-stats .lab{font-family:var(--mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.52);margin-top:4px}
+
+  /* rotational instrument graphic */
+  .hero-media{display:grid;place-items:center;position:relative}
+  .gauge{width:min(420px,90%);aspect-ratio:1;position:relative}
+  .gauge .ring{position:absolute;inset:0;border-radius:50%;border:1px solid var(--line-light)}
+  .spin svg{width:100%;height:100%;animation:spin 26s linear infinite}
+  .spin.slow svg{animation-duration:48s;animation-direction:reverse}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .gauge-core{position:absolute;inset:28%;border-radius:50%;border:1px solid var(--line-light);background:radial-gradient(circle at 50% 40%,rgba(124,110,230,.22),rgba(20,22,28,.2));display:grid;place-content:center;text-align:center}
+  .gauge-core .rpm{font-family:var(--mono);font-size:11px;letter-spacing:.2em;color:var(--brand-bright)}
+  .gauge-core .val{font-family:var(--display);font-weight:800;font-size:34px;color:#fff;line-height:1.1}
+  .gauge-core .unit{font-family:var(--mono);font-size:10px;letter-spacing:.24em;color:rgba(255,255,255,.5)}
+
+  /* ---------- TRUST STRIP ---------- */
+  .trust{border-bottom:1px solid var(--line);background:rgba(255,255,255,.45)}
+  .trust-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+  .trust-grid > div{padding:26px 28px;border-left:1px solid var(--line)}
+  .trust-grid > div:first-child{border-left:none}
+  .trust-grid .lab{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--brand)}
+  .trust-grid strong{display:block;font-family:var(--display);font-weight:700;font-size:16px;margin-top:9px;color:var(--ink)}
+  .trust-grid span.sub{display:block;color:var(--muted);font-size:13.5px;margin-top:3px}
+
+  /* ---------- SECTIONS ---------- */
+  .section{padding:88px 0}
+  .section.dark{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+  .section.dark::before{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line-light) 1px,transparent 1px),linear-gradient(90deg,var(--line-light) 1px,transparent 1px);background-size:64px 64px;opacity:.4}
+  .section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:30px;margin-bottom:48px;position:relative;z-index:2}
+  .section-head .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--brand)}
+  .section.dark .section-head .kicker{color:var(--brand-bright)}
+  .section-head h2{font-size:clamp(28px,3.4vw,42px);margin-top:14px;max-width:18ch}
+  .section.dark .section-head h2{color:#fff}
+  .section-head p{color:var(--muted);max-width:42ch;font-size:15.5px}
+  .section.dark .section-head p{color:rgba(255,255,255,.6)}
+
+  /* category grid */
+  .cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+  .cat-card{background:var(--paper);padding:34px 30px 30px;position:relative;transition:background .25s,transform .25s;display:flex;flex-direction:column;gap:14px}
+  .cat-card:hover{background:#fff}
+  .cat-card .idx{font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:var(--brand)}
+  .cat-icon{width:54px;height:54px;color:var(--brand);transition:transform .3s}
+  .cat-card:hover .cat-icon{transform:translateY(-3px) scale(1.04)}
+  .cat-card h3{font-size:21px}
+  .cat-card .count{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--muted)}
+  .cat-card p{color:var(--text);font-size:14.5px}
+  .cat-card .go{margin-top:auto;font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--brand);display:inline-flex;align-items:center;gap:8px;opacity:.5;transition:.25s}
+  .cat-card:hover .go{opacity:1;gap:13px}
+  .cat-card::after{content:"";position:absolute;top:18px;right:18px;width:11px;height:11px;border-top:1.5px solid var(--brand);border-right:1.5px solid var(--brand);opacity:0;transition:.25s}
+  .cat-card:hover::after{opacity:1}
+
+  /* featured products */
+  .prod-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+  .prod-card{border:1px solid var(--line);border-radius:12px;background:var(--paper);overflow:hidden;transition:transform .25s,box-shadow .25s,border-color .25s;display:flex;flex-direction:column}
+  .prod-card:hover{transform:translateY(-5px);box-shadow:var(--shadow);border-color:var(--brand)}
+  .prod-thumb{aspect-ratio:4/3;background:repeating-linear-gradient(45deg,#fff,#fff 12px,#f7f6f1 12px,#f7f6f1 24px);display:grid;place-items:center;border-bottom:1px solid var(--line);color:var(--brand)}
+  .prod-thumb svg{width:64px;height:64px}
+  .prod-body{padding:20px 20px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .prod-body .tag{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--brand)}
+  .prod-body h3{font-size:16.5px;letter-spacing:-.01em}
+  .prod-body p{color:var(--text);font-size:13.5px}
+
+  /* applications */
+  .app-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line-light);border:1px solid var(--line-light);position:relative;z-index:2}
+  .app-card{background:var(--ink-2);padding:32px 30px;display:flex;gap:20px;align-items:flex-start;transition:background .25s}
+  .app-card:hover{background:var(--ink-3)}
+  .app-card .ai{width:42px;height:42px;flex:none;color:var(--brand-bright)}
+  .app-card h3{color:#fff;font-size:18px}
+  .app-card p{color:rgba(255,255,255,.62);font-size:14px;margin-top:7px}
+
+  /* ---------- FOOTER ---------- */
+  .footer-cta{background:var(--brand);color:#fff;position:relative;overflow:hidden}
+  .footer-cta::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.08) 1px,transparent 1px);background-size:54px 54px}
+  .footer-cta-inner{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:54px 0}
+  .footer-cta .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+  .footer-cta h2{color:#fff;font-size:clamp(24px,3vw,34px);margin-top:12px;max-width:20ch}
+  .site-footer{background:var(--ink);color:rgba(255,255,255,.62)}
+  .footer-main{padding:70px 0 30px}
+  .footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px}
+  .footer-brand{display:inline-flex;align-items:center;gap:12px;margin-bottom:18px}
+  .footer-brand .brand-text strong{color:#fff}
+  .site-footer p{font-size:14px;max-width:34ch}
+  .site-footer .legal{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:rgba(255,255,255,.42);margin-top:16px}
+  .site-footer h3{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:18px;font-weight:500}
+  .site-footer ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
+  .site-footer ul a{color:rgba(255,255,255,.74);font-size:14px;transition:color .2s}
+  .site-footer ul a:hover{color:#fff}
+  .footer-bottom{border-top:1px solid var(--line-light);padding:22px 0;display:flex;justify-content:space-between;gap:16px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.45)}
+
+  /* floating */
+  .floating-contact{position:fixed;right:22px;bottom:22px;z-index:80;background:var(--brand);color:#fff;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:14px 20px;border-radius:50px;box-shadow:0 16px 34px -12px rgba(44,35,99,.8);display:inline-flex;align-items:center;gap:9px;transition:transform .2s}
+  .floating-contact:hover{transform:translateY(-3px)}
+  .floating-contact .dot{width:8px;height:8px;border-radius:50%;background:#fff;animation:pulse2 2s infinite}
+  @keyframes pulse2{0%,100%{opacity:1}50%{opacity:.4}}
+
+  /* reveal animation */
+  .reveal{opacity:0;transform:translateY(22px);animation:rise .8s cubic-bezier(.2,.7,.3,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.25s}.d4{animation-delay:.35s}.d5{animation-delay:.45s}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media(max-width:980px){
+    .nav-menu{position:fixed;inset:74px 0 auto;flex-direction:column;align-items:stretch;background:var(--paper);border-bottom:1px solid var(--line);padding:14px 24px 22px;gap:4px;transform:translateY(-12px);opacity:0;pointer-events:none;transition:.25s}
+    .nav-menu.open{transform:none;opacity:1;pointer-events:auto}
+    .menu-toggle{display:flex}
+    .quote-link{margin-left:0;text-align:center;justify-content:center}
+    .hero-grid{grid-template-columns:1fr;padding:60px 0 70px}
+    .hero-media{order:-1;max-width:360px;margin-inline:auto}
+    .cat-grid{grid-template-columns:1fr 1fr}
+    .prod-grid{grid-template-columns:1fr 1fr}
+    .app-grid{grid-template-columns:1fr}
+    .footer-grid{grid-template-columns:1fr 1fr}
+    .footer-cta-inner,.section-head{flex-direction:column;align-items:flex-start}
+  }
+  @media(max-width:600px){
+    .topbar-inner span.note{display:none}
+    .trust-grid{grid-template-columns:1fr 1fr}
+    .trust-grid > div:nth-child(3){border-left:none}
+    .cat-grid,.prod-grid,.footer-grid{grid-template-columns:1fr}
+    .hero-stats{flex-wrap:wrap;gap:24px}
+    .footer-bottom{flex-direction:column}
+  }
+  </style>
 </head>
 <body>
 
 <header class="site-header">
   <div class="topbar">
     <div class="container topbar-inner">
-      <span>Nhà phân phối ủy quyền Rheintacho tại Việt Nam</span>
+      <span class="note"><span class="dot"></span>Nhà phân phối ủy quyền Rheintacho tại Việt Nam</span>
       <div class="topbar-links">
         <a href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a>
         <a href="tel:+84938888958">+84 938 888 958</a>
@@ -34,8 +228,10 @@
   <nav class="navbar" aria-label="Điều hướng chính">
     <div class="container nav-inner">
       <a class="brand" href="/">
-        <img src="/assets/images/main_logo_icon.webp" alt="Rheintacho Việt Nam" width="44" height="44">
-        <span><strong>RHEINTACHO</strong><small>Việt Nam</small></span>
+        <span class="brand-mark">
+          <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" stroke="#7c6ee6" stroke-width="1.6"/><path d="M16 16 L16 7" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><path d="M16 16 L22 19" stroke="#7c6ee6" stroke-width="1.8" stroke-linecap="round"/><circle cx="16" cy="16" r="2" fill="#fff"/></svg>
+        </span>
+        <span class="brand-text"><strong>RHEINTACHO</strong><small>Việt Nam</small></span>
       </a>
       <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -53,173 +249,191 @@
 </header>
 
 <main>
+  <!-- HERO -->
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <span class="eyebrow">Rheintacho Việt Nam</span>
-        <h1>Công nghệ đo tốc độ chính xác từ Đức</h1>
-        <p>Fast Group Engineering phân phối thiết bị Rheintacho chính hãng tại Việt Nam: cảm biến tốc độ quay, đèn nháy đo tốc độ, máy đo tốc độ cầm tay và bộ giám sát tốc độ cho công nghiệp.</p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="/products/">Xem sản phẩm</a>
-          <a class="btn btn-secondary" href="/pages/lien-he.html">Yêu cầu báo giá</a>
+        <span class="eyebrow reveal d1"><span class="tick"></span>Rheintacho · Made in Germany</span>
+        <h1 class="reveal d2">Công nghệ đo tốc độ <em>chính xác</em> từ Đức</h1>
+        <p class="reveal d3">Fast Group Engineering phân phối thiết bị Rheintacho chính hãng tại Việt Nam: cảm biến tốc độ quay, đèn nháy đo tốc độ, máy đo cầm tay và bộ giám sát tốc độ cho công nghiệp.</p>
+        <div class="hero-actions reveal d4">
+          <a class="btn btn-primary" href="/products/">Xem sản phẩm
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="/pages/lien-he.html">Yêu cầu báo giá</a>
+        </div>
+        <div class="hero-stats reveal d5">
+          <div><div class="num">80+</div><div class="lab">Dòng sản phẩm</div></div>
+          <div><div class="num">IP69K</div><div class="lab">Chuẩn bảo vệ</div></div>
+          <div><div class="num">−40…+140°C</div><div class="lab">Dải nhiệt độ</div></div>
         </div>
       </div>
-      <div class="hero-media">
-        <img src="/assets/images/Produktuebersicht_2018_870x386px_72dpi.webp" alt="Sản phẩm Rheintacho chính hãng tại Việt Nam">
+      <div class="hero-media reveal d3">
+        <div class="gauge">
+          <div class="ring"></div>
+          <div class="spin"><svg viewBox="0 0 200 200" fill="none">
+            <circle cx="100" cy="100" r="92" stroke="rgba(255,255,255,.18)" stroke-width="1"/>
+            <g stroke="rgba(124,110,230,.85)" stroke-width="2" stroke-linecap="round">
+              <line x1="100" y1="10" x2="100" y2="26"/><line x1="190" y1="100" x2="174" y2="100"/>
+              <line x1="100" y1="190" x2="100" y2="174"/><line x1="10" y1="100" x2="26" y2="100"/>
+            </g>
+            <g stroke="rgba(255,255,255,.35)" stroke-width="1">
+              <line x1="100" y1="14" x2="100" y2="22" transform="rotate(30 100 100)"/>
+              <line x1="100" y1="14" x2="100" y2="22" transform="rotate(60 100 100)"/>
+              <line x1="100" y1="14" x2="100" y2="22" transform="rotate(120 100 100)"/>
+              <line x1="100" y1="14" x2="100" y2="22" transform="rotate(150 100 100)"/>
+              <line x1="100" y1="14" x2="100" y2="22" transform="rotate(210 100 100)"/>
+              <line x1="100" y1="14" x2="100" y2="22" transform="rotate(240 100 100)"/>
+              <line x1="100" y1="14" x2="100" y2="22" transform="rotate(300 100 100)"/>
+              <line x1="100" y1="14" x2="100" y2="22" transform="rotate(330 100 100)"/>
+            </g>
+          </svg></div>
+          <div class="spin slow"><svg viewBox="0 0 200 200" fill="none">
+            <circle cx="100" cy="100" r="64" stroke="rgba(255,255,255,.12)" stroke-width="1" stroke-dasharray="3 7"/>
+            <path d="M100 36 A64 64 0 0 1 158 80" stroke="rgba(124,110,230,.9)" stroke-width="3" stroke-linecap="round"/>
+          </svg></div>
+          <div class="gauge-core">
+            <div class="rpm">n · RPM</div>
+            <div class="val">12 480</div>
+            <div class="unit">min⁻¹</div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="trust-strip">
+  <!-- TRUST -->
+  <section class="trust">
     <div class="container trust-grid">
-      <div><strong>Chính hãng</strong><span>Nguồn gốc Rheintacho Đức</span></div>
-      <div><strong>Tư vấn kỹ thuật</strong><span>Chọn model theo ứng dụng</span></div>
-      <div><strong>Hỗ trợ doanh nghiệp</strong><span>VAT, chứng từ và báo giá</span></div>
-      <div><strong>Thị trường Việt Nam</strong><span>Fast Group Engineering</span></div>
+      <div><span class="lab">01 / Chính hãng</span><strong>Nguồn gốc Đức</strong><span class="sub">Thiết bị Rheintacho nguyên bản</span></div>
+      <div><span class="lab">02 / Kỹ thuật</span><strong>Tư vấn chọn model</strong><span class="sub">Theo đúng ứng dụng thực tế</span></div>
+      <div><span class="lab">03 / Doanh nghiệp</span><strong>VAT &amp; chứng từ</strong><span class="sub">Báo giá nhanh, đầy đủ hồ sơ</span></div>
+      <div><span class="lab">04 / Việt Nam</span><strong>Fast Group Engineering</strong><span class="sub">Hỗ trợ tại chỗ, giao toàn quốc</span></div>
     </div>
   </section>
 
+  <!-- CATEGORIES -->
   <section class="section">
     <div class="container">
-      
-<div class="section-intro">
-  <span>Danh mục</span>
-  <h2>Sản phẩm Rheintacho</h2>
-  <p>Cấu trúc sản phẩm được gom lại theo nhóm rõ ràng để dễ tra cứu, báo giá và phát triển thêm nội dung kỹ thuật.</p>
-</div>
-      <div class="category-grid">
-<a class="category-card" href="/products/cam-bien-toc-do-quay/">
-  <img src="/assets/images/csm_Sensor_2-Kanal_PWM_FE_572x386px_3bfa498e3c.webp" alt="Cảm biến tốc độ quay" loading="lazy">
-  <div>
-    <strong>Cảm biến tốc độ quay</strong>
-    <span>25 dòng sản phẩm</span>
-    <p>Cảm biến Hall, Differential Hall và GMR dùng để đo tốc độ quay trong môi trường công nghiệp nặng.</p>
-  </div>
-</a>
-<a class="category-card" href="/products/den-nhay-co-dinh/">
-  <img src="/assets/images/csm_STROBE_qbLEDs_Anschluesse_572x386px_d413e1108a.webp" alt="Đèn nháy cố định" loading="lazy">
-  <div>
-    <strong>Đèn nháy cố định</strong>
-    <span>6 dòng sản phẩm</span>
-    <p>Thiết bị quan sát và đo tốc độ không tiếp xúc cho dây chuyền sản xuất, máy in, quạt, trục và thiết bị quay.</p>
-  </div>
-</a>
-<a class="category-card" href="/products/den-nhay-cam-tay/">
-  <img src="/assets/images/csm_STROBE_pocketLED_LASER_572x386px_82878b8f63.webp" alt="Đèn nháy cầm tay" loading="lazy">
-  <div>
-    <strong>Đèn nháy cầm tay</strong>
-    <span>7 dòng sản phẩm</span>
-    <p>Dòng đèn nháy di động phục vụ bảo trì, kiểm tra tại hiện trường và phân tích chuyển động nhanh.</p>
-  </div>
-</a>
-<a class="category-card" href="/products/may-do-toc-do-cam-tay/">
-  <img src="/assets/images/csm_Rotaro_T_Adapteransicht_572x386px_2212215798.webp" alt="Máy đo tốc độ cầm tay" loading="lazy">
-  <div>
-    <strong>Máy đo tốc độ cầm tay</strong>
-    <span>5 dòng sản phẩm</span>
-    <p>Thiết bị đo tốc độ quay cầm tay cho kỹ thuật viên bảo trì, vận hành và kiểm tra máy móc.</p>
-  </div>
-</a>
-<a class="category-card" href="/products/bo-giam-sat-toc-do/">
-  <img src="/assets/images/csm_Drehzahlwaechter_Rotas_neutral_572x386px_b3abbb9c1d.webp" alt="Bộ giám sát tốc độ" loading="lazy">
-  <div>
-    <strong>Bộ giám sát tốc độ</strong>
-    <span>4 dòng sản phẩm</span>
-    <p>Bộ giám sát, cảnh báo và bảo vệ tốc độ quay cho hệ thống công nghiệp.</p>
-  </div>
-</a>
-<a class="category-card" href="/products/phu-kien/">
-  <img src="/assets/images/csm_Accessories_Verlaengerungskabel_572x386px_4343e9fd7f.webp" alt="Phụ kiện và linh kiện" loading="lazy">
-  <div>
-    <strong>Phụ kiện và linh kiện</strong>
-    <span>34 dòng sản phẩm</span>
-    <p>Cáp, adapter, pin, bánh xe đo, đầu đo, phụ kiện gá lắp và linh kiện thay thế Rheintacho.</p>
-  </div>
-</a></div>
+      <div class="section-head">
+        <div>
+          <span class="kicker">// Danh mục sản phẩm</span>
+          <h2>Giải pháp đo &amp; giám sát tốc độ Rheintacho</h2>
+        </div>
+        <p>Nhóm sản phẩm được sắp xếp rõ ràng để dễ tra cứu kỹ thuật và yêu cầu báo giá.</p>
+      </div>
+      <div class="cat-grid">
+        <a class="cat-card" href="/products/cam-bien-toc-do-quay/">
+          <span class="idx">01</span>
+          <svg class="cat-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="6"/><path d="M24 4v8M24 36v8M4 24h8M36 24h8" stroke-linecap="round"/><circle cx="24" cy="24" r="18" stroke-dasharray="3 5" opacity=".5"/></svg>
+          <h3>Cảm biến tốc độ quay</h3>
+          <span class="count">25 dòng · Hall · GMR · Differential</span>
+          <p>Cảm biến đo tốc độ quay cho môi trường công nghiệp nặng, ô tô và thủy lực.</p>
+          <span class="go">Xem nhóm →</span>
+        </a>
+        <a class="cat-card" href="/products/den-nhay-co-dinh/">
+          <span class="idx">02</span>
+          <svg class="cat-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 6l5 12-5 4-5-4 5-12z"/><path d="M24 26v16" stroke-linecap="round"/><path d="M10 16l6 4M38 16l-6 4" stroke-linecap="round" opacity=".6"/></svg>
+          <h3>Đèn nháy cố định</h3>
+          <span class="count">6 dòng · Stroboscope LED</span>
+          <p>Quan sát và đo tốc độ không tiếp xúc cho dây chuyền, máy in, trục quay.</p>
+          <span class="go">Xem nhóm →</span>
+        </a>
+        <a class="cat-card" href="/products/den-nhay-cam-tay/">
+          <span class="idx">03</span>
+          <svg class="cat-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="18" y="8" width="12" height="20" rx="3"/><path d="M24 28v12" stroke-linecap="round"/><path d="M33 14l8-4M33 20l8 0" stroke-linecap="round"/></svg>
+          <h3>Đèn nháy cầm tay</h3>
+          <span class="count">7 dòng · Portable LED</span>
+          <p>Đèn nháy di động cho bảo trì, kiểm tra hiện trường và phân tích chuyển động.</p>
+          <span class="go">Xem nhóm →</span>
+        </a>
+        <a class="cat-card" href="/products/may-do-toc-do-cam-tay/">
+          <span class="idx">04</span>
+          <svg class="cat-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="20" r="13"/><path d="M24 20l7-6" stroke-linecap="round"/><path d="M20 38h8M22 33v5M26 33v5" stroke-linecap="round"/></svg>
+          <h3>Máy đo tốc độ cầm tay</h3>
+          <span class="count">5 dòng · Tachometer</span>
+          <p>Thiết bị đo tốc độ quay cầm tay cho kỹ thuật viên vận hành và bảo trì.</p>
+          <span class="go">Xem nhóm →</span>
+        </a>
+        <a class="cat-card" href="/products/bo-giam-sat-toc-do/">
+          <span class="idx">05</span>
+          <svg class="cat-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="14" width="32" height="20" rx="3"/><path d="M14 24l5 4 6-10 5 8 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <h3>Bộ giám sát tốc độ</h3>
+          <span class="count">4 dòng · Speed monitor</span>
+          <p>Giám sát, cảnh báo và bảo vệ tốc độ quay cho hệ thống công nghiệp.</p>
+          <span class="go">Xem nhóm →</span>
+        </a>
+        <a class="cat-card" href="/products/phu-kien/">
+          <span class="idx">06</span>
+          <svg class="cat-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="7"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6M11 11l4 4M37 37l-4-4M37 11l-4 4M11 37l4-4" stroke-linecap="round"/></svg>
+          <h3>Phụ kiện &amp; linh kiện</h3>
+          <span class="count">34 dòng · Cáp · Adapter · Bánh xe đo</span>
+          <p>Phụ kiện gá lắp, đầu đo, pin, cáp và linh kiện thay thế chính hãng.</p>
+          <span class="go">Xem nhóm →</span>
+        </a>
+      </div>
     </div>
   </section>
 
-  <section class="section muted">
+  <!-- FEATURED -->
+  <section class="section" style="padding-top:0">
     <div class="container">
-      
-<div class="section-intro">
-  <span>Nổi bật</span>
-  <h2>Một số dòng sản phẩm tiêu biểu</h2>
-  <p>Các sản phẩm đại diện cho nhóm cảm biến, đèn nháy, máy đo tốc độ và giải pháp giám sát tốc độ.</p>
-</div>
-      <div class="product-grid">
-<a class="product-card" href="/products/cam-bien-toc-do-quay/cam-bien-truc-khuyu-gmr-1-kenh/" data-search="cảm biến trục khuỷu / gmr 1 kênh  gmr 1 kênh">
-  <div class="product-image"><img src="/assets/images/csm_Sensor_2-Kanal-Hall_Differenz_FQ_GMR_E1_572x386px_4a5173e965.webp" alt="Cảm biến trục khuỷu / GMR 1 kênh" loading="lazy"></div>
-  <div class="product-body">
-    <span>GMR 1 Kênh</span>
-    <h3>Cảm biến trục khuỷu / GMR 1 kênh</h3>
-    <p>Nâng cao độ chính xác với cảm biến trục khuỷu GMR 1 kênh của Rheintacho, được thiết kế đáng tin cậy cho đo lường công nghiệp tại Đức.</p>
-  </div>
-</a>
-<a class="product-card" href="/products/den-nhay-co-dinh/den-nhay-co-dinh-rt-strobe-qbleds/" data-search="đèn nháy cố định rt strobe qbleds  đèn nháy led cố định">
-  <div class="product-image"><img src="/assets/images/csm_STROBE_qbLEDs_572x386px_3c283d172d.webp" alt="Đèn nháy cố định RT STROBE qbLEDs" loading="lazy"></div>
-  <div class="product-body">
-    <span>Đèn nháy LED cố định</span>
-    <h3>Đèn nháy cố định RT STROBE qbLEDs</h3>
-    <p>Khám phá đo đạc chính xác với đèn chớp tĩnh Rheintacho RT STROBE qbLEDs—lý tưởng cho ứng dụng công nghiệp và kiểm tra chất lượng.</p>
-  </div>
-</a>
-<a class="product-card" href="/products/den-nhay-cam-tay/den-nhay-cam-tay-rt-strobe-pocketled/" data-search="đèn nháy cầm tay rt strobe pocketled  đèn nháy led cầm tay">
-  <div class="product-image"><img src="/assets/images/csm_STROBE_pocketLED_LED-Ansicht_572x386px_a67fccf483.webp" alt="Đèn nháy cầm tay RT STROBE pocketLED" loading="lazy"></div>
-  <div class="product-body">
-    <span>Đèn nháy LED cầm tay</span>
-    <h3>Đèn nháy cầm tay RT STROBE pocketLED</h3>
-    <p>Khám phá đèn nháy di động Rheintacho RT STROBE pocketLED dành cho đo lường công nghiệp chính xác và tăng cường hiệu suất. Hoàn hảo cho các chuyên gia di động!</p>
-  </div>
-</a>
-<a class="product-card" href="/products/may-do-toc-do-cam-tay/dong-ho-do-toc-do-vong-quay-ky-thuat-so-redpoint/" data-search="đồng hồ đo tốc độ vòng quay kỹ thuật số redpoint  điểm đỏ">
-  <div class="product-image"><img src="/assets/images/csm_Redpoint_572x386px_eda17b8daf.webp" alt="Đồng hồ đo tốc độ vòng quay kỹ thuật số redpoint" loading="lazy"></div>
-  <div class="product-body">
-    <span>Điểm đỏ</span>
-    <h3>Đồng hồ đo tốc độ vòng quay kỹ thuật số redpoint</h3>
-    <p>Khám phá độ chính xác với Đồng hồ máy đo tốc độ cầm tay số Rheintacho. Lý tưởng cho đo lường công nghiệp, đảm bảo hiệu suất tin cậy và độ chính xác trong những môi trường khắc</p>
-  </div>
-</a></div>
+      <div class="section-head">
+        <div>
+          <span class="kicker">// Nổi bật</span>
+          <h2>Một số dòng sản phẩm tiêu biểu</h2>
+        </div>
+        <p>Đại diện cho nhóm cảm biến, đèn nháy, máy đo và giải pháp giám sát tốc độ.</p>
+      </div>
+      <div class="prod-grid">
+        <a class="prod-card" href="/products/cam-bien-toc-do-quay/cam-bien-truc-khuyu-gmr-1-kenh/">
+          <div class="prod-thumb"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="24" cy="24" r="6"/><circle cx="24" cy="24" r="16" stroke-dasharray="2 4"/><path d="M24 8v6M24 34v6M8 24h6M34 24h6"/></svg></div>
+          <div class="prod-body"><span class="tag">GMR 1 Kênh</span><h3>Cảm biến trục khuỷu / GMR 1 kênh</h3><p>Độ chính xác cao, đáng tin cậy cho đo lường công nghiệp.</p></div>
+        </a>
+        <a class="prod-card" href="/products/den-nhay-co-dinh/den-nhay-co-dinh-rt-strobe-qbleds/">
+          <div class="prod-thumb"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M24 8l6 14-6 5-6-5 6-14z"/><path d="M24 27v13"/><path d="M10 20l6 3M38 20l-6 3"/></svg></div>
+          <div class="prod-body"><span class="tag">Đèn LED cố định</span><h3>RT STROBE qbLEDs</h3><p>Đèn chớp tĩnh cho ứng dụng công nghiệp và kiểm tra chất lượng.</p></div>
+        </a>
+        <a class="prod-card" href="/products/den-nhay-cam-tay/den-nhay-cam-tay-rt-strobe-pocketled/">
+          <div class="prod-thumb"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="18" y="8" width="12" height="22" rx="3"/><path d="M24 30v10"/><path d="M33 14l8-4M33 20h8"/></svg></div>
+          <div class="prod-body"><span class="tag">Đèn LED cầm tay</span><h3>RT STROBE pocketLED</h3><p>Đèn nháy di động chính xác, lý tưởng cho chuyên gia hiện trường.</p></div>
+        </a>
+        <a class="prod-card" href="/products/may-do-toc-do-cam-tay/dong-ho-do-toc-do-vong-quay-ky-thuat-so-redpoint/">
+          <div class="prod-thumb"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="24" cy="20" r="13"/><path d="M24 20l7-6"/><path d="M20 38h8"/></svg></div>
+          <div class="prod-body"><span class="tag">Redpoint</span><h3>Đồng hồ đo tốc độ số redpoint</h3><p>Máy đo tốc độ cầm tay số cho môi trường công nghiệp khắc nghiệt.</p></div>
+        </a>
+      </div>
     </div>
   </section>
 
-  <section class="section">
+  <!-- APPLICATIONS -->
+  <section class="section dark">
     <div class="container">
-      
-<div class="section-intro">
-  <span>Ứng dụng</span>
-  <h2>Đo tốc độ trong nhà máy và hệ thống công nghiệp</h2>
-  <p>Rheintacho được sử dụng trong bảo trì, vận hành, kiểm tra tốc độ quay và giám sát thiết bị.</p>
-</div>
+      <div class="section-head">
+        <div>
+          <span class="kicker">// Ứng dụng</span>
+          <h2>Đo tốc độ trong nhà máy &amp; hệ thống công nghiệp</h2>
+        </div>
+        <p>Rheintacho được dùng trong bảo trì, vận hành, kiểm tra và giám sát thiết bị quay.</p>
+      </div>
       <div class="app-grid">
-<a class="app-card" href="/pages/ung-dung/do-toc-do-dong-co/">
-  <img src="/assets/images/csm_Teaser_Anwendungen_Grossmotoren_270x160px_53fc9eeb4c.webp" alt="Đo tốc độ động cơ" loading="lazy">
-  <div>
-    <strong>Đo tốc độ động cơ</strong>
-    <p>Đo tốc độ động cơ là quá trình xác định tốc độ quay của trục động cơ bằng cảm biến tốc độ hoặc máy đo tốc độ. Đo tốc độ dưới dạng rpm giúp cải thiện hiệu suất và độ tin cậy của hệ thống.</p>
-  </div>
-</a>
-<a class="app-card" href="/pages/ung-dung/giam-sat-toc-do-turbine/">
-  <img src="/assets/images/csm_Teaser_Anwendungen_Windenergie_270x160px_359bc18acc.webp" alt="Giám sát tốc độ turbine" loading="lazy">
-  <div>
-    <strong>Giám sát tốc độ turbine</strong>
-    <p>Giám sát tốc độ turbine là quá trình đo tốc độ RPM chính xác bằng cách sử dụng cảm biến tốc độ hoặc máy đo tốc độ, đảm bảo hiệu suất và an toàn trong vận hành.</p>
-  </div>
-</a>
-<a class="app-card" href="/pages/ung-dung/giam-sat-toc-do-may-bom/">
-  <img src="/assets/images/csm_Teaser_Anwendungen_Mobilhydraulik_Bagger_270x160px_ba79cd5e53.webp" alt="Giám sát tốc độ máy bơm" loading="lazy">
-  <div>
-    <strong>Giám sát tốc độ máy bơm</strong>
-    <p>Giám sát tốc độ máy bơm giúp đo tốc độ RPM chính xác với cảm biến tốc độ hoặc máy đo tốc độ. Đảm bảo hiệu suất hoạt động tối ưu cho hệ thống bơm.</p>
-  </div>
-</a>
-<a class="app-card" href="/pages/ung-dung/do-toc-do-bang-tai/">
-  <img src="/assets/images/csm_Teaser_Anwendungen_Flurfoerderzeuge_270x160px_b70f508d66.webp" alt="Đo tốc độ băng tải" loading="lazy">
-  <div>
-    <strong>Đo tốc độ băng tải</strong>
-    <p>Dịch vụ đo tốc độ băng tải chuyên nghiệp bằng cảm biến tốc độ hoặc máy đo tốc độ cho phép xác định tốc độ quay (rpm) chính xác, đảm bảo hiệu suất vận hành tối ưu.</p>
-  </div>
-</a></div>
+        <a class="app-card" href="/pages/ung-dung/do-toc-do-dong-co/">
+          <svg class="ai" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="8" y="16" width="20" height="16" rx="2"/><path d="M28 22h8v6h-8M14 12v4M22 12v4"/></svg>
+          <div><h3>Đo tốc độ động cơ</h3><p>Xác định tốc độ quay trục động cơ (rpm) bằng cảm biến hoặc máy đo, tăng hiệu suất và độ tin cậy.</p></div>
+        </a>
+        <a class="app-card" href="/pages/ung-dung/giam-sat-toc-do-turbine/">
+          <svg class="ai" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="24" cy="24" r="4"/><path d="M24 20V8M24 28l10 6M24 28l-10 6" stroke-linecap="round"/></svg>
+          <div><h3>Giám sát tốc độ turbine</h3><p>Đo RPM chính xác, đảm bảo hiệu suất và an toàn vận hành cho turbine.</p></div>
+        </a>
+        <a class="app-card" href="/pages/ung-dung/giam-sat-toc-do-may-bom/">
+          <svg class="ai" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="22" cy="24" r="10"/><path d="M22 24l6-6M32 24h8v6" stroke-linecap="round"/></svg>
+          <div><h3>Giám sát tốc độ máy bơm</h3><p>Đo RPM chính xác cho hệ thống bơm, đảm bảo vận hành tối ưu.</p></div>
+        </a>
+        <a class="app-card" href="/pages/ung-dung/do-toc-do-bang-tai/">
+          <svg class="ai" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="14" cy="28" r="5"/><circle cx="34" cy="28" r="5"/><path d="M14 23h20M14 33h20" stroke-linecap="round"/></svg>
+          <div><h3>Đo tốc độ băng tải</h3><p>Xác định tốc độ băng tải chính xác, đảm bảo hiệu suất vận hành ổn định.</p></div>
+        </a>
+      </div>
     </div>
   </section>
 </main>
@@ -228,21 +442,21 @@
   <div class="footer-cta">
     <div class="container footer-cta-inner">
       <div>
-        <span>Fast Group Engineering</span>
+        <span class="kicker">// Fast Group Engineering</span>
         <h2>Cần chọn đúng model Rheintacho cho ứng dụng của bạn?</h2>
       </div>
-      <a class="btn btn-light" href="/pages/lien-he.html">Gửi yêu cầu tư vấn</a>
+      <a class="btn btn-light" href="/pages/lien-he.html">Gửi yêu cầu tư vấn →</a>
     </div>
   </div>
   <div class="container footer-main">
     <div class="footer-grid">
       <div>
         <div class="footer-brand">
-          <img src="/assets/images/main_logo_icon.webp" alt="Rheintacho Việt Nam" width="42" height="42">
-          <span><strong>RHEINTACHO</strong><small>Việt Nam</small></span>
+          <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" stroke="#7c6ee6" stroke-width="1.6"/><path d="M16 16 L16 7" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><path d="M16 16 L22 19" stroke="#7c6ee6" stroke-width="1.8" stroke-linecap="round"/><circle cx="16" cy="16" r="2" fill="#fff"/></svg></span>
+          <span class="brand-text"><strong>RHEINTACHO</strong><small>Việt Nam</small></span>
         </div>
-        <p>Giải pháp đo và giám sát tốc độ Rheintacho chính hãng, được phân phối tại Việt Nam bởi Fast Group Engineering.</p>
-        <p class="legal">Fast Group Co., Ltd<br>MST: 0315555189</p>
+        <p>Giải pháp đo và giám sát tốc độ Rheintacho chính hãng, phân phối tại Việt Nam bởi Fast Group Engineering.</p>
+        <p class="legal">Fast Group Co., Ltd · MST: 0315555189</p>
       </div>
       <div>
         <h3>Sản phẩm</h3>
@@ -254,21 +468,23 @@
       </div>
       <div>
         <h3>Liên hệ</h3>
-        <ul class="contact-list">
-          <li><a href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a></li>
-          <li><a href="tel:+84938888958">+84 938 888 958</a></li>
-          <li>Fast Group Engineering</li>
-          <li>Phân phối Rheintacho tại Việt Nam</li>
-        </ul>
+        <ul><li><a href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a></li><li><a href="tel:+84938888958">+84 938 888 958</a></li><li><a href="https://zalo.me/84938888958">Zalo: 0938 888 958</a></li><li>Fast Group Engineering</li></ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Rheintacho Việt Nam</span>
-      <span>Website: rheintacho.com.vn</span>
+      <span>rheintacho.com.vn</span>
     </div>
   </div>
 </footer>
-<a class="floating-contact" href="https://zalo.me/84938888958" target="_blank" rel="noopener noreferrer" aria-label="Chat Zalo">Zalo</a>
-<script src="/assets/js/site.js"></script>
+
+<a class="floating-contact" href="https://zalo.me/84938888958" target="_blank" rel="noopener noreferrer" aria-label="Chat Zalo"><span class="dot"></span>Zalo</a>
+
+<script>
+(function(){
+  var t=document.querySelector(".menu-toggle"),m=document.querySelector(".nav-menu");
+  if(t&&m){t.addEventListener("click",function(){var o=m.classList.toggle("open");t.setAttribute("aria-expanded",o?"true":"false");});}
+})();
+</script>
 </body>
 </html>

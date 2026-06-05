@@ -3,28 +3,155 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Liên hệ Rheintacho Việt Nam</title>
-  <meta name="description" content="Liên hệ Fast Group Engineering để tư vấn và báo giá sản phẩm Rheintacho chính hãng tại Việt Nam.">
+  <title>Liên hệ &amp; báo giá | Rheintacho Việt Nam</title>
+  <meta name="description" content="Liên hệ Fast Group Engineering để được tư vấn model Rheintacho phù hợp và nhận báo giá cảm biến, đèn nháy, máy đo và bộ giám sát tốc độ.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://rheintacho.com.vn/pages/lien-he.html">
-  <meta property="og:title" content="Liên hệ Rheintacho Việt Nam">
-  <meta property="og:description" content="Liên hệ Fast Group Engineering để tư vấn và báo giá sản phẩm Rheintacho chính hãng tại Việt Nam.">
+  <meta property="og:title" content="Liên hệ &amp; báo giá | Rheintacho Việt Nam">
+  <meta property="og:description" content="Liên hệ Fast Group Engineering để được tư vấn model Rheintacho phù hợp và nhận báo giá.">
   <meta property="og:url" content="https://rheintacho.com.vn/pages/lien-he.html">
-  <meta property="og:image" content="https://rheintacho.com.vn/assets/images/main_logo_icon.webp">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="vi_VN">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-  <link rel="manifest" href="/assets/images/site.webmanifest">
-  <link rel="stylesheet" href="/assets/css/site.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+  :root{
+    --ink:#14161c; --ink-2:#1c1f29; --ink-3:#262a37;
+    --paper:#f4f2ea; --paper-2:#eceae0; --white:#ffffff;
+    --brand:#51459b; --brand-deep:#2c2363; --brand-bright:#7c6ee6; --brand-soft:#efedf9;
+    --signal:#22a98c;
+    --text:#3d4252; --muted:#7b8194; --line:rgba(20,22,28,.13); --line-soft:rgba(20,22,28,.08);
+    --line-light:rgba(255,255,255,.14);
+    --display:'Archivo',sans-serif; --body:'IBM Plex Sans',sans-serif; --mono:'IBM Plex Mono',monospace;
+    --shadow:0 22px 60px -28px rgba(20,22,28,.45); --maxw:1200px;
+  }
+  *{box-sizing:border-box} html{scroll-behavior:smooth}
+  body{margin:0;font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased;
+    background-image:linear-gradient(var(--line-soft) 1px,transparent 1px),linear-gradient(90deg,var(--line-soft) 1px,transparent 1px);background-size:64px 64px;}
+  img{display:block;max-width:100%;height:auto} a{color:inherit;text-decoration:none}
+  h1,h2,h3{font-family:var(--display);margin:0;line-height:1.06;letter-spacing:-.02em;font-weight:800;color:var(--ink)} p{margin:0}
+  .container{width:min(var(--maxw),calc(100% - 48px));margin-inline:auto}
+
+  .topbar{background:var(--ink);color:rgba(255,255,255,.7)}
+  .topbar-inner{min-height:40px;display:flex;align-items:center;justify-content:space-between;gap:20px;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+  .topbar-inner .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--signal);margin-right:9px;animation:pulse 2.4s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(34,169,140,.55)}70%{box-shadow:0 0 0 7px rgba(34,169,140,0)}100%{box-shadow:0 0 0 0 rgba(34,169,140,0)}}
+  .topbar-links{display:flex;gap:22px} .topbar-links a{color:rgba(255,255,255,.82)} .topbar-links a:hover{color:#fff}
+  .site-header{position:sticky;top:0;z-index:60}
+  .navbar{background:rgba(244,242,234,.86);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line)}
+  .nav-inner{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+  .brand{display:inline-flex;align-items:center;gap:13px}
+  .brand-mark{width:46px;height:46px;flex:none;border-radius:9px;background:var(--ink);display:grid;place-items:center}
+  .brand-mark svg{width:30px;height:30px}
+  .brand-text strong{font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:.02em;display:block;line-height:1}
+  .brand-text small{font-family:var(--mono);font-size:10px;letter-spacing:.34em;text-transform:uppercase;color:var(--brand);display:block;margin-top:3px}
+  .nav-menu{display:flex;align-items:center;gap:6px}
+  .nav-link{font-weight:500;font-size:14.5px;padding:9px 14px;border-radius:7px;color:var(--ink);transition:.2s;position:relative}
+  .nav-link:hover{background:rgba(20,22,28,.05)} .nav-link.active{color:var(--brand)}
+  .nav-link.active::after{content:"";position:absolute;left:14px;right:14px;bottom:2px;height:2px;background:var(--brand);border-radius:2px}
+  .quote-link{margin-left:8px;font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:#fff;background:var(--brand);padding:11px 20px;border-radius:8px;transition:.2s}
+  .quote-link:hover{background:var(--brand-deep);transform:translateY(-1px)}
+  .menu-toggle{display:none;background:none;border:1px solid var(--line);border-radius:8px;width:46px;height:42px;cursor:pointer;flex-direction:column;gap:5px;align-items:center;justify-content:center}
+  .menu-toggle span{width:20px;height:2px;background:var(--ink)}
+
+  .btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--mono);font-size:12.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:600;padding:15px 26px;border-radius:9px;transition:.2s;cursor:pointer;border:1px solid transparent}
+  .btn svg{width:15px;height:15px}
+  .btn-primary{background:var(--brand);color:#fff} .btn-primary:hover{background:var(--brand-deep);transform:translateY(-2px);box-shadow:0 16px 34px -14px rgba(44,35,99,.8)}
+  .btn-light{background:var(--paper);color:var(--ink)} .btn-light:hover{background:#fff;transform:translateY(-2px)}
+
+  /* page hero */
+  .page-hero{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+  .page-hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line-light) 1px,transparent 1px),linear-gradient(90deg,var(--line-light) 1px,transparent 1px);background-size:64px 64px;opacity:.45;mask-image:radial-gradient(120% 120% at 80% 0%,#000 35%,transparent 80%)}
+  .page-hero-inner{position:relative;z-index:2;padding:64px 0 70px}
+  .breadcrumb{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.5);display:flex;gap:9px;align-items:center;margin-bottom:24px}
+  .breadcrumb a{color:rgba(255,255,255,.7)} .breadcrumb a:hover{color:#fff} .breadcrumb i{font-style:normal;color:var(--brand-bright)}
+  .page-hero h1{font-size:clamp(32px,4.6vw,54px);font-weight:900;color:#fff;max-width:16ch}
+  .page-hero p{margin-top:18px;color:rgba(255,255,255,.72);font-size:17px;max-width:54ch}
+
+  .section{padding:74px 0}
+  .layout{display:grid;grid-template-columns:.95fr 1.05fr;gap:48px;align-items:start}
+
+  /* contact cards */
+  .ckicker{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--brand);margin-bottom:18px;display:block}
+  .contact-cards{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .contact-card{border:1px solid var(--line);border-radius:12px;background:var(--white);padding:22px;display:flex;flex-direction:column;gap:6px;transition:.22s}
+  .contact-card .ico{width:38px;height:38px;border-radius:9px;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;margin-bottom:8px}
+  .contact-card .ico svg{width:20px;height:20px}
+  .contact-card strong{font-family:var(--display);font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .contact-card span.v{font-size:15.5px;font-weight:500;color:var(--ink);word-break:break-word}
+  a.contact-card:hover{border-color:var(--brand);transform:translateY(-3px);box-shadow:var(--shadow)}
+  .info-block{margin-top:26px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--white)}
+  .info-block .map{aspect-ratio:16/8;background:var(--ink);position:relative;overflow:hidden}
+  .info-block .map::before{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line-light) 1px,transparent 1px),linear-gradient(90deg,var(--line-light) 1px,transparent 1px);background-size:34px 34px}
+  .info-block .map .pin{position:absolute;left:50%;top:48%;transform:translate(-50%,-50%);color:var(--brand-bright);text-align:center}
+  .info-block .map .pin svg{width:34px;height:34px;margin-inline:auto}
+  .info-block .map .pin span{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.7);display:block;margin-top:6px}
+  .info-rows{padding:8px 22px 14px}
+  .info-rows .row{display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid var(--line-soft);font-size:14.5px}
+  .info-rows .row:last-child{border-bottom:none}
+  .info-rows .row .k{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .info-rows .row .val{color:var(--ink);font-weight:500;text-align:right}
+
+  /* form */
+  .form-wrap{border:1px solid var(--line);border-radius:16px;background:var(--white);padding:36px;box-shadow:var(--shadow)}
+  .form-wrap h2{font-size:24px}
+  .form-wrap .sub{color:var(--muted);font-size:14.5px;margin-top:8px;margin-bottom:26px}
+  .field{margin-bottom:18px}
+  .field label{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+  .field label .req{color:var(--brand)}
+  .field input,.field textarea{width:100%;border:1px solid var(--line);border-radius:9px;background:var(--paper);padding:13px 15px;font-family:var(--body);font-size:15px;color:var(--ink);transition:.2s}
+  .field input:focus,.field textarea:focus{outline:none;border-color:var(--brand);background:#fff;box-shadow:0 0 0 4px rgba(81,69,155,.1)}
+  .field textarea{resize:vertical;min-height:120px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .form-wrap .btn-primary{width:100%;justify-content:center;margin-top:6px}
+  .form-note{font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;color:var(--muted);margin-top:16px;text-align:center}
+
+  /* footer */
+  .footer-cta{background:var(--brand);color:#fff;position:relative;overflow:hidden}
+  .footer-cta::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.08) 1px,transparent 1px);background-size:54px 54px}
+  .footer-cta-inner{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:30px;padding:54px 0}
+  .footer-cta .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+  .footer-cta h2{color:#fff;font-size:clamp(24px,3vw,34px);margin-top:12px;max-width:20ch}
+  .site-footer{background:var(--ink);color:rgba(255,255,255,.62)}
+  .footer-main{padding:70px 0 30px}
+  .footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px}
+  .footer-brand{display:inline-flex;align-items:center;gap:12px;margin-bottom:18px}
+  .footer-brand .brand-text strong{color:#fff}
+  .site-footer p{font-size:14px;max-width:34ch}
+  .site-footer .legal{font-family:var(--mono);font-size:11px;letter-spacing:.08em;color:rgba(255,255,255,.42);margin-top:16px}
+  .site-footer h3{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:18px;font-weight:500}
+  .site-footer ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:11px}
+  .site-footer ul a{color:rgba(255,255,255,.74);font-size:14px} .site-footer ul a:hover{color:#fff}
+  .footer-bottom{border-top:1px solid var(--line-light);padding:22px 0;display:flex;justify-content:space-between;gap:16px;font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.45)}
+  .floating-contact{position:fixed;right:22px;bottom:22px;z-index:80;background:var(--brand);color:#fff;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:14px 20px;border-radius:50px;box-shadow:0 16px 34px -12px rgba(44,35,99,.8);display:inline-flex;align-items:center;gap:9px;transition:.2s}
+  .floating-contact:hover{transform:translateY(-3px)}
+  .floating-contact .dot{width:8px;height:8px;border-radius:50%;background:#fff;animation:pulse2 2s infinite}
+  @keyframes pulse2{0%,100%{opacity:1}50%{opacity:.4}}
+  .reveal{opacity:0;transform:translateY(20px);animation:rise .8s cubic-bezier(.2,.7,.3,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .d1{animation-delay:.05s}.d2{animation-delay:.15s}.d3{animation-delay:.25s}
+
+  @media(max-width:980px){
+    .nav-menu{position:fixed;inset:74px 0 auto;flex-direction:column;align-items:stretch;background:var(--paper);border-bottom:1px solid var(--line);padding:14px 24px 22px;gap:4px;transform:translateY(-12px);opacity:0;pointer-events:none;transition:.25s}
+    .nav-menu.open{transform:none;opacity:1;pointer-events:auto} .menu-toggle{display:flex}
+    .quote-link{margin-left:0;text-align:center;justify-content:center}
+    .layout{grid-template-columns:1fr;gap:34px}
+    .footer-grid{grid-template-columns:1fr 1fr} .footer-cta-inner{flex-direction:column;align-items:flex-start}
+  }
+  @media(max-width:600px){
+    .topbar-inner span.note{display:none}
+    .contact-cards,.grid2,.footer-grid{grid-template-columns:1fr} .form-wrap{padding:24px}
+    .footer-bottom{flex-direction:column}
+  }
+  </style>
 </head>
 <body>
 
 <header class="site-header">
   <div class="topbar">
     <div class="container topbar-inner">
-      <span>Nhà phân phối ủy quyền Rheintacho tại Việt Nam</span>
+      <span class="note"><span class="dot"></span>Nhà phân phối ủy quyền Rheintacho tại Việt Nam</span>
       <div class="topbar-links">
         <a href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a>
         <a href="tel:+84938888958">+84 938 888 958</a>
@@ -34,12 +161,10 @@
   <nav class="navbar" aria-label="Điều hướng chính">
     <div class="container nav-inner">
       <a class="brand" href="/">
-        <img src="/assets/images/main_logo_icon.webp" alt="Rheintacho Việt Nam" width="44" height="44">
-        <span><strong>RHEINTACHO</strong><small>Việt Nam</small></span>
+        <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" stroke="#7c6ee6" stroke-width="1.6"/><path d="M16 16 L16 7" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><path d="M16 16 L22 19" stroke="#7c6ee6" stroke-width="1.8" stroke-linecap="round"/><circle cx="16" cy="16" r="2" fill="#fff"/></svg></span>
+        <span class="brand-text"><strong>RHEINTACHO</strong><small>Việt Nam</small></span>
       </a>
-      <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false"><span></span><span></span><span></span></button>
       <div class="nav-menu">
         <a class="nav-link" href="/">Trang chủ</a>
         <a class="nav-link" href="/products/">Sản phẩm</a>
@@ -54,29 +179,74 @@
 
 <main>
   <section class="page-hero">
-    <div class="container">
+    <div class="container page-hero-inner">
       <nav class="breadcrumb" aria-label="Đường dẫn"><a href="/">Trang chủ</a><i>/</i><span>Liên hệ</span></nav>
-      <h1>Liên hệ và yêu cầu báo giá</h1>
-      <p>Gửi nhu cầu kỹ thuật, mã sản phẩm hoặc thông tin ứng dụng để Fast Group Engineering tư vấn model Rheintacho phù hợp.</p>
+      <h1 class="reveal d1">Liên hệ &amp; yêu cầu báo giá</h1>
+      <p class="reveal d2">Gửi nhu cầu kỹ thuật, mã sản phẩm hoặc thông tin ứng dụng để Fast Group Engineering tư vấn model Rheintacho phù hợp và phản hồi báo giá nhanh.</p>
     </div>
   </section>
+
   <section class="section">
-    <div class="container contact-layout">
-      <div class="contact-cards">
-        <a class="contact-card" href="mailto:sales@rheintacho.vn"><strong>Email</strong><span>sales@rheintacho.vn</span></a>
-        <a class="contact-card" href="tel:+84938888958"><strong>Điện thoại</strong><span>+84 938 888 958</span></a>
-        <a class="contact-card" href="https://zalo.me/84938888958" target="_blank" rel="noopener noreferrer"><strong>Zalo</strong><span>Chat nhanh với kỹ thuật</span></a>
-        <div class="contact-card"><strong>Đơn vị phân phối</strong><span>Fast Group Engineering</span></div>
+    <div class="container layout">
+      <!-- LEFT: contact channels + info -->
+      <div class="reveal d2">
+        <span class="ckicker">// Kênh liên hệ</span>
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:sales@rheintacho.vn">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+            <strong>Email</strong><span class="v">sales@rheintacho.vn</span>
+          </a>
+          <a class="contact-card" href="tel:+84938888958">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-3 2a12 12 0 005 5l2-3 5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg></span>
+            <strong>Điện thoại</strong><span class="v">+84 938 888 958</span>
+          </a>
+          <a class="contact-card" href="https://zalo.me/84938888958" target="_blank" rel="noopener noreferrer">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12a8 8 0 01-11.5 7.2L4 20l1-4.5A8 8 0 1121 12z"/></svg></span>
+            <strong>Zalo</strong><span class="v">Chat nhanh với kỹ thuật</span>
+          </a>
+          <div class="contact-card">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-5h6v5"/></svg></span>
+            <strong>Đơn vị phân phối</strong><span class="v">Fast Group Engineering</span>
+          </div>
+        </div>
+
+        <div class="info-block">
+          <div class="map" aria-label="Bản đồ vị trí (thay bằng Google Maps nhúng)">
+            <div class="pin">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z"/></svg>
+              <span>Khu vực TP. Hồ Chí Minh</span>
+            </div>
+          </div>
+          <div class="info-rows">
+            <div class="row"><span class="k">Công ty</span><span class="val">Fast Group Co., Ltd</span></div>
+            <div class="row"><span class="k">Mã số thuế</span><span class="val">0315555189</span></div>
+            <div class="row"><span class="k">Địa chỉ</span><span class="val">Bổ sung địa chỉ đầy đủ</span></div>
+            <div class="row"><span class="k">Giờ làm việc</span><span class="val">T2–T6 · 08:00–17:30</span></div>
+          </div>
+        </div>
       </div>
-      <form class="contact-form" action="mailto:sales@rheintacho.vn" method="post" enctype="text/plain">
-        <h2>Gửi yêu cầu qua email</h2>
-        <label>Họ và tên<input name="Ho va ten" required></label>
-        <label>Công ty<input name="Cong ty"></label>
-        <label>Số điện thoại<input name="So dien thoai" required></label>
-        <label>Sản phẩm hoặc model quan tâm<input name="San pham"></label>
-        <label>Nội dung yêu cầu<textarea name="Noi dung" rows="5" required></textarea></label>
-        <button class="btn btn-primary" type="submit">Gửi yêu cầu</button>
-      </form>
+
+      <!-- RIGHT: form -->
+      <div class="form-wrap reveal d3">
+        <h2>Gửi yêu cầu tư vấn / báo giá</h2>
+        <p class="sub">Điền thông tin bên dưới, chúng tôi phản hồi trong giờ làm việc. Càng rõ mã sản phẩm hoặc ứng dụng, tư vấn càng chính xác.</p>
+        <form action="#" method="post">
+          <div class="grid2">
+            <div class="field"><label>Họ và tên <span class="req">*</span></label><input name="ho_ten" required></div>
+            <div class="field"><label>Công ty</label><input name="cong_ty"></div>
+          </div>
+          <div class="grid2">
+            <div class="field"><label>Số điện thoại <span class="req">*</span></label><input name="dien_thoai" required></div>
+            <div class="field"><label>Email</label><input type="email" name="email"></div>
+          </div>
+          <div class="field"><label>Sản phẩm / model quan tâm</label><input name="san_pham" placeholder="VD: SMN6.FQ24.E1JR, RT STROBE pocketLED…"></div>
+          <div class="field"><label>Nội dung yêu cầu <span class="req">*</span></label><textarea name="noi_dung" rows="5" required></textarea></div>
+          <button class="btn btn-primary" type="submit">Gửi yêu cầu
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <p class="form-note">⚠ Cần đấu nối form với dịch vụ nhận mail (Formspree / Web3Forms) để hoạt động thật.</p>
+        </form>
+      </div>
     </div>
   </section>
 </main>
@@ -85,21 +255,21 @@
   <div class="footer-cta">
     <div class="container footer-cta-inner">
       <div>
-        <span>Fast Group Engineering</span>
+        <span class="kicker">// Fast Group Engineering</span>
         <h2>Cần chọn đúng model Rheintacho cho ứng dụng của bạn?</h2>
       </div>
-      <a class="btn btn-light" href="/pages/lien-he.html">Gửi yêu cầu tư vấn</a>
+      <a class="btn btn-light" href="tel:+84938888958">Gọi tư vấn ngay →</a>
     </div>
   </div>
   <div class="container footer-main">
     <div class="footer-grid">
       <div>
         <div class="footer-brand">
-          <img src="/assets/images/main_logo_icon.webp" alt="Rheintacho Việt Nam" width="42" height="42">
-          <span><strong>RHEINTACHO</strong><small>Việt Nam</small></span>
+          <span class="brand-mark"><svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="11" stroke="#7c6ee6" stroke-width="1.6"/><path d="M16 16 L16 7" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/><path d="M16 16 L22 19" stroke="#7c6ee6" stroke-width="1.8" stroke-linecap="round"/><circle cx="16" cy="16" r="2" fill="#fff"/></svg></span>
+          <span class="brand-text"><strong>RHEINTACHO</strong><small>Việt Nam</small></span>
         </div>
-        <p>Giải pháp đo và giám sát tốc độ Rheintacho chính hãng, được phân phối tại Việt Nam bởi Fast Group Engineering.</p>
-        <p class="legal">Fast Group Co., Ltd<br>MST: 0315555189</p>
+        <p>Giải pháp đo và giám sát tốc độ Rheintacho chính hãng, phân phối tại Việt Nam bởi Fast Group Engineering.</p>
+        <p class="legal">Fast Group Co., Ltd · MST: 0315555189</p>
       </div>
       <div>
         <h3>Sản phẩm</h3>
@@ -111,21 +281,23 @@
       </div>
       <div>
         <h3>Liên hệ</h3>
-        <ul class="contact-list">
-          <li><a href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a></li>
-          <li><a href="tel:+84938888958">+84 938 888 958</a></li>
-          <li>Fast Group Engineering</li>
-          <li>Phân phối Rheintacho tại Việt Nam</li>
-        </ul>
+        <ul><li><a href="mailto:sales@rheintacho.vn">sales@rheintacho.vn</a></li><li><a href="tel:+84938888958">+84 938 888 958</a></li><li><a href="https://zalo.me/84938888958">Zalo: 0938 888 958</a></li><li>Fast Group Engineering</li></ul>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Rheintacho Việt Nam</span>
-      <span>Website: rheintacho.com.vn</span>
+      <span>rheintacho.com.vn</span>
     </div>
   </div>
 </footer>
-<a class="floating-contact" href="https://zalo.me/84938888958" target="_blank" rel="noopener noreferrer" aria-label="Chat Zalo">Zalo</a>
-<script src="/assets/js/site.js"></script>
+
+<a class="floating-contact" href="https://zalo.me/84938888958" target="_blank" rel="noopener noreferrer" aria-label="Chat Zalo"><span class="dot"></span>Zalo</a>
+
+<script>
+(function(){
+  var t=document.querySelector(".menu-toggle"),m=document.querySelector(".nav-menu");
+  if(t&&m){t.addEventListener("click",function(){var o=m.classList.toggle("open");t.setAttribute("aria-expanded",o?"true":"false");});}
+})();
+</script>
 </body>
 </html>
