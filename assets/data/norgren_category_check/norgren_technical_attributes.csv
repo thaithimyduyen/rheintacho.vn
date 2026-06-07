@@ -1,0 +1,95 @@
+﻿item_number,attribute_key,attribute_label,attribute_value
+R07-100-RNKG,adjusting_knob,Adjusting Knob,Acetal
+R07-100-RNKG,adjustment,Adjustment,Knob
+R07-100-RNKG,body,Body,Zinc alloy
+R07-100-RNKG,bonnet,Bonnet,Acetal
+R07-100-RNKG,certification__reach,Certification - REACH,SVHC substance present
+R07-100-RNKG,certification__rohs_compliant,Certification - RoHS Compliant,Compliant
+R07-100-RNKG,certification__weee,Certification - WEEE,NonWEEE
+R07-100-RNKG,data_performance_shelf_life,Data Performance Shelf Life,10 years
+R07-100-RNKG,elastomers,Elastomers,Nitrile rubber (NBR)
+R07-100-RNKG,eu_country_of_origin,Country of Origin,Mexico
+R07-100-RNKG,flow_expression,Flow,"6.5 dm3/s, 14 scfm"
+R07-100-RNKG,gauge_port,Gauge Port,Rc1/8
+R07-100-RNKG,inlet_pressure_expression,Inlet Pressure,"20 bar, 290 psi"
+R07-100-RNKG,medium,Medium,Compressed air
+R07-100-RNKG,mil_spec,Mil Spec,Available on request
+R07-100-RNKG,operating_temperature_expression,Operating Temperature,"-34 ... 65 °C, -29 ... 149 °F"
+R07-100-RNKG,outlet_pressure_adjustment_expression,Outlet Pressure Adjustment,"0.3 ... 7 bar, 4 ... 102 psi"
+R07-100-RNKG,packing_and_supply_gross_weight_weight_kilogram,Packing And Supply Gross Weight Weight Kilogram,0.2 kg
+R07-100-RNKG,packing_and_supply_packaging_height_length_millimetre,Packing And Supply Packaging Height Length Millimetre,48 mm
+R07-100-RNKG,packing_and_supply_packaging_length_length_millimetre,Packing And Supply Packaging Length Length Millimetre,85 mm
+R07-100-RNKG,packing_and_supply_packaging_material,Packing And Supply Packaging Material,Cardboard Box
+R07-100-RNKG,packing_and_supply_packaging_width_length_millimetre,Packing And Supply Packaging Width Length Millimetre,52 mm
+R07-100-RNKG,packing_and_supply_specified_supplier_packaging,Packing And Supply Specified Supplier Packaging,No
+R07-100-RNKG,packing_and_supply_unit_of_measure,Packing And Supply Unit Of Measure,EA
+R07-100-RNKG,port_size,Port Size,G1/8
+R07-100-RNKG,product_height_expression,Product Height,38 mm
+R07-100-RNKG,product_length_expression,Product Length,75 mm
+R07-100-RNKG,product_weight_expression,Product Weight,0.19 kg
+R07-100-RNKG,product_width_expression,Product Width,42 mm
+R07-100-RNKG,regulator_type,Regulator Type,General purpose
+R07-100-RNKG,relievingnonrelieving,Relieving/Non-relieving,Relieving
+R07-200-RNEG,adjusting_knob,Adjusting Knob,Acetal
+R07-200-RNEG,adjustment,Adjustment,Knob
+R07-200-RNEG,body,Body,Zinc alloy
+R07-200-RNEG,bonnet,Bonnet,Acetal
+R07-200-RNEG,certification__reach,Certification - REACH,SVHC substance present
+R07-200-RNEG,certification__rohs_compliant,Certification - RoHS Compliant,Compliant
+R07-200-RNEG,certification__weee,Certification - WEEE,NonWEEE
+R07-200-RNEG,data_performance_shelf_life,Data Performance Shelf Life,3 years
+R07-200-RNEG,elastomers,Elastomers,Nitrile rubber (NBR)
+R07-200-RNEG,eu_country_of_origin,Country of Origin,Mexico
+R07-200-RNEG,flow_expression,Flow,"7 dm3/s, 15 scfm"
+R07-200-RNEG,gauge_port,Gauge Port,Rc1/8
+R07-200-RNEG,inlet_pressure_expression,Inlet Pressure,"20 bar, 290 psi"
+R07-200-RNEG,medium,Medium,Compressed air
+R07-200-RNEG,mil_spec,Mil Spec,Available on request
+R07-200-RNEG,operating_temperature_expression,Operating Temperature,"-34 ... 65 °C, -29 ... 149 °F"
+R07-200-RNEG,outlet_pressure_adjustment_expression,Outlet Pressure Adjustment,"0.3 ... 3.5 bar, 4 ... 51 psi"
+R07-200-RNEG,packing_and_supply_gross_weight_weight_kilogram,Packing And Supply Gross Weight Weight Kilogram,0.24 kg
+R07-200-RNEG,packing_and_supply_packaging_height_length_millimetre,Packing And Supply Packaging Height Length Millimetre,48 mm
+R07-200-RNEG,packing_and_supply_packaging_length_length_millimetre,Packing And Supply Packaging Length Length Millimetre,85 mm
+R07-200-RNEG,packing_and_supply_packaging_material,Packing And Supply Packaging Material,Cardboard Box
+R07-200-RNEG,packing_and_supply_packaging_width_length_millimetre,Packing And Supply Packaging Width Length Millimetre,52 mm
+R07-200-RNEG,packing_and_supply_specified_supplier_packaging,Packing And Supply Specified Supplier Packaging,No
+R07-200-RNEG,packing_and_supply_unit_of_measure,Packing And Supply Unit Of Measure,EA
+R07-200-RNEG,port_size,Port Size,G1/4
+R07-200-RNEG,product_height_expression,Product Height,38 mm
+R07-200-RNEG,product_length_expression,Product Length,75 mm
+R07-200-RNEG,product_weight_expression,Product Weight,0.19 kg
+R07-200-RNEG,product_width_expression,Product Width,42 mm
+R07-200-RNEG,regulator_type,Regulator Type,General purpose
+R07-200-RNEG,relievingnonrelieving,Relieving/Non-relieving,Relieving
+R82G-2GK-RMG,adjusting_knob,Adjusting Knob,Acetal
+R82G-2GK-RMG,adjustment,Adjustment,Knob
+R82G-2GK-RMG,body,Body,Aluminium alloy
+R82G-2GK-RMG,bonnet,Bonnet,Acetal
+R82G-2GK-RMG,certification__reach,Certification - REACH,SVHC substance not present
+R82G-2GK-RMG,certification__rohs_compliant,Certification - RoHS Compliant,Compliant
+R82G-2GK-RMG,certification__weee,Certification - WEEE,NonWEEE
+R82G-2GK-RMG,data_performance_shelf_life,Data Performance Shelf Life,10 years
+R82G-2GK-RMG,elastomers,Elastomers,Nitrile rubber (NBR)
+R82G-2GK-RMG,eu_country_of_origin,Country of Origin,Mexico
+R82G-2GK-RMG,excelon_plus_series,Excelon Plus Series,82 Series
+R82G-2GK-RMG,flow_expression,Flow,"33 dm3/s, 70 scfm"
+R82G-2GK-RMG,inlet_pressure_expression,Inlet Pressure,"20 bar, 290 psi"
+R82G-2GK-RMG,medium,Medium,Compressed air
+R82G-2GK-RMG,mil_spec,Mil Spec,Available on request
+R82G-2GK-RMG,operating_temperature_expression,Operating Temperature,"-20 ... 65 °C, -4 ... 149 °F"
+R82G-2GK-RMG,outlet_pressure_adjustment_expression,Outlet Pressure Adjustment,"0.3 ... 10 bar, 4 ... 145 psi"
+R82G-2GK-RMG,packing_and_supply_gross_weight_weight_kilogram,Packing And Supply Gross Weight Weight Kilogram,0.35 kg
+R82G-2GK-RMG,packing_and_supply_packaging_height_length_millimetre,Packing And Supply Packaging Height Length Millimetre,57 mm
+R82G-2GK-RMG,packing_and_supply_packaging_length_length_millimetre,Packing And Supply Packaging Length Length Millimetre,125 mm
+R82G-2GK-RMG,packing_and_supply_packaging_material,Packing And Supply Packaging Material,Cardboard Box
+R82G-2GK-RMG,packing_and_supply_packaging_width_length_millimetre,Packing And Supply Packaging Width Length Millimetre,66 mm
+R82G-2GK-RMG,packing_and_supply_specified_supplier_packaging,Packing And Supply Specified Supplier Packaging,No
+R82G-2GK-RMG,packing_and_supply_unit_of_measure,Packing And Supply Unit Of Measure,EA
+R82G-2GK-RMG,port_size,Port Size,G1/4
+R82G-2GK-RMG,product_height_expression,Product Height,47 mm
+R82G-2GK-RMG,product_length_expression,Product Length,115 mm
+R82G-2GK-RMG,product_weight_expression,Product Weight,0.3 kg
+R82G-2GK-RMG,product_width_expression,Product Width,56 mm
+R82G-2GK-RMG,regulator_type,Regulator Type,General purpose
+R82G-2GK-RMG,relievingnonrelieving,Relieving/Non-relieving,Relieving
+R82G-2GK-RMG,videourl,Videourl,https://player.vimeo.com/video/366458652

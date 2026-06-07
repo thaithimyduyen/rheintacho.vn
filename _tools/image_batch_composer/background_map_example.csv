@@ -1,0 +1,4 @@
+image,background,color,background_image,scale,canvas_width,canvas_height,format,quality
+product-01.png,white,,,90,800,1000,PNG,92
+product-02.png,color,#f4f4f4,,85,800,1000,JPG,95
+folder-a/product-03.png,image,,backgrounds/bg-wood.jpg,100,1000,1000,WEBP,90
